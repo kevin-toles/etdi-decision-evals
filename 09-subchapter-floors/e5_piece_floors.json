@@ -1,0 +1,230 @@
+{
+ "recorded_run": "three_way_eval/nomic-v2",
+ "unit": "480-token piece (proxy: spans/paragraph groups were not recorded)",
+ "chapters": 1049,
+ "pieces": 40008,
+ "floors": {
+  "p1": {
+   "HTC_NOISE_FLOOR": 0.5366,
+   "HTC_KF_FLOOR": 0.3413,
+   "pieces_below": 20110,
+   "share_below": 0.5026494701059788,
+   "below_noise_only": 13346,
+   "below_kf_only": 2693,
+   "below_both": 4071,
+   "per_chapter_count": {
+    "median": 6,
+    "p90": 26.200000000000045
+   },
+   "per_chapter_share": {
+    "median": 0.3333333333333333,
+    "p90": 0.8
+   },
+   "chapters_with_any_below": 922,
+   "chapters_losing_more_than_half": 348,
+   "chapters_losing_all": 25,
+   "chapters_with_an_interior_gap": 833,
+   "position_of_below_pieces": {
+    "first": 315,
+    "last": 531,
+    "middle": 19264
+   },
+   "wrong_subject_rate_below": 0.6724515166583789,
+   "wrong_subject_rate_above": 0.4352698763694844,
+   "verified_in_top5_below": 0.5544505221282944,
+   "verified_in_top5_above": 0.7723891848426978,
+   "by_kind": {
+    "code": {
+     "below": 4807,
+     "above": 2118,
+     "share_below": 0.6941516245487365,
+     "wrong_subject_below": 0.655918452257125,
+     "wrong_subject_above": 0.43201133144475923
+    },
+    "front/back matter": {
+     "below": 621,
+     "above": 850,
+     "share_below": 0.4221617946974847,
+     "wrong_subject_below": 0.7004830917874396,
+     "wrong_subject_above": 0.3411764705882353
+    },
+    "index/reference list": {
+     "below": 95,
+     "above": 314,
+     "share_below": 0.23227383863080683,
+     "wrong_subject_below": 0.6842105263157895,
+     "wrong_subject_above": 0.6242038216560509
+    },
+    "ocr noise/symbols": {
+     "below": 80,
+     "above": 22,
+     "share_below": 0.7843137254901961,
+     "wrong_subject_below": 0.775,
+     "wrong_subject_above": 0.4090909090909091
+    },
+    "prose": {
+     "below": 13320,
+     "above": 14957,
+     "share_below": 0.4710542136718888,
+     "wrong_subject_below": 0.6728228228228228,
+     "wrong_subject_above": 0.43665173497359094
+    },
+    "summary/intro phrasing": {
+     "below": 1187,
+     "above": 1637,
+     "share_below": 0.4203257790368272,
+     "wrong_subject_below": 0.7127211457455771,
+     "wrong_subject_above": 0.4398289554062309
+    }
+   }
+  },
+  "p5": {
+   "HTC_NOISE_FLOOR": 0.5783,
+   "HTC_KF_FLOOR": 0.3883,
+   "pieces_below": 30614,
+   "share_below": 0.7651969606078785,
+   "below_noise_only": 14260,
+   "below_kf_only": 4028,
+   "below_both": 12326,
+   "per_chapter_count": {
+    "median": 12,
+    "p90": 40.0
+   },
+   "per_chapter_share": {
+    "median": 0.75,
+    "p90": 1.0
+   },
+   "chapters_with_any_below": 1018,
+   "chapters_losing_more_than_half": 756,
+   "chapters_losing_all": 158,
+   "chapters_with_an_interior_gap": 817,
+   "position_of_below_pieces": {
+    "first": 634,
+    "last": 812,
+    "middle": 29168
+   },
+   "wrong_subject_rate_below": 0.6184752074214411,
+   "wrong_subject_rate_above": 0.34596550989993613,
+   "verified_in_top5_below": 0.610407003331809,
+   "verified_in_top5_above": 0.8337236533957846,
+   "by_kind": {
+    "code": {
+     "below": 6115,
+     "above": 810,
+     "share_below": 0.8830324909747292,
+     "wrong_subject_below": 0.6210956663941128,
+     "wrong_subject_above": 0.3333333333333333
+    },
+    "front/back matter": {
+     "below": 970,
+     "above": 501,
+     "share_below": 0.6594153636981646,
+     "wrong_subject_below": 0.6185567010309279,
+     "wrong_subject_above": 0.249500998003992
+    },
+    "index/reference list": {
+     "below": 250,
+     "above": 159,
+     "share_below": 0.6112469437652812,
+     "wrong_subject_below": 0.736,
+     "wrong_subject_above": 0.48427672955974843
+    },
+    "ocr noise/symbols": {
+     "below": 94,
+     "above": 8,
+     "share_below": 0.9215686274509803,
+     "wrong_subject_below": 0.723404255319149,
+     "wrong_subject_above": 0.375
+    },
+    "prose": {
+     "below": 21248,
+     "above": 7029,
+     "share_below": 0.7514234183258479,
+     "wrong_subject_below": 0.6141283885542169,
+     "wrong_subject_above": 0.34770237587138997
+    },
+    "summary/intro phrasing": {
+     "below": 1937,
+     "above": 887,
+     "share_below": 0.6859065155807366,
+     "wrong_subject_below": 0.6375838926174496,
+     "wrong_subject_above": 0.37316798196166856
+    }
+   }
+  },
+  "p10": {
+   "HTC_NOISE_FLOOR": 0.5967,
+   "HTC_KF_FLOOR": 0.404,
+   "pieces_below": 33829,
+   "share_below": 0.8455558888222355,
+   "below_noise_only": 13646,
+   "below_kf_only": 3715,
+   "below_both": 16468,
+   "per_chapter_count": {
+    "median": 15,
+    "p90": 45.0
+   },
+   "per_chapter_share": {
+    "median": 0.8695652173913043,
+    "p90": 1.0
+   },
+   "chapters_with_any_below": 1029,
+   "chapters_losing_more_than_half": 877,
+   "chapters_losing_all": 284,
+   "chapters_with_an_interior_gap": 715,
+   "position_of_below_pieces": {
+    "first": 743,
+    "last": 893,
+    "middle": 32193
+   },
+   "wrong_subject_rate_below": 0.600520263679092,
+   "wrong_subject_rate_above": 0.3024761288234342,
+   "verified_in_top5_below": 0.627272458541488,
+   "verified_in_top5_above": 0.8575821330312349,
+   "by_kind": {
+    "code": {
+     "below": 6435,
+     "above": 490,
+     "share_below": 0.9292418772563177,
+     "wrong_subject_below": 0.6107226107226107,
+     "wrong_subject_above": 0.2816326530612245
+    },
+    "front/back matter": {
+     "below": 1095,
+     "above": 376,
+     "share_below": 0.7443915703602991,
+     "wrong_subject_below": 0.589041095890411,
+     "wrong_subject_above": 0.2127659574468085
+    },
+    "index/reference list": {
+     "below": 321,
+     "above": 88,
+     "share_below": 0.784841075794621,
+     "wrong_subject_below": 0.7009345794392523,
+     "wrong_subject_above": 0.4090909090909091
+    },
+    "ocr noise/symbols": {
+     "below": 99,
+     "above": 3,
+     "share_below": 0.9705882352941176,
+     "wrong_subject_below": 0.7070707070707071,
+     "wrong_subject_above": 0.3333333333333333
+    },
+    "prose": {
+     "below": 23674,
+     "above": 4603,
+     "share_below": 0.8372175266117339,
+     "wrong_subject_below": 0.5946185688941454,
+     "wrong_subject_above": 0.3076254616554421
+    },
+    "summary/intro phrasing": {
+     "below": 2205,
+     "above": 619,
+     "share_below": 0.7808073654390935,
+     "wrong_subject_below": 0.6204081632653061,
+     "wrong_subject_above": 0.3198707592891761
+    }
+   }
+  }
+ }
+}

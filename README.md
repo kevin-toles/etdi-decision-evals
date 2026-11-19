@@ -2,7 +2,7 @@
 
 My platform files about 3.5 million chapters from software-engineering books, talks and papers onto 461 subjects, then loads them into search so engineers and AI coding agents can retrieve chapters, passages, code and diagrams. Much of that pipeline was first written by AI coding agents. The code compiled and the tests passed, but behaviour had drifted from the design across services.
 
-Before rebuilding it, I settled each open design question with a small, isolated experiment run on real data with the platform's real code. This repository holds four of them. Each study has the scripts exactly as run, the results, and what the result decided.
+Before rebuilding it, I settled each open design question with a small, isolated experiment run on real data with the platform's real code: 15 proofs of concept and about 40 measured runs so far. This repository publishes the nine whose outputs can be shared without distributing book text or third-party data, and indexes all 15 [at the end](#all-15-proofs-of-concept). Each study has the scripts exactly as run, the results, and what the result decided.
 
 Two rules applied throughout:
 
@@ -15,6 +15,11 @@ Two rules applied throughout:
 | [02 Pre-load gate](02-preload-gate-fault-injection/) | Does the filing check catch a bad run before a multi-day load? | Average-based checks miss a subject that silently disappears |
 | [03 Golden set](03-golden-set/) | How do we know search actually got better? | 228 questions, 1,734 graded passages, ground truth from human-vetted answers |
 | [04 Code-line detector](04-code-line-detector/) | Which lines in technical books are real code? | The font-derived answer key was itself badly wrong on short documents |
+| [05 Chapter-read depth](05-chapter-read-depth/) | Must classification read the whole chapter? | Reading only the opening costs 2.7 points on subjects |
+| [06 Ingestion probes](06-ingestion-probes/) | Are the converted chapters and texts what the pipeline assumes? | 5,720 "chapters" are most of a book; 193 chapters have no text |
+| [07 Scoring walkthrough](07-scoring-walkthrough/) | Which scoring rule should file a chapter? | Normalised shares always crown a primary, even when nothing matches |
+| [08 Evidence-based code-label audit](08-code-detection-evidence-audit/) | What is the true label of each disputed line, without trusting a panel? | Every label re-derived from raw text by two blind reads with verified quotes; option 6 best at line F1 0.79 |
+| [09 Sub-chapter floors](09-subchapter-floors/) | Can the chapter quality floors be reused below chapter level? | No: a floor that holds back 1% of chapters holds back half of all pieces |
 
 ---
 
@@ -92,6 +97,80 @@ A later rule tightened this further: for any golden set or label audit, the deci
 Later evidence-based labelling (above) measured the font labels as 3–57% wrong depending on the document type. That led to a four-class taxonomy (code, technical notation, output or log, prose), so that typeset notation is no longer counted as code.
 
 **Published here:** the answer-key builders for every version, the strata and census scripts, the audit sheet and scoring scripts, and every evaluation report. The answer key and documents are not included.
+
+## 05 Chapter-read depth
+
+**Decision.** The embedding model reads 480 tokens at a time. Should classification read a whole chapter in pieces, or only its opening?
+
+**Method.** The same 1,049 test chapters, filed by the real scoring code from recorded nomic-v2 pieces, once reading every piece and once only the pieces inside the first 8,000 characters.
+
+| Read | Broad area right | Subject right | Right as primary or secondary | Pieces per chapter |
+|---|---|---|---|---|
+| Whole chapter | 87.6% | 79.9% | 86.2% | 38.1 |
+| First 8,000 characters | 85.0% | 77.2% | 82.7% | 4.5 |
+
+950 of the chapters are longer than 8,000 characters. Reading them whole fixed 78 chapters and broke 50, and changed the primary subject of 177. **Decided:** chapters are read whole, in pieces.
+
+## 06 Ingestion probes
+
+Two scans of the converted library checked whether the data the pipeline receives is what its design assumes.
+
+**Chapter boundaries.** Across 375,998 converted books (3,487,818 chapters), 5,720 "chapters" covered at least 40% of a book of 100 pages or more, and 5,274 books came out as a single chapter. *Practical Common Lisp*, for example, came out as two chapters, the first spanning pages 1–396 of 474. Every downstream tier (classification, search, citations) inherits those boundaries. **Decided:** fix the converter (PDF outline first, then printed contents, running heads and heading lines, each candidate checked) and repair the existing data from its own page text, since not every source PDF is still available.
+
+**Units with no text.** In a sample of 8,000 books (74,234 chapters), 193 chapters in 53 books had empty content, 35 of those books entirely, and 2,379 chapters held under 200 characters. The design at the time refused a whole profile when any one unit was empty. **Decided:** a unit with no text is not loaded, and the reason is recorded.
+
+## 07 Scoring walkthrough
+
+**Decision.** Three candidate rules for turning similarity scores into a chapter's primary subject, secondary subjects and knowledge type: pure normalised shares, the existing components, or a fold of the two.
+
+**Method.** Every number computed by the platform's implemented scoring components, on hypothetical scenarios designed to separate the rules and on seven real chapters of very different kinds (a code-heavy book chapter, a kernel note, a long multi-topic chapter, a business interview, a video tutorial, a lecture and OCR noise), each at three temperature settings.
+
+**Finding.** Because shares always sum to 1, the pure rule crowns a primary and hands out secondaries even when nothing matches, while a raw-similarity test still recognises "nothing here". On a business interview the secondary count ran from 23 to 40 depending on temperature. The walkthrough fed the scoring and quarantine rules in the design.
+
+## 08 Evidence-based code-label audit
+
+Study 04's answer key and a four-model panel (Fleiss κ 0.836 on lines, 0.674 on block causes) were not accepted as ground truth. A majority vote is not evidence. This audit re-derived every disputed label from the raw text itself. [CONSOLIDATED_REPORT_2026-11-18.md](08-code-detection-evidence-audit/CONSOLIDATED_REPORT_2026-11-18.md) was written for outside reviewers.
+
+**Method.**
+- **Reads.** 1,268 items (600 gold lines, 668 disputed blocks) were located on their pages: 2,183 pages and 155,896 lines in all. Two different models read each page blind, with no font label, detector output or panel label shown. A label stands only when both reads agree.
+- **Quotes.** Every cited line is checked character for character by a script. Make-up rounds fixed one reader's faults: skipped pages reported as covered, spans past the end of a page, drifting line numbers and silently "repaired" words.
+- **Formal notation.** 617 lines of formal notation that the reads split on were tested against 1,682 real repository snippets in 24 formal and functional languages. 0 of 60 items had a close match (character n-gram cosine ≥ 0.50), so typeset inference rules read nothing like code.
+
+**Result (provisional until the notation rule is decided).** Against the final gold lines, the blended detector with kind recognisers feeding a second-stage model (option 6) has the best line F1, 0.791 (precision 0.940, recall 0.682), and matches good block boundaries exactly most often (38%). The font label flatters every option but one.
+
+**Published here:** the report, the option-6 pipeline spec, the detector-option scripts and metrics, the bad-block cause tables and the evidence-coverage report. The page reads and labels are not included.
+
+## 09 Sub-chapter floors
+
+**Question.** Chapters whose best similarity falls under a floor are held back from filing. Can the same floors apply to the units below a chapter?
+
+**Result** (recorded 480-token pieces of the 1,049 test chapters, at a floor that holds back 1% of chapters): 50.3% of all pieces fall below. 922 chapters lose at least one piece, 348 lose more than half, and 25 lose every piece. The pieces below the floor are more often on the wrong subject (67% against 44%), but a floor that blunt would hold back half the library. Chapter floors cannot be reused unchanged below chapter level; the decision is pending.
+
+## Scaling estimate
+
+From the embedding run's measured rate, 0.23 s per piece. The full library is about 26 billion characters (58 GB), and the chapter tier alone is about 14 million pieces, roughly 38 days on one Mac. The pipeline embeds text about five times over (chapters, candidate windows, passages and paragraph groups), and 58 of the 1,049 test chapters exceed the 30-second piece timeout even on their own. **Decided:** the fresh run goes to a rented host, with each embedding profile pinning its model and code revision and an operator command installing them.
+
+## All 15 proofs of concept
+
+| # | Proof of concept | Question it fed | Status | Published |
+|---|---|---|---|---|
+| 1 | Embedding-model evaluation | Which model (#26); scaling (#55); test-set duplicates | Open; nomic-v2 leads, jina-v5-small unfinished | [01](01-embedding-bakeoff/) |
+| 2 | Scoring walkthrough | Scoring and quarantine rules | Used in the design | [07](07-scoring-walkthrough/) |
+| 3 | Theory-library coverage | Whether the taxonomy has a home for theory subjects (#24, #54) | Open | Not yet |
+| 4 | Code-block detection | Prose stored as code (decided); notation and low-code handling | Partly decided | [04](04-code-line-detector/), [08](08-code-detection-evidence-audit/) |
+| 5 | Search golden set | Ground truth for search (#18) | Partly decided | [03](03-golden-set/); follow-ups quote chapter text |
+| 6 | Worked examples per open question | Every open question's options, measured | Recorded per question | Pre-load gate and filing in [02](02-preload-gate-fault-injection/); the rest reproduce chapter text |
+| 7 | SCIP symbols | Code-symbol format (#19) | Decided | Summary below |
+| 8 | Coding-problem search and pattern pairs | Golden-set expansion | Rerun queued | No: built on third-party crawled data |
+| 9 | Prerequisite-graph sample | Prerequisite chain depth (#6) | Stopped: used data the rebuild replaces | No |
+| 10 | Sub-chapter floors | Floors below chapter level | Decision pending | [09](09-subchapter-floors/) |
+| 11 | Chapter-read and no-text probes | Read depth (#42); empty units (#52) | Both decided | [05](05-chapter-read-depth/), [06](06-ingestion-probes/) |
+| 12 | Shelf-description curation | Subject descriptions and boundaries | Open | No: curated taxonomy text |
+| 13 | Converter chapter scan | Chapter boundaries (#50) | Decided | [06](06-ingestion-probes/) |
+| 14 | Theory pipeline paths | Where theory books are stored (#46) | Decided | No: a reading of private code |
+| 15 | Scaling estimate | Where the fresh run executes (#55) | Decided | [Above](#scaling-estimate) |
+
+**SCIP symbols (#7), in brief.** The old builder derived code-symbol names itself. On 13,327 real code units it broke the SCIP grammar for 15% of them and labelled every non-Python unit as Python. **Decided:** symbols come only from the real language indexers, or are left empty. Measured indexer coverage on a 12-repository sample: 98.3% for languages that need no build, 72% for C, 1% for C++ (the build capture saw 6 of a Makefile's translation units), and 0% for JVM and C# repositories that do not build.
 
 ---
 

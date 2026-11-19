@@ -1,0 +1,7 @@
+T=0.03 whole: domain 87.6%  subdomain top-1 79.9%  primary-or-secondary 86.2%  pieces/chapter 38.1
+T=0.03 cut: domain 85.0%  subdomain top-1 77.2%  primary-or-secondary 82.7%  pieces/chapter 4.5
+chapters >8k: 950; whole right / cut wrong 78; cut right / whole wrong 50; primaries differ 177
+# 2026-10-27, ETDI §9 OQ#42: 1,049 held-out SE chapters (heldout.json), recorded nomic-v2 pieces (480 tokens, no overlap),
+# real UnitScorer/ProfileAssembler (T=0.03, ratio 0.6, floors off); "cut" = leading pieces inside the first 8,000 characters
+# (each chapter's characters per token; the cached pieces carry no character spans). No model loaded.
+# The T=0.05 pass did not run: the stand-in COS lacked model_id (harness defect, not production code).

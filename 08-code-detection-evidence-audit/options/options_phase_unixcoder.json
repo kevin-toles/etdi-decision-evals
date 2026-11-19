@@ -1,0 +1,512 @@
+{
+ "gold": {
+  "today: HeuristicCodeDetector": {
+   "run_2026-10-28": {
+    "P": 0.586,
+    "R": 0.267
+   },
+   "run_2026-10-28b": {
+    "P": 0.391,
+    "R": 0.223
+   },
+   "run_2026-10-29d": {
+    "P": 0.284,
+    "R": 0.299
+   },
+   "mean_code_bearing": {
+    "P": 0.421,
+    "R": 0.263
+   },
+   "lowcode": {
+    "true_code_kept": 6,
+    "true_code_total": 47,
+    "prose_kept": 5,
+    "prose_total": 132
+   }
+  },
+  "current best: (e)+ng+run .80/.94": {
+   "run_2026-10-28": {
+    "P": 0.975,
+    "R": 0.818
+   },
+   "run_2026-10-28b": {
+    "P": 0.952,
+    "R": 0.836
+   },
+   "run_2026-10-29d": {
+    "P": 0.741,
+    "R": 0.936
+   },
+   "mean_code_bearing": {
+    "P": 0.889,
+    "R": 0.864
+   },
+   "lowcode": {
+    "true_code_kept": 18,
+    "true_code_total": 47,
+    "prose_kept": 3,
+    "prose_total": 132
+   }
+  },
+  "best-F1 point for these probabilities (t 0.86, run 0.98)": {
+   "run_2026-10-28": {
+    "P": 0.995,
+    "R": 0.76
+   },
+   "run_2026-10-28b": {
+    "P": 0.974,
+    "R": 0.791
+   },
+   "run_2026-10-29d": {
+    "P": 0.751,
+    "R": 0.906
+   },
+   "mean_code_bearing": {
+    "P": 0.907,
+    "R": 0.819
+   },
+   "lowcode": {
+    "true_code_kept": 9,
+    "true_code_total": 47,
+    "prose_kept": 2,
+    "prose_total": 132
+   }
+  },
+  "G gate (>= 0.95) + current best": {
+   "run_2026-10-28": {
+    "P": 0.975,
+    "R": 0.801
+   },
+   "run_2026-10-28b": {
+    "P": 0.952,
+    "R": 0.836
+   },
+   "run_2026-10-29d": {
+    "P": 0.752,
+    "R": 0.936
+   },
+   "mean_code_bearing": {
+    "P": 0.893,
+    "R": 0.858
+   },
+   "lowcode": {
+    "true_code_kept": 9,
+    "true_code_total": 47,
+    "prose_kept": 2,
+    "prose_total": 132
+   }
+  },
+  "O2 stored (t .70, no run filter, all kept)": {
+   "run_2026-10-28": {
+    "P": 0.979,
+    "R": 0.973
+   },
+   "run_2026-10-28b": {
+    "P": 0.953,
+    "R": 0.854
+   },
+   "run_2026-10-29d": {
+    "P": 0.734,
+    "R": 0.956
+   },
+   "mean_code_bearing": {
+    "P": 0.889,
+    "R": 0.928
+   },
+   "lowcode": {
+    "true_code_kept": 20,
+    "true_code_total": 47,
+    "prose_kept": 5,
+    "prose_total": 132
+   }
+  },
+  "O2 served best-F1 (block conf 0.97, gate 0.8)": {
+   "run_2026-10-28": {
+    "P": 0.978,
+    "R": 0.764
+   },
+   "run_2026-10-28b": {
+    "P": 0.964,
+    "R": 0.795
+   },
+   "run_2026-10-29d": {
+    "P": 0.755,
+    "R": 0.907
+   },
+   "mean_code_bearing": {
+    "P": 0.899,
+    "R": 0.822
+   },
+   "lowcode": {
+    "true_code_kept": 10,
+    "true_code_total": 47,
+    "prose_kept": 1,
+    "prose_total": 132
+   }
+  }
+ },
+ "gate_quality": {
+  "docs": 642,
+  "has_code": 353,
+  "gate_kept": 322,
+  "precision": 0.957,
+  "recall": 0.873
+ },
+ "rows": {
+  "today: HeuristicCodeDetector": {
+   "weighted": {
+    "P": 0.117,
+    "R": 0.236,
+    "F1": 0.156,
+    "bad": 0.942
+   },
+   "segments": {
+    "book": {
+     "P": 0.619,
+     "R": 0.275,
+     "F1": 0.381,
+     "blocks": 5086,
+     "bad": 0.618
+    },
+    "short": {
+     "P": 0.503,
+     "R": 0.237,
+     "F1": 0.322,
+     "blocks": 2943,
+     "bad": 0.633
+    },
+    "tiny": {
+     "P": 0.575,
+     "R": 0.327,
+     "F1": 0.416,
+     "blocks": 519,
+     "bad": 0.566
+    },
+    "lowcode": {
+     "P": 0.011,
+     "R": 0.103,
+     "F1": 0.02,
+     "blocks": 1840,
+     "bad": 0.991
+    },
+    "codefree": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 946,
+     "bad": 1.0
+    },
+    "transcript": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 12,
+     "bad": 1.0
+    },
+    "40-book key": {
+     "P": 0.741,
+     "R": 0.426,
+     "F1": 0.541,
+     "blocks": 656,
+     "bad": 0.48
+    }
+   }
+  },
+  "current best: (e)+ng+run .80/.94": {
+   "weighted": {
+    "P": 0.564,
+    "R": 0.752,
+    "F1": 0.645,
+    "bad": 0.56
+   },
+   "segments": {
+    "book": {
+     "P": 0.8,
+     "R": 0.863,
+     "F1": 0.83,
+     "blocks": 4075,
+     "bad": 0.227
+    },
+    "short": {
+     "P": 0.807,
+     "R": 0.747,
+     "F1": 0.776,
+     "blocks": 2631,
+     "bad": 0.265
+    },
+    "tiny": {
+     "P": 0.808,
+     "R": 0.906,
+     "F1": 0.854,
+     "blocks": 344,
+     "bad": 0.134
+    },
+    "lowcode": {
+     "P": 0.151,
+     "R": 0.479,
+     "F1": 0.229,
+     "blocks": 304,
+     "bad": 0.793
+    },
+    "codefree": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 109,
+     "bad": 1.0
+    },
+    "transcript": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 6,
+     "bad": 1.0
+    },
+    "40-book key": {
+     "P": 0.832,
+     "R": 0.968,
+     "F1": 0.895,
+     "blocks": 463,
+     "bad": 0.166
+    }
+   }
+  },
+  "best-F1 point for these probabilities (t 0.86, run 0.98)": {
+   "weighted": {
+    "P": 0.674,
+    "R": 0.679,
+    "F1": 0.676,
+    "bad": 0.457
+   },
+   "segments": {
+    "book": {
+     "P": 0.846,
+     "R": 0.781,
+     "F1": 0.812,
+     "blocks": 3162,
+     "bad": 0.159
+    },
+    "short": {
+     "P": 0.859,
+     "R": 0.684,
+     "F1": 0.762,
+     "blocks": 2142,
+     "bad": 0.215
+    },
+    "tiny": {
+     "P": 0.846,
+     "R": 0.873,
+     "F1": 0.859,
+     "blocks": 307,
+     "bad": 0.098
+    },
+    "lowcode": {
+     "P": 0.211,
+     "R": 0.344,
+     "F1": 0.262,
+     "blocks": 158,
+     "bad": 0.734
+    },
+    "codefree": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 66,
+     "bad": 1.0
+    },
+    "transcript": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 1,
+     "bad": 1.0
+    },
+    "40-book key": {
+     "P": 0.877,
+     "R": 0.925,
+     "F1": 0.901,
+     "blocks": 386,
+     "bad": 0.106
+    }
+   }
+  },
+  "G gate (>= 0.95) + current best": {
+   "weighted": {
+    "P": 0.654,
+    "R": 0.724,
+    "F1": 0.688,
+    "bad": 0.397
+   },
+   "segments": {
+    "book": {
+     "P": 0.801,
+     "R": 0.863,
+     "F1": 0.831,
+     "blocks": 4052,
+     "bad": 0.223
+    },
+    "short": {
+     "P": 0.813,
+     "R": 0.736,
+     "F1": 0.773,
+     "blocks": 2474,
+     "bad": 0.254
+    },
+    "tiny": {
+     "P": 0.81,
+     "R": 0.899,
+     "F1": 0.852,
+     "blocks": 335,
+     "bad": 0.134
+    },
+    "lowcode": {
+     "P": 0.153,
+     "R": 0.255,
+     "F1": 0.191,
+     "blocks": 80,
+     "bad": 0.8
+    },
+    "codefree": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 41,
+     "bad": 1.0
+    },
+    "transcript": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 0,
+     "bad": 0.0
+    },
+    "40-book key": {
+     "P": 0.832,
+     "R": 0.968,
+     "F1": 0.895,
+     "blocks": 463,
+     "bad": 0.166
+    }
+   }
+  },
+  "O2 stored (t .70, no run filter, all kept)": {
+   "weighted": {
+    "P": 0.457,
+    "R": 0.793,
+    "F1": 0.58,
+    "bad": 0.693
+   },
+   "segments": {
+    "book": {
+     "P": 0.757,
+     "R": 0.895,
+     "F1": 0.82,
+     "blocks": 5107,
+     "bad": 0.336
+    },
+    "short": {
+     "P": 0.755,
+     "R": 0.786,
+     "F1": 0.771,
+     "blocks": 3297,
+     "bad": 0.339
+    },
+    "tiny": {
+     "P": 0.748,
+     "R": 0.933,
+     "F1": 0.83,
+     "blocks": 435,
+     "bad": 0.274
+    },
+    "lowcode": {
+     "P": 0.108,
+     "R": 0.56,
+     "F1": 0.18,
+     "blocks": 588,
+     "bad": 0.869
+    },
+    "codefree": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 219,
+     "bad": 1.0
+    },
+    "transcript": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 26,
+     "bad": 1.0
+    },
+    "40-book key": {
+     "P": 0.797,
+     "R": 0.976,
+     "F1": 0.877,
+     "blocks": 542,
+     "bad": 0.282
+    }
+   }
+  },
+  "O2 served best-F1 (block conf 0.97, gate 0.8)": {
+   "weighted": {
+    "P": 0.706,
+    "R": 0.665,
+    "F1": 0.685,
+    "bad": 0.353
+   },
+   "segments": {
+    "book": {
+     "P": 0.835,
+     "R": 0.77,
+     "F1": 0.801,
+     "blocks": 2975,
+     "bad": 0.166
+    },
+    "short": {
+     "P": 0.857,
+     "R": 0.679,
+     "F1": 0.757,
+     "blocks": 2043,
+     "bad": 0.219
+    },
+    "tiny": {
+     "P": 0.836,
+     "R": 0.854,
+     "F1": 0.844,
+     "blocks": 295,
+     "bad": 0.105
+    },
+    "lowcode": {
+     "P": 0.195,
+     "R": 0.255,
+     "F1": 0.221,
+     "blocks": 58,
+     "bad": 0.724
+    },
+    "codefree": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 33,
+     "bad": 1.0
+    },
+    "transcript": {
+     "P": 0.0,
+     "R": 0.0,
+     "F1": 0.0,
+     "blocks": 0,
+     "bad": 0.0
+    },
+    "40-book key": {
+     "P": 0.872,
+     "R": 0.92,
+     "F1": 0.895,
+     "blocks": 347,
+     "bad": 0.092
+    }
+   }
+  }
+ },
+ "gate_threshold": 0.9500000000000001
+}

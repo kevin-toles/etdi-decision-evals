@@ -1,0 +1,175 @@
+{
+ "summary": {
+  "no grammar / unnamed|cos": {
+   "n": 100,
+   "abstained": 0
+  },
+  "no grammar / unnamed|ts": {
+   "n": 100,
+   "abstained": 0
+  },
+  "no grammar / unnamed|ts+m": {
+   "n": 100,
+   "abstained": 0
+  },
+  "named language|cos": {
+   "n": 100,
+   "correct": 24
+  },
+  "named language|ts": {
+   "n": 100,
+   "correct": 13
+  },
+  "named language|ts+m": {
+   "n": 100,
+   "correct": 27
+  }
+ },
+ "per_language": {
+  "Java": {
+   "cos": 4,
+   "ts": 0,
+   "ts+m": 1,
+   "n": 10
+  },
+  "C": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 4,
+   "n": 11
+  },
+  "JavaScript/TypeScript": {
+   "cos": 2,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 3
+  },
+  "Python": {
+   "cos": 13,
+   "ts": 1,
+   "ts+m": 7,
+   "n": 22
+  },
+  "Assembly": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 1
+  },
+  "LaTeX": {
+   "cos": 0,
+   "ts": 3,
+   "ts+m": 1,
+   "n": 3
+  },
+  "XML": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 3
+  },
+  "Shell/Bash": {
+   "cos": 0,
+   "ts": 6,
+   "ts+m": 6,
+   "n": 11
+  },
+  "Ruby": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 1
+  },
+  "R": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 4
+  },
+  "Kotlin": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 1
+  },
+  "Go": {
+   "cos": 5,
+   "ts": 0,
+   "ts+m": 2,
+   "n": 5
+  },
+  "Rust": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 1
+  },
+  "HTML": {
+   "cos": 0,
+   "ts": 2,
+   "ts+m": 3,
+   "n": 4
+  },
+  "C++": {
+   "cos": 0,
+   "ts": 1,
+   "ts+m": 0,
+   "n": 3
+  },
+  "YAML": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 1
+  },
+  "CSS": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 2,
+   "n": 3
+  },
+  "Swift": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 1,
+   "n": 2
+  },
+  "SQL": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 4
+  },
+  "JSON": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 2
+  },
+  "OCaml/F#": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 3
+  },
+  "Makefile": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 1
+  },
+  "Haskell": {
+   "cos": 0,
+   "ts": 0,
+   "ts+m": 0,
+   "n": 1
+  }
+ },
+ "sas": {
+  "called": 105,
+  "errors": 98,
+  "with_declarations": 2,
+  "declarations": 2,
+  "correct_language_called": 7
+ }
+}

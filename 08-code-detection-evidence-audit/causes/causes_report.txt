@@ -1,0 +1,117 @@
+Bad-block causes (MEASURED, four-reviewer blind panel). kappa r1 0.674, r2 0.54; settled r1 540, r2 87, unresolved 41; check agreement 46/54
+
+option 1: cause x segment
+  cause                     code-bearing   40-book key      low-code     code-free           all
+  all_prose                           72            12             1             1            86
+  code_plus_prose_edge                22             2             1             2            27
+  split_fragment                     159             3            17             4           183
+  merged_blocks                        3             0             0             3             6
+  noncode_monospace                   90             4             8             5           107
+  terminal_output_or_log               0             1             0             0             1
+  actually_code                       41             0             3             3            47
+  other                                0             0             0             0             0
+  unresolved                          24             1             4             1            30
+  adjusted bad-block share (font-bad minus panel 'actually code'; and also minus terminal output/log):
+    code-bearing   blocks  3950  font 0.104  adjusted 0.094  if output is code 0.094
+    40-book key    blocks   319  font 0.072  adjusted 0.072  if output is code 0.069
+    low-code       blocks    49  font 0.694  adjusted 0.633  if output is code 0.633
+    code-free      blocks    19  font 1.0  adjusted 0.842  if output is code 0.842
+
+option 6: cause x segment
+  cause                     code-bearing   40-book key      low-code     code-free           all
+  all_prose                           35             6             3             1            45
+  code_plus_prose_edge                 9             1             0             0            10
+  split_fragment                     118             3             5             2           128
+  merged_blocks                        1             0             0             3             4
+  noncode_monospace                   44             0            11             4            59
+  terminal_output_or_log               0             3             0             0             3
+  actually_code                       37             2             3             3            45
+  other                                0             0             0             0             0
+  unresolved                          11             1             2             1            15
+  adjusted bad-block share (font-bad minus panel 'actually code'; and also minus terminal output/log):
+    code-bearing   blocks  3984  font 0.064  adjusted 0.055  if output is code 0.055
+    40-book key    blocks   372  font 0.043  adjusted 0.038  if output is code 0.03
+    low-code       blocks    35  font 0.686  adjusted 0.6  if output is code 0.6
+    code-free      blocks    14  font 1.0  adjusted 0.786  if output is code 0.786
+
+== all_prose
+  [K0001] A Reinforcement Learning Environment for Automatic Code Optimization i (short; option 1; 1 lines)
+      | 4) Build custom tools in tools/ and create a .env file
+  [K0004] A review of homomorphic encryption and software tools for encrypted st (lowcode; option 1; 1 lines)
+      | a scheme can achieve will depend on the scheme itself and usually on the parameters
+  [K0023] Addison Wesley - Algorithms in Java™ Part 5 - Graph Algorithm, 3rd Edi (book; option 6; 1 lines)
+      | Exercises 
+== code_plus_prose_edge
+  [K0177] Head First C (book; option 1; 6 lines)
+      | code that is mutually recursive: 
+      | float ping() {
+      |   ...
+      |   pong();
+  [K0179] Head First C (book; option 1; 6 lines)
+      | functions. 
+      | float pong() {
+      |   ...
+      |   ping();
+  [K0181] Head First C (book; option 1, option 6; 6 lines)
+      | #include <stdio.h>
+      | #include "totaller.h"
+      | ...
+      | totaller.c
+== split_fragment
+  [K0019] Abnormal Event Detection and Location for Dense Crowds using Repulsive (codefree; option 1; 1 lines)
+      | return normal event.
+  [K0020] Abnormal Event Detection and Location for Dense Crowds using Repulsive (codefree; option 1; 1 lines)
+      | else
+  [K0038] An Explainable Transformer-based Model for Phishing Email Detection A  (lowcode; option 1; 1 lines)
+      | explanation.as_list(label
+== merged_blocks
+  [K0364] Tool-Assisted Agent on SQL Inspection and Refinement in Real-World Sce (codefree; option 6; 12 lines)
+      | SELECT T2.Language
+      | FROM country T1
+      | JOIN language T2 
+      | ON T1.Code = T2.Country
+  [K0443] cloudflare-blog - CF - Mutual TLS now available for Workers (codefree; option 1, option 6; 7 lines)
+      | wrangler mtls-certificate upload --cert cert.pem --key key.pem --name my-client-c
+      | mtls_certificates = [
+      |  { binding = "MY_CERT", certificate_id = "<CERTIFICATE_ID>" }
+      | ]
+== noncode_monospace
+  [K0005] A short introduction to process theory (book; option 1; 75 lines)
+      | (tt,ff,1)
+      | (ff,tt,1)
+      | (tt,tt,1)
+      | c0 := false
+  [K0016] AMBROSIA A Benchmark for Parsing Ambiguous Questions into Database Que (short; option 1, option 6; 5 lines)
+      | # DB
+      | # Tab/DB
+      | # ambig # unambig
+      | # ambig # unambig
+  [K0017] Abnormal Event Detection and Location for Dense Crowds using Repulsive (codefree; option 6; 6 lines)
+      | f11   f12   f13   …   f1n
+      | f21   f22   f23   …   f2n
+      |  .      .     .      .       .   
+      |  .      .     .      .       .   
+== terminal_output_or_log
+  [K0351] Taxonomy of spyware and empirical study of network drive-by-downloads (40-book key; option 6; 3 lines)
+      |   : 20 WIN32_SHARE_PROCESS  
+      | STATE  
+      |   : 1  STOPPED 
+  [K0352] Taxonomy of spyware and empirical study of network drive-by-downloads (40-book key; option 1, option 6; 3 lines)
+      |   : 10 WIN32_OWN_PROCESS  
+      | STATE  
+      |   : 1  STOPPED 
+== actually_code
+  [K0002] A lightweight integration of theorem proving and model checking for sy (short; option 1; 2 lines)
+      | To(bop τ : Sys Vj1 . . . Vjn -> Sys) =
+      | op τ : Vj1 ...Vjn -> TRule .
+  [K0013] A systematic derivation of the STG machine verified in Coq (lowcode; option 1; 8 lines)
+      | evalCps :: Expr →(Integer →a) →a
+      | evalCps (Const n) k = k n
+      | evalCps (Abs e) k
+      | = evalCps e (λn →k (abs n))
+  [K0062] Breaking the Computation and Communication Abstraction Barrier in Dist (short; option 6; 5 lines)
+      | $ export MPI_ARGS= " −x ␣MASTER_ADDR = 1 2 7 . 0 . 0 . 1 "
+      | $ export MPI_ARGS= " $MPI_ARGS ␣−x ␣MASTER_PORT=10000 "
+      | $ python
+      | data −p a r a l l e l −exp . py
+== other
