@@ -2,7 +2,7 @@
 
 My platform files about 3.5 million chapters from software-engineering books, talks and papers onto 461 subjects, then loads them into search so engineers and AI coding agents can retrieve chapters, passages, code and diagrams. Much of that pipeline was first written by AI coding agents. The code compiled and the tests passed, but behaviour had drifted from the design across services.
 
-Before rebuilding it, I settled each open design question with a small, isolated experiment run on real data with the platform's real code: 15 proofs of concept and about 40 measured runs so far. This repository publishes the nine whose outputs can be shared without distributing book text or third-party data, and indexes all 15 [at the end](#all-15-proofs-of-concept). Each study has the scripts exactly as run, the results, and what the result decided.
+Before rebuilding it, I settled each open design question with a small, isolated experiment run on real data with the platform's real code: 15 proofs of concept and about 40 measured runs so far. This repository publishes the code for all of them that has code, and the results wherever they can be shared without distributing book text or third-party data. All 15 are indexed [at the end](#all-15-proofs-of-concept). Each study has the scripts exactly as run, the results, and what the result decided.
 
 Two rules applied throughout:
 
@@ -150,6 +150,18 @@ Study 04's answer key and a four-model panel (Fleiss κ 0.836 on lines, 0.674 on
 
 From the embedding run's measured rate, 0.23 s per piece. The full library is about 26 billion characters (58 GB), and the chapter tier alone is about 14 million pieces, roughly 38 days on one Mac. The pipeline embeds text about five times over (chapters, candidate windows, passages and paragraph groups), and 58 of the 1,049 test chapters exceed the 30-second piece timeout even on their own. **Decided:** the fresh run goes to a rented host, with each embedding profile pinning its model and code revision and an operator command installing them.
 
+## Code-only folders
+
+These hold the tools behind experiments whose outputs reproduce book or third-party text, so only the code is published.
+
+| Folder | What the code does |
+|---|---|
+| [10 Worked-example harness](10-worked-example-harness/) | Runs the platform's real embedding, filing and search-ranking code on a keyword-scanned pool of real chapters, so every option in an open question gets a measured example of what an agent would get back. Includes the term-exploration scans and the prerequisite-chain sample |
+| [08 scripts](08-code-detection-evidence-audit/scripts/) | The evidence-based code-label audit: sheet builders, two-read comparison, character-for-character quote verification, make-up rounds, bad-block cause tallies and evidence-coverage queries |
+| [03 scripts/evidence, scripts/pattern_pairs](03-golden-set/scripts/) | Cited-source quote checks for the golden set, and the coding-problem pair sheets, grader builder and gate |
+| [11 Shelf boundaries](11-shelf-boundaries/) | Builds the subject-boundary rules that keep near-duplicate subjects apart, from a reviewed canonicalisation list |
+| [12 Coding-problem search](12-coding-problem-search/) | Statement alignment and embedder evaluation for finding the same or a similar coding problem across problem sets (top-1, top-5, MRR, tag overlap) |
+
 ## All 15 proofs of concept
 
 | # | Proof of concept | Question it fed | Status | Published |
@@ -158,14 +170,14 @@ From the embedding run's measured rate, 0.23 s per piece. The full library is ab
 | 2 | Scoring walkthrough | Scoring and quarantine rules | Used in the design | [07](07-scoring-walkthrough/) |
 | 3 | Theory-library coverage | Whether the taxonomy has a home for theory subjects (#24, #54) | Open | Not yet |
 | 4 | Code-block detection | Prose stored as code (decided); notation and low-code handling | Partly decided | [04](04-code-line-detector/), [08](08-code-detection-evidence-audit/) |
-| 5 | Search golden set | Ground truth for search (#18) | Partly decided | [03](03-golden-set/); follow-ups quote chapter text |
-| 6 | Worked examples per open question | Every open question's options, measured | Recorded per question | Pre-load gate and filing in [02](02-preload-gate-fault-injection/); the rest reproduce chapter text |
+| 5 | Search golden set | Ground truth for search (#18) | Partly decided | [03](03-golden-set/); follow-up scripts (cited-source checks, pattern pairs) in [03/scripts](03-golden-set/scripts/) |
+| 6 | Worked examples per open question | Every open question's options, measured | Recorded per question | Pre-load gate and filing in [02](02-preload-gate-fault-injection/); every example's code in [10](10-worked-example-harness/) |hapter text |
 | 7 | SCIP symbols | Code-symbol format (#19) | Decided | Summary below |
-| 8 | Coding-problem search and pattern pairs | Golden-set expansion | Rerun queued | No: built on third-party crawled data |
-| 9 | Prerequisite-graph sample | Prerequisite chain depth (#6) | Stopped: used data the rebuild replaces | No |
+| 8 | Coding-problem search and pattern pairs | Golden-set expansion | Rerun queued | Code in [12](12-coding-problem-search/) |
+| 9 | Prerequisite-graph sample | Prerequisite chain depth (#6) | Stopped: used data the rebuild replaces | Code in [10](10-worked-example-harness/) (`c2_prereq.py`) |
 | 10 | Sub-chapter floors | Floors below chapter level | Decision pending | [09](09-subchapter-floors/) |
 | 11 | Chapter-read and no-text probes | Read depth (#42); empty units (#52) | Both decided | [05](05-chapter-read-depth/), [06](06-ingestion-probes/) |
-| 12 | Shelf-description curation | Subject descriptions and boundaries | Open | No: curated taxonomy text |
+| 12 | Shelf-description curation | Subject descriptions and boundaries | Open | Code in [11](11-shelf-boundaries/) |
 | 13 | Converter chapter scan | Chapter boundaries (#50) | Decided | [06](06-ingestion-probes/) |
 | 14 | Theory pipeline paths | Where theory books are stored (#46) | Decided | No: a reading of private code |
 | 15 | Scaling estimate | Where the fresh run executes (#55) | Decided | [Above](#scaling-estimate) |
