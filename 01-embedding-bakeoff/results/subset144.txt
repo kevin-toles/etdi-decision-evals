@@ -1,0 +1,12 @@
+jina-v5-small          T=0.03 ratio=0.6 chapters=144 domain 88.9% subdomain 84.7% primary-or-secondary 89.6%
+jina-v5-small          T=0.05 ratio=0.5 chapters=144 domain 89.6% subdomain 85.4% primary-or-secondary 91.7%
+nomic-v1.5             T=0.03 ratio=0.6 chapters=144 domain 61.1% subdomain 47.9% primary-or-secondary 59.0%
+nomic-v1.5             T=0.05 ratio=0.5 chapters=144 domain 60.4% subdomain 47.2% primary-or-secondary 74.3%
+jina-v3                T=0.03 ratio=0.6 chapters=144 domain 86.8% subdomain 82.6% primary-or-secondary 88.9%
+jina-v3                T=0.05 ratio=0.5 chapters=144 domain 87.5% subdomain 83.3% primary-or-secondary 91.0%
+bge-m3                 T=0.03 ratio=0.6 chapters=144 domain 88.2% subdomain 81.9% primary-or-secondary 88.2%
+bge-m3                 T=0.05 ratio=0.5 chapters=144 domain 86.1% subdomain 79.2% primary-or-secondary 93.8%
+nomic-v2               T=0.03 ratio=0.6 chapters=144 domain 88.9% subdomain 82.6% primary-or-secondary 90.3%
+nomic-v2               T=0.05 ratio=0.5 chapters=144 domain 89.6% subdomain 84.0% primary-or-secondary 93.1%
+multilingual-e5-large  T=0.03 ratio=0.6 chapters=144 domain 77.1% subdomain 70.8% primary-or-secondary 91.7%
+multilingual-e5-large  T=0.05 ratio=0.5 chapters=144 domain 78.5% subdomain 71.5% primary-or-secondary 97.9%

@@ -1,0 +1,1905 @@
+{
+ "discrete-mathematics": [
+  "Teaching and Learning Discrete Mathematics Worldwide Curriculum and Research (2)#6",
+  "Teaching and Learning Discrete Mathematics Worldwide Curriculum and Research#13",
+  "Teaching and Learning Discrete Mathematics Worldwide Curriculum and Research#6"
+ ],
+ "linear-algebra": [
+  "Minimizing Communication in Numerical Linear Algebra#2",
+  "Randomized Numerical Linear Algebra A Perspective on the Field With an Eye to Software#50",
+  "Handbook of Linear Algebra [Duplicate]#1"
+ ],
+ "probability-statistics": [
+  "Spoken Language Processing - A Guide to Theory, Algorithm, and System Development - 1#29",
+  "Spoken Language Processing - A Guide to Theory, Algorithm, and System Development#29"
+ ],
+ "optimization-theory": [
+  "On implicit variables in optimization theory#3",
+  "Convex Relaxation Regression Black-Box Optimization of Smooth Functions by Learning Their Convex Envelopes#1"
+ ],
+ "information-theory": [
+  "Information Technology Transmission Processing and Storage A First Course in Information Theory 1#73",
+  "Foundations and Trends in Communications and Information Theory 83 An Algebraic and Probabilistic Framework for Network#49",
+  "Elements of Information Theory#1"
+ ],
+ "coding-theory": [
+  "Series on Coding Theory and Cryptology Codes for Error Detection Vol 2 2007en201s b#86",
+  "Notes on Coding Theory#1"
+ ],
+ "formal-logic": [
+  "Why Formal Logic is Essential for Critical Thinking#4",
+  "Systems of Formal Logic Softcover reprint of the original 1st ed 1966#2",
+  "Systems of Formal Logic Softcover reprint of the original 1st ed 1966#4"
+ ],
+ "number-theory": [
+  "number theory and computability#1",
+  "Discrete Mathematics 7E#78"
+ ],
+ "graph-theory": [
+  "Linear Algebra for Computational Sciences and Engineering#59",
+  "HANDBOOK OF DISCRETE AND COMBINATORIAL MATHEMATICS (4)#93",
+  "Graph Theory With Applications To Engineering And Computer Science#2",
+  "HANDBOOK OF DISCRETE AND COMBINATORIAL MATHEMATICS (3)#93"
+ ],
+ "automata-theory": [
+  "Progress in Computer Science and Applied Logic Bakhadyr Khoussainov and Anil Nerode#53",
+  "Automata Theory#1",
+  "Formal Languages and Automata Theory [Prof. E. Srinivasa Reddy]#13",
+  "Introduction to Automata Theory, Languages, and Computations - 2001#1"
+ ],
+ "computability-theory": [
+  "The Foundations of Computability Theory (2)#106",
+  "Studies in Logic and the Foundations of Mathematics 140 Handbook of Computability Theory#1",
+  "The Foundations of Computability Theory#81",
+  "Handbook of Computability Theory#1"
+ ],
+ "complexity-theory": [
+  "Computational Complexity Theory and the Philosophy of Mathematics#4",
+  "Texts in Theoretical Computer Science An EATCS Series Complexity Theory and Cryptology An Introduction to Cryptocomple#24",
+  "Abhinav Maurya_CMU_ 2015 Spring_ 15-251 Great Theoretical Ideas in Computer Science_Lecture 09 Introduction to Computational Complexity III#1"
+ ],
+ "category-theory": [
+  "Using Enriched Category Theory to Construct the Nearest Neighbour Classification Algorithm#1",
+  "Category Theory for Computing Science#153",
+  "A Formal Logic for Formal Category Theory#1"
+ ],
+ "formal-verification": [
+  "DTIC ADA326972 A Quantitative Approach to the Formal Verification of Real-Time Systems#1",
+  "Advanced Formal Verification [Duplicate]#19",
+  "Formal Verification of Unknown Stochastic Systems via Non-parametric Estimation#1"
+ ],
+ "model-checking": [
+  "Scaling Model Checking for DNN Analysis via State-Space Reduction and Input Segmentation (Extended Version)#1",
+  "Verification model checking and abstract interpretation 5th international conference VMCAI 2004 Venice Italy January 11-#51",
+  "Lecture Notes in Computer Science 5000 25 Years of Model Checking History Achievements Perspectives 1#15"
+ ],
+ "theorem-proving": [
+  "NASA Technical Reports Server NTRS 19980227975 Formal Methods Specification and Analysis Guidebook for the Verification#22",
+  "Distributed agent-based automated theorem proving in order-sorted first-order logic#2",
+  "DTIC ADA056071 Mechanical Theorem Proving and Artificial Intelligence Languages#1",
+  "Automated reasoning First International Joint Conference IJCAR 2001 Siena Italy June 18-23 2001 proceedings#13"
+ ],
+ "symbolic-execution": [
+  "Handbook of Model Checking#92",
+  "Memoized symbolic execution#2",
+  "Neuro-Symbolic Execution The Feasibility of an Inductive Approach to Symbolic Execution#2",
+  "Improving function coverage with munch a hybrid fuzzing and directed symbolic execution approach#1"
+ ],
+ "executable-specifications": [
+  "Writing Great Specifications#6",
+  "Specification by Example - How Successful Teams Deliver the Right Software#60",
+  "BDD in Action#1"
+ ],
+ "sorting-searching": [
+  "C++ Programming - Program Design Including Data Structures - 8th Edition#7"
+ ],
+ "graph-algorithms": [
+  "Graph Algorithms Practical Examples in Apache Spark and Neo4j 1 (3)#1",
+  "Guide to Graph Algorithms#11",
+  "Graph Algorithms Practical Examples in Apache Spark and Neo4j 1#1"
+ ],
+ "dynamic-programming": [
+  "The Dynamic Programming Manual#10",
+  "Advances in Industrial Control Adaptive Dynamic Programming with Applications in Optimal Control 1 331950813X 978331950#19"
+ ],
+ "greedy-algorithms": [
+  "Algorithms Illuminated Part 3 Greedy Algorithms and Dynamic Programming 3 1st#1",
+  "Introduction to Algorithms - 3rd Edition#69",
+  "Introduction to Algorithms 2001#20"
+ ],
+ "divide-and-conquer": [
+  "Implementasi Algoritma Divide and Conquer pada Aplikasi Belajar Ilmu Tajwid#1",
+  "Advanced Data Structures and Algorithms#19"
+ ],
+ "randomized-algorithms": [
+  "CBpemeHHuProbabilistic methods in algorithmic discrete mathematics (Springer, 1998).djvu#10",
+  "A New Minimax Theorem for Randomized Algorithms Extended Abstract#2"
+ ],
+ "approximation-algorithms": [
+  "Introduction to Algorithms - 2nd Edition#79",
+  "Handbook of Approximation Algorithms and Metaheuristics, Second Edition#11",
+  "Handbook of Approximation Algorithms and Metaheuristics, Second Edition (2)#84"
+ ],
+ "data-structures-trees": [
+  "Algorithms in C Robert Sedgewick Pt 1-4 Algorithms in C Parts 1-4 Fundamentals Data Structures Sorting Search#24",
+  "The Art of Computer Programming Vol 3#24"
+ ],
+ "data-structures-hash": [
+  "Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser-Data Structures and Algorithms in Python-Wiley (2013)#118",
+  "Ultimate Rust for Systems Programming#61"
+ ],
+ "data-structures-advanced": [
+  "Advanced Data Structures (4)#1",
+  "Advanced Data Structures (7)#1"
+ ],
+ "probabilistic-data-structures": [
+  "Probabilistic Data Structures and Algorithms#1",
+  "Devoxx_Understanding Probabilistic Data Structures with 112,092 UFO Sightings By Guy Royse#1"
+ ],
+ "spatial-data-structures": [
+  "Data Structures and Algorithm Analysis Java Edition#45",
+  "DTIC ADA214789 7 OR - 2 Criteria for Assessing and Comparing Spatial Data Structures#1"
+ ],
+ "streaming-algorithms": [
+  "Adversarially Robust Streaming via Dense-Sparse Trade-offs#1",
+  "Lecture Notes in Computer Science Approximation and Online Algorithms 20th International Workshop WAOA 2022 Potsdam#37"
+ ],
+ "c": [
+  "C in a Nutshell - The Definitive Reference - 2nd Edition#1",
+  "Programming in C - 3rd Edition#1"
+ ],
+ "cpp": [
+  "Professional C++ - 6th Edition#29",
+  "C++ High Performance - Master the art of optimizing the functioning of your C++ code - 2nd Edition#10",
+  "C++23 STL Cookbook - Master the latest STL features in C++23 and 26 with practical recipes for modern C++ development#6"
+ ],
+ "rust": [
+  "Rust Programming for Your First Finance Job#2",
+  "Deep Learning with Rust - Mastering Efficient and Safe Neural Networks in the Rust Ecosystem#15",
+  "An Interactive Debugger for Rust Trait Errors#3",
+  "target_tier_policy#1"
+ ],
+ "nim": [
+  "infoq-case-studies - Got NIM#7"
+ ],
+ "go": [
+  "The Way to Go#27",
+  "Blog Posts - LEVERAGING GOLANG FOR GAME DEVELOPMENT AND OPERATIONS#1",
+  "Software Productivity with Go#3",
+  "Go for DevOps#28"
+ ],
+ "objective-c": [
+  "SE-0005 Better Translation of Objective-C APIs Into Swift#1",
+  "SE-0058 Allow Swift types to provide custom Objective-C representations#1",
+  "SE-0436 Objective-C implementations in Swift#1"
+ ],
+ "swift": [
+  "infoq-case-studies - Swift Programming Language#4",
+  "SE-0427 Noncopyable Generics#1",
+  "SE-0209 Package Manager Swift Language Version API Update#1"
+ ],
+ "ada": [
+  "Reliable software technologies - Ada-Europe 99 1999 Ada-Europe International Conference on Reliable Software Technologie#15",
+  "LNCS 1845 - Reliable Software Technologies Ada-Europe 2000#19",
+  "Industrial Use of Formal Methods [Duplicate]#55"
+ ],
+ "java": [
+  "Obfuscating Java Programs by Translating Selected Portions of Bytecode to Native Libraries#1",
+  "Mastering Java 11 - Develop Modular and Secure Java Applications Using Concurrency and Advanced JDK Libraries by Edward Lavieri - 2nd Edition#11"
+ ],
+ "csharp": [
+  "Professional C# 2008#31",
+  "Pro C# with .NET 3.0 - Exploring the .NET Universe Using Curly Brackets - Special Edition#8",
+  "C # 8.0 a n d NET Core 3.0 Modern Cross-Platform Development#19",
+  "Fundamentals Of Computer Programming With C#9"
+ ],
+ "kotlin": [
+  "Kotlin Programming The Big Nerd Ranch Guide#186"
+ ],
+ "scala": [
+  "corecursive - Scala Native#2",
+  "Programming Scala#42",
+  "Functional Programming in Scala#5"
+ ],
+ "groovy": [
+  "Programming Groovy 2#10",
+  "Groovy Parallel Patterns A Process oriented Parallelization Library#1"
+ ],
+ "visual-basic-dotnet": [
+  "Internationalization and Localization Using Microsoft .NET#24"
+ ],
+ "delphi-object-pascal": [
+  "Эффективность использования Delphi в обучении программированию региональное исследование Н.Н. Зарипов#1"
+ ],
+ "python": [
+  "Dive Into Python 3#1",
+  "The-Quick-Python-Book#1",
+  "Learning Python Ed6#3"
+ ],
+ "ruby": [
+  "Specialising Dynamic Techniques For Implementing The Ruby Programming Language#1",
+  "Confreaks_RubyConf 2023 - State of the RubyGems by Samuel Giddins#1",
+  "Ruby Programming - Dynamic, Object-Oriented Language for Simplicity and Productivity (Mastering Programming Languages Series)#4"
+ ],
+ "php": [
+  "ibm-redbooks - Bringing PHP to Your IBM eServer iSeries Server#1",
+  "PHP Learning E Book Urdu#1",
+  "Core PHP Programming Using PHP to Build Dynamic Web Sites 2nd Edition#1",
+  "ibm-redbooks - Developing PHP Applications for IBM Data Servers#50"
+ ],
+ "perl": [
+  "UNIX Power Tools - 3rd Edition#557",
+  "NASA Technical Reports Server NTRS 20000073241 Perl Tools for Automating Satellite Ground Systems#1"
+ ],
+ "lua": [
+  "cacm - Passing a Language Through the Eye of a Needle#1",
+  "Programming In Lua - Fourth edition#63"
+ ],
+ "javascript": [
+  "JavaScript - The Definitive Guide #84",
+  "JavaScript - The Definitive Guide  - 1#82",
+  "Learning Underscore.js - Explore the Underscore.js library using a test-driven development approach#4"
+ ],
+ "typescript": [
+  "Learn React with TypeScript 2nd Edition#16",
+  "TypeScript Design Patterns - Boost Your Development Efficiency by Learning about Design Patterns in TypeScript#6",
+  "SuperSimpleDev_1. Tutorials and Courses_React Tutorial Full Course - Beginner to Pro (React 19, 2025)#13"
+ ],
+ "tcl": [
+  "iScript A Domain-Adapted Large Language Model and Benchmark for Physical Design Tcl Script Generation#1",
+  "Extension Language Automation of Embedded System Debugging#1"
+ ],
+ "powershell": [
+  "PowerPeeler A Precise and General Dynamic Deobfuscation Method for PowerShell Scripts#1",
+  "PowerShell Automation and Scripting for Cybersecurity - Hacking and Defense for Red and Blue Teamers#17",
+  "The Power of Words Generating PowerShell Attacks from Natural Language#1"
+ ],
+ "bash-shell": [
+  "Linux for Developers - Jumpstart Your Linux Programming Skills#22",
+  "complete The guide UNIX five all shells#22"
+ ],
+ "haskell": [
+  "A History of Haskell Being Lazy With Class#15",
+  "cacm - Composable Memory Transactions#2",
+  "A History of Haskell - Being Lazy With Class#15",
+  "Layout-sensitive language extensibility with SugarHaskell#1"
+ ],
+ "ocaml": [
+  "Debugging Functional Programs by Interpretation Thesis submitted for the degree of Doctor of Philosophy#45",
+  "Targeted Static Analysis for OCaml C Stubs eliminating gremlins from the code#4",
+  "OCaml Blockly#2"
+ ],
+ "fsharp": [
+  "Using Functional Programming for Development of Distributed Cloud and Web Applications in F#1"
+ ],
+ "standard-ml": [
+  "A Debugger for Standard ML#1",
+  "DTIC ADA275272 Advanced Languages for Systems Software#1",
+  "A separate compilation extension to standard ML#2"
+ ],
+ "erlang": [
+  "Towards reliable and scalable robot communication#2",
+  "Chechina, N., Moro Hernandez, M., and Trinder, P. (2016) A scalable reliable instant messenger using the SD Erlang libraries. In Fifteenth ACM#2"
+ ],
+ "elixir": [
+  "Elixir in Action#73",
+  "Elixir in Action#72",
+  "Programming Phoenix#35"
+ ],
+ "clojure": [
+  "Clojure in Action - 2nd Edition#46",
+  "Clojure for the Brave and True#4",
+  "Clojure in Action - 2nd Edition#53",
+  "Clojerl the expressive power of Clojure on the BEAM#1"
+ ],
+ "scheme": [
+  "Programming Languages - Build, Prove, and Compare#49",
+  "Revised6 Report on the Algorithmic Language Scheme#60"
+ ],
+ "racket": [
+  "acm-queue - Creating Languages in Racket#4",
+  "Racket Programming the Fun Way - From Strings to Turing Machines#7"
+ ],
+ "common-lisp": [
+  "User-extensible sequences in common Lisp#1",
+  "Practical Common Lisp#1"
+ ],
+ "elm": [
+  "Confreaks_RailsConf 2017_ Developer Happiness on the Front End with Elm by Kevin Yank#24",
+  "NDC Conferences_NDC Oslo 2017_Beyond JavaScript Frameworks Writing Reliable Web Apps With Elm - Erik Wendel#14",
+  "NDC Conferences_NDC London 2017_Branching Out with Elm - Dave Fancher#2"
+ ],
+ "purescript": [
+  "corecursive - PureScript#7",
+  "Code Sync_Quickstrom_ Specifying and Testing Web Applications _ Oskar Wickström _ Code Mesh V 2020#3",
+  "corecursive - PureScript#1"
+ ],
+ "prolog": [
+  "Dr Hans-Dieter Baumbach technologii programowania Języki obiektowe#10",
+  "NASA Technical Reports Server NTRS 19870016460 An evaluation of Turbo Prolog with an emphasis on its application to the#2"
+ ],
+ "datalog": [
+  "Eliminating Recursion from Monadic Datalog Programs on Trees#1",
+  "Query Containment for Highly Expressive Datalog Fragments#1",
+  "Programmable view update strategies on relations#3"
+ ],
+ "answer-set-programming": [
+  "The Sixth Answer Set Programming Competition#12",
+  "Shared aggregate sets in answer set programming#2",
+  "Anytime answer set optimization via unsatisfiable core shrinking#5"
+ ],
+ "constraint-programming": [
+  "Contractibility for Open Global Constraints#3",
+  "Modular Constraint Solver Cooperation via Abstract Interpretation#1",
+  "DTIC ADA281497 Position Papers for the First Workshop on Principles and Practice of Constraint Programming Held in Newpo#4"
+ ],
+ "fortran": [
+  "Optimizing Compilers for Modern Architectures A Dependence-Based Approach#11",
+  "Languages compilers and run-time systems for scalable computers 4th international workshop LCR 98 Pittsburgh PA USA May#7",
+  "OpenMP GNU and Intel Fortran programs for solving the time-dependent Gross-Pitaevskii equation#1"
+ ],
+ "matlab-octave": [
+  "CoSMoMVPA Multi-Modal Multivariate Pattern Analysis of Neuroimaging Data in MatlabGNU Octave#10",
+  "Analisis Kemampuan Berpikir Komputasional Mahasiswa Menggunakan GNU Octave#1",
+  "Spectram A MATLAB® and GNU Octave Toolbox for Transition Model Guided Deconvolution of Dynamic Spectroscopic Data - Journal of Open#1"
+ ],
+ "r-language": [
+  "Do Current Language Models Support Code Intelligence for R Programming Language#1",
+  "edureka!_Data Analytics with R Tutorial Videos_Business Analytics With R Data Analytics with R Analytics with R Programming with R Edureka#10",
+  "Do Current Language Models Support Code Intelligence for R Programming Language#8"
+ ],
+ "julia": [
+  "Julia 10 Programming Dynamic and high performance programming to build fast scientific applications 2#3",
+  "Julia 1.0 Programming#19",
+  "The State of Julia for Scientific Machine Learning#2"
+ ],
+ "apl": [
+  "ibm pc languages ZZ33-0523-0 APL PC Version 21 Nov86#21",
+  "DTIC ADA418941 LLAMA Lincoln Laboratory Advanced MARTHA Applications Software Manual#1",
+  "Encyclopedia Microcomputers 01#5"
+ ],
+ "cobol": [
+  "COBOL-Coder Domain-Adapted Large Language Models for COBOL Code Generation and Translation#3",
+  "DTIC ADA076917 Portability of Large COBOL Programs The COBOL Programmers Workbench#1"
+ ],
+ "rpg": [
+  "ibm-redbooks - WebSphere Development Studio Client for iSeries Version 5.1.2#86",
+  "ibm-redbooks - Who Knew You Could Do That with RPG IV Modern RPG for the Modern Programmer#1"
+ ],
+ "pl-i": [
+  "Computer Language - Issue 10 1985-06CL PublicationsUS#32",
+  "DTIC AD0758205 A General Basis for Comparative Evaluation of AED COBOL JOVIAL and PL1#3"
+ ],
+ "algol": [
+  "DTIC ADA037637 Evaluation of ALGOL 68 Jovial J3B PASCAL SIMULA 67 and TACPOL Versus TINMAN Requirements for a Common Hig#19",
+  "nbs publications NBS 266 Computer Literature Bibliography 1946 to 1963 Mar65#80"
+ ],
+ "classic-basic": [
+  "GW-BASIC made easy#25",
+  "GW-BASIC made easy#1",
+  "Code Nation Personal Computing And The Learn To Program Movement In America ACM Books#49"
+ ],
+ "classic-pascal": [
+  "Turbo Pascal wersja 30#1"
+ ],
+ "simula": [
+  "LNCS 2635 - From Object-Orientation to Formal Methods#7",
+  "LNCS 2635 - From Object-Orientation to Formal Methods#8"
+ ],
+ "vhdl": [
+  "DTIC ADA313379 Air Force CALS Test Network VHSIC Hardware Description Language Standard Compliance Test Planning Study#6",
+  "DTIC ADA330004 SDVS 13 Users Manual#50",
+  "DTIC ADA178648 An Implementation of a Language Analyzer for the Very High Speed Integrated Circuit Hardware Description#1"
+ ],
+ "verilog-systemverilog": [
+  "VCDiag Classifying Erroneous Waveforms for Failure Triage Acceleration#1",
+  "Bottom-Up Generation of Verilog Designs for Testing EDA Tools#1"
+ ],
+ "chisel": [
+  "ChiseLLM Unleashing the Power of Reasoning LLMs for Chisel Agile Hardware Development#1",
+  "ReChisel: Effective Automatic Chisel Code Generation by LLM with Reflection#1"
+ ],
+ "fpga-development": [
+  "The Power of Large Language Models for Wireless Communication System Development A Case Study on FPGA Platforms#1",
+  "The Power of Large Language Models for Wireless Communication System Development A Case Study on FPGA Platforms#3",
+  "Evaluating Rapid Application Development with Python for Heterogeneous Processor-Based FPGAs#1"
+ ],
+ "asic-design": [
+  "Co-Exploration of Neural Architectures and Heterogeneous ASIC Accelerator Designs Targeting Multiple Tasks#1",
+  "Case Study First-Time Success ASIC Design Methodology Applied to a Multi-Processor System-on-Chip#1"
+ ],
+ "digital-logic-design": [
+  "A Web-Based Visualization and Animation Platform for Digital Logic Design#1",
+  "Using Practical Examples in Teaching Digital Logic Design#5",
+  "A Web-Based Visualization and Animation Platform for Digital Logic Design#3",
+  "An Undergraduate Design Experience in Digital Logic Design Course of Special Purpose Arithmetic Logic Unit Using Multisim, Ultiboard and Print#2"
+ ],
+ "lexing-parsing": [
+  "Parsing Fortran-77 with proprietary extensions#2"
+ ],
+ "semantic-analysis-type-checking": [
+  "Teaching Type Systems Implementation with Stella, an Extensible Statically Typed Programming Language#3"
+ ],
+ "optimization-passes": [
+  "POSET-RL Phase ordering for Optimizing Size and Execution Time using Reinforcement Learning#1",
+  "Inverse-Transpilation Reverse-Engineering Quantum Compiler Optimization Passes from Circuit Snapshots#1",
+  "QuTuner Feature- and Learning-Guided Optimization Pass Tuning for Quantum Compilers#1",
+  "LLVM_2024 EuroLLVM - Leveraging LLVM Optimizations to Speed up Constraint Solving#1"
+ ],
+ "jit-compilation": [
+  "Two-level Just-in-Time Compilation with One Interpreter and One Engine#1",
+  "An Empirical Analysis of Just-in-Time Compilation in Modern Databases#1"
+ ],
+ "llvm-ecosystem": [
+  "Mull It Over Mutation Testing Based on LLVM#2",
+  "Lecture Notes in Computer Science 11990 Verification Model Checking and Abstract Interpretation 21st International C#18"
+ ],
+ "interpreters-bytecode-vms": [
+  "Compiler construction 9th international conference CC 2000 held as part of the Joint European Conferences on Theory and#16",
+  "Compiler construction 9th international conference CC 2000 held as part of the Joint European Conferences on Theory and#17",
+  "LNCS 3016 - Domain-Specific Program Generation#50"
+ ],
+ "garbage-collector-implementation": [
+  "Devoxx_Devoxx Greece 2024 - Trash Talk - Exploring the memory management in the JVM by Gerrit Grunwald#1",
+  "Devoxx_Trash Talk - Exploring the JVM memory management by Gerrit Grunwald#1",
+  "Message Analysis Guided Allocation and Low Pause Incremental GC in a Concurrent Language#1"
+ ],
+ "webassembly": [
+  "Static Semantics Reconstruction for Enhancing JavaScript-WebAssembly Multilingual Malware Detection#1",
+  "CROW Code Diversification for WebAssembly#1",
+  "JABBERWOCK A Tool for WebAssembly Dataset Generation and Its Application to Malicious Website Detection#1",
+  "Fuzzm Finding Memory Bugs through Binary-Only Instrumentation and Fuzzing of WebAssembly#1"
+ ],
+ "cpu-architecture": [
+  "Systems Performance Enterprise and the Cloud 2nd Edition#15"
+ ],
+ "superscalar-execution": [
+  "Onur Mutlu Lectures_Livestream - Digital Design and Computer Architecture - ETH Zürich (Spring 2021)_Onur Mutlu - Digital Design & Comp. Arch. - Lecture 17 Superscalar & Branch Prediction I (Spring21)#1",
+  "Onur Mutlu Lectures_Livestream - Digital Design and Computer Architecture (Spring 2026)_Digital Design & Comp. Arch L18 VLIW and Systolic Array Architectures (Spring 2026)#8",
+  "Abhinav Maurya_CMU_ 2016 Spring_ 15-418 Parallel Computer Architecture and Programming_Lecture 02 A Modern Multi Core Processor#33"
+ ],
+ "branch-prediction": [
+  "Computer Organization and Design The HardwareSoftware Interface. Third Edition#120",
+  "A Survey of Deep Learning Techniques for Dynamic Branch Prediction#1"
+ ],
+ "cpu-caches": [
+  "cacm - Why On Chip Cache Coherence Is Here To Stay#2",
+  "Lecture Notes in Computer Science 8931 Verification Model Checking and Abstract Interpretation 16th International Co#17"
+ ],
+ "numa": [
+  "Symmetry-Preserving Architecture for Multi-NUMA Environments (SPANE): A Deep Reinforcement Learning Approach for Dynamic VM Scheduling#1",
+  "Symmetry-Preserving Architecture for Multi-NUMA Environments (SPANE) A Deep Reinforcement Learning Approach for Dynamic VM Scheduling#1",
+  "cacm - An Overview of Non-Uniform Memory Access#1"
+ ],
+ "simd": [
+  "Computer Organization and Design - The Hardware Software Interface - RISC-V Edition#236",
+  "Intel 64 and IA-32 Architectures Software Developer's Manual - Combined Volumes 1-4#2"
+ ],
+ "gpu-architecture": [
+  "Analyzing General Purpose Computing Performance on GPU#1",
+  "The CUDA Handbook#7",
+  "General-Purpose Graphics Processor Architecture#11",
+  "NVIDIA Tesla V100 Volta GPU Architecture v1.1#1"
+ ],
+ "memory-hierarchy": [
+  "A Configurable and Efficient Memory Hierarchy for Neural Network Hardware Accelerator#1",
+  "Computer Organization and Design - The Hardware Software Interface - 3rd Edition#135"
+ ],
+ "instruction-set-architectures": [
+  "Computer Architecture A Quantitative Approach (5th edition)#9",
+  "Computer Architecture A Quantitative Approach 6th Edition#62",
+  "Computer Architecture - A Quantitative Approach - 6th Edition#221"
+ ],
+ "arm": [
+  "Lecture Notes in Computer Science High Performance Computing 38th International Conference ISC High Performance 2023#51",
+  "Embedded and Real-Time#34",
+  "Embedded and Real-Time Operating Systems#158"
+ ],
+ "x86": [
+  "Computer Systems - A Programmer's Perspective - 2nd Edition#68",
+  "Inside the Machine - An Illustrated Introduction to Microprocessors and Computer Architecture#46"
+ ],
+ "power": [
+  "ibm-redbooks - IBM IntelliStation POWER 185 Technical Overview and Introduction#5",
+  "Inside the Machine - An Illustrated Introduction to Microprocessors and Computer Architecture#34",
+  "ibm-redbooks - The IBM eServer BladeCenter JS20#16",
+  "ibm-redbooks - POWER7 and POWER7+ Optimization and Tuning Guide#18"
+ ],
+ "accelerator-hardware": [
+  "High Performance Computing ISC High Performance 2022 International Workshops Hamburg Germany May 29 June 2 2022#21",
+  "hxtorch PyTorch for BrainScaleS-2 -- Perceptrons on Analog Neuromorphic Hardware#1"
+ ],
+ "tensor-processors": [
+  "A Survey on Deep Learning Hardware Accelerators for Heterogeneous HPC Platforms#11"
+ ],
+ "kernel-development-linux": [
+  "Linux Kernel Development - A thorough guide to the design and implementation of the linux kernel - 3rd Edition [Duplicate]#2",
+  "Linux Kernel Programming - A Comprehensive and Practical Guide to Kernel Internals, Writing Modules, and Kernel Synchronization#12"
+ ],
+ "kernel-development-windows": [
+  "Gray Hat Hacking - The Ethical Hacker's Handbook - 6th Edition#135",
+  "Fast and Furious - Outrunning Windeows Kernel Notification Routines from User - Mode#2",
+  "Debugging Tools for Windows#330",
+  "Attacking the Windows Kernel - 1#1"
+ ],
+ "kernel-development-bsd": [
+  "Modern Operating Systems 10th Edition - Andrew S Tanenbaum#158"
+ ],
+ "device-drivers": [
+  "Writing Linux Device Drivers in Assembly Language#4",
+  "Device driver development for Microsoft Windows NT1 accessing motion control hardware using a multimedia framework#3",
+  "Kernel - Mode Driver Architecture Design Guide#204"
+ ],
+ "hypervisors-virtualization": [
+  "UMass OS_UMass CS677 (Spring'24) - Lecture 08 - Virtualization#1",
+  "cacm - IO Virtualization#1"
+ ],
+ "microkernels": [
+  "Journal of Computer Science IJCSIS Vol 12 No 1 January 2014#5"
+ ],
+ "bootloaders-boot-process": [
+  "ibm-redbooks - Problem Solving and Troubleshooting in AIX 5L#26",
+  "hp 9000 300 98561-90030 9000 310 320 Service Jan86#8"
+ ],
+ "filesystems-implementation": [
+  "Understanding the Linux Kernel - From I:O Ports to Process Management - 3rd Edition#237",
+  "Sun NFS#1"
+ ],
+ "memory-allocators": [
+  "Hoard - A Scalable Memory Allocator for Multithreaded Applications - 1#1",
+  "Magazines and Vmem- Extending the Slab Allocator to Many CPUs and Arbitrary Resources#5",
+  "Picking a CHERI Allocator Security and Performance Considerations#1"
+ ],
+ "interrupt-io-handling": [
+  "Intel 64 and IA-32 Architectures Software Developer’s Manual V3#1",
+  "SH7785 Hardware Manual#46"
+ ],
+ "real-time-kernels": [
+  "Lecture Notes in Computer Science High Performance Computing ISC High Performance 2023 International Workshops Hamburg#37"
+ ],
+ "operating-systems-concepts": [
+  "Modern Operating Systems#12",
+  "Modern Operating Systems#13",
+  "JKSSB COMPUTER MASTER GUIDE#3"
+ ],
+ "memory-management": [
+  "Systems Performance Enterprise and the Cloud 2nd Edition#18"
+ ],
+ "concurrency-synchronization": [
+  "ConPredictor Concurrency Defect Prediction in Real-World Applications#2",
+  "Introduction to Parallel Computing - 2nd Edition - 1#74"
+ ],
+ "consensus-algorithms": [
+  "Consensus - Bridging Theory and Practice#14",
+  "Distributed Algorithms - An Intuitive Approach#27"
+ ],
+ "replication": [
+  "Database Reliability Engineering#25",
+  "ibm-redbooks - High Availability and Disaster Recovery Solutions on IBM Power Virtual Server#41"
+ ],
+ "consistency-models": [
+  "Understanding Inconsistency in Azure Cosmos DB with TLA+#1",
+  "Distributed Systems - 3rd Edition Preliminary Version 3.01pre (2017)#64",
+  "DTIC ADA264645 The Midway Distributed Shared Memory System#3"
+ ],
+ "cap-theorem": [
+  "NoSQL Distilled#5",
+  "infoq-case-studies - CAP Twelve Years Later How the Rules Have Changed#1"
+ ],
+ "distributed-transactions": [
+  "Designing Data-Intensive Applications - The Big Ideas Behind Reliable, Scalable, and Maintainable Systems - 2nd Edition#160",
+  "Calvin - Fast Distributed Transactions for Partitioned Database Systems#2",
+  "Calvin Fast Distributed Transactions for Partitioned Database Systems#2"
+ ],
+ "leader-election": [
+  "aws-builders-library - Leader Election in Distributed Systems#1",
+  "Understanding Distributed Systems - 2nd Edition#34"
+ ],
+ "gossip-protocols": [
+  "DTIC ADA529624 Spinglass Secure and Scalable Communication Tools for Mission-Critical Computing#3",
+  "Revisiting Randomized Gossip Algorithms General Framework, Convergence Rates and Novel Block and Accelerated Protocols#1",
+  "Epistemic Protocols for Distributed Gossiping#1"
+ ],
+ "distributed-scheduling": [
+  "UMass OS_UMass CS677 (Spring'24) -   Lecture 06 -   Distributed and Cluster Scheduling#1",
+  "UMass OS_Lecture 4 screencast#13"
+ ],
+ "distributed-coordination": [
+  "Distributed Enforcement of Service Choreographies#1"
+ ],
+ "event-sourcing": [
+  "CraftHub Events_Event Sourcing_ Superpower or super pain_ - Heather Whyte, Marshmallow _ Craft Conference, 2023#1",
+  "Event Sourcing#2"
+ ],
+ "cqrs": [
+  "Exploring CQRS and Event Sourcing - A journey into high scalability, availability, and maintainability with Windows Azure#98",
+  "Microservices Patterns - With Examples in Java#35",
+  "architecture-patterns - CQRS Pattern#1"
+ ],
+ "actor-systems": [
+  "NDC Conferences_NDC London 2023_Celebrity Deathmatch Akka.NET vs Orleans - Hannes Lowette - NDC London 2023#1",
+  "DTIC ADA157917 Actors A Model of Concurrent Computation in Distributed Systems#26",
+  "SE-0336 Distributed Actor Isolation#3"
+ ],
+ "network-architecture": [
+  "AWS Security [Duplicate]#45"
+ ],
+ "tcp-ip": [
+  "ibm-redbooks - Communications Server for zOS V1R7 TCPIP Implementation, Volume 1 Base Functions, Connectivity, and Routing#1",
+  "Teach Yourself TCP:IP#21",
+  "ibm-redbooks - Communications Server for zOS V1R8 TCPIP Implementation Volume 1 Base Functions, Connectivity, and Routing#1"
+ ],
+ "routing": [
+  "Teach Yourself TCP:IP#43",
+  "Internet Routing Architectures - The Definitive BGP (Border Gateway Protocol) Resource (Networking Technology) - 2nd Edition#2"
+ ],
+ "switching": [
+  "ibm-redbooks - IBM BladeCenter Products and Technology#207",
+  "ibm-redbooks - Implementation of IBM j-type Ethernet Switches and Routers#2",
+  "ibm-redbooks - Implementation of IBM j-type Ethernet Switches and Routers#1"
+ ],
+ "dns": [
+  "Google Cloud Platform in Action#66",
+  "Pro Linux#5"
+ ],
+ "dhcp": [
+  "Data Communications and Network Technologies#55",
+  "ibm-redbooks - AS400 TCPIP Autoconfiguration DNS and DHCP Support#1"
+ ],
+ "ipv4-ipv6": [
+  "DTIC ADA526645 Lessons Learned in Transitioning from Internet Protocol Version 4 IPv4 to Internet Protocol Version 6#3",
+  "Interconnections - Bridges, Routers, Switches, and Internetworking Protocols#25"
+ ],
+ "bgp": [
+  "Interconnections - Bridges, Routers, Switches, and Internetworking Protocols#45",
+  "Running BGP in Data Centers at Scale#1",
+  "Running BGP in Data Centers at Scale#2"
+ ],
+ "mpls": [
+  "MPLS and VPN Architectures, Volume II#93",
+  "MPLS and VPN Architectures, Volume II#94",
+  "MPLS and VPN Architectures, Volume II#47",
+  "MPLS and VPN Architectures, Volume II#24"
+ ],
+ "sdn": [
+  "Q-DATA Enhanced Traffic Flow Monitoring in Software-Defined Networks applying Q-learning#1",
+  "Destination-aware Adaptive Traffic Flow Rule Aggregation in Software-Defined Networks#1",
+  "Intelligent Routing Algorithm over SDN Reusable Reinforcement Learning Approach#1",
+  "cacm - When Sdn And Blockchain Shake Hands#1"
+ ],
+ "network-automation": [
+  "Rust for Network Programming and Automation - 2nd Edition#1",
+  "Infrastructure as Code_NetAut-FS24 Week 3 - Ivan Pepelnjak - Real-Life Network Automation#1"
+ ],
+ "network-virtualization": [
+  "Network Virtualization in Multi-tenant Datacenters#1",
+  "ibm-redbooks - IBM j-type Data Center Networking Introduction#13"
+ ],
+ "wireless-networking": [
+  "cacm - Introduction 52#1",
+  "DTIC ADA457561 Statistical Analysis of Wireless Networks Predicting Performance in Multiple Environments#1",
+  "Artificial Neural Networks-Based Machine Learning for Wireless Networks A Tutorial#1"
+ ],
+ "network-monitoring": [
+  "DTIC ADA600236 Network Monitoring Traffic Compression Using Singular Value Decomposition#1",
+  "cloudflare-blog - CF - Network flow monitoring is GA, providing end#1",
+  "DTIC ADA461026 New Streaming Algorithms for Fast Detection of Superspreaders#3"
+ ],
+ "packet-analysis": [
+  "PR ACTICAL PR ACTICAL PACKET ANALYSIS PACKET ANALYSIS#1",
+  "PR ACTICAL PR ACTICAL PACKET ANALYSIS PACKET ANALYSIS#4"
+ ],
+ "network-programming": [
+  "Beginning Python - From Novice to Professional - 3rd edition#90",
+  "Rust for Network Programming and Automation - 2nd Edition#1"
+ ],
+ "rest": [
+  "REST API Testing in DevOps A Study on an Evolving Healthcare IoT Application#18",
+  "gitlab-engineering - Guide to REST API#1"
+ ],
+ "graphql": [
+  "Learning API Styles#6",
+  "GraphQL Adoption and Challenges Community-Driven Insights from StackOverflow Discussions#9",
+  "Microservice APIs Using Python Flask FastAPI#44"
+ ],
+ "grpc": [
+  "Modern API Development with Spring 6 and Spring Boot 3 - Design scalable, viable, and reactive APIs with REST, gRPC, and GraphQL using Java 17 and Spring Boot 3#56",
+  "gRPC Microservices in Go#12",
+  "NDC Conferences_.NET_.NET gRPC - deep dive - Irina Scurtu - Copenhagen DevFest 2023#1"
+ ],
+ "openapi-asyncapi": [
+  "RESTful Web API Patterns and Practices Cookbook - Connecting and Orchestrating Microservices and Distributed Data#79",
+  "Streaming Data Mesh - A Model for Optimizing Real-Time Data Services#41",
+  "Streaming Data Mesh - A Model for Optimizing Real-Time Data Services#50"
+ ],
+ "soap-rpc": [
+  "ibm-redbooks - Patterns Service-Oriented Architecture and Web Services#42",
+  "ibm-redbooks - Web Services Handbook for WebSphere Application Server 6.1#30"
+ ],
+ "webhooks-event-apis": [
+  "Learning API Styles#8"
+ ],
+ "api-gateways": [
+  "Hands-On RESTful API Design Patterns and Best Practices - Design, Develop, and Deploy Highly Adaptable, Scalable, and Secure RESTful Web APIs#116"
+ ],
+ "serialization-formats": [
+  "Hadoop in Practice - 1st Edition#27",
+  "infoq-case-studies - Interview with Alex Holmes, author of “Hadoop in Practice. Second Edition”#2"
+ ],
+ "message-queues": [
+  "Cloud Design Patterns#36"
+ ],
+ "enterprise-integration-patterns": [
+  "Enterprise Integration Patterns for SAP NetWeaver PI#1",
+  "Responsible Composition and Optimization of Integration Processes under Correctness Preserving Guarantees#1"
+ ],
+ "workflow-orchestration-bpm": [
+  "Essentials of Microservices Architecture Paradigms, Applications, and Techniques#32",
+  "Practical Process Automation - Orchestration and Integration in Microservices and Cloud Native Architectures#1",
+  "A Case for Microservices Orchestration Using Workflow Engines#1"
+ ],
+ "systems-integration-topology": [
+  "ibm-redbooks - zOS WebSphere Business Process Management V7 Production Topologies#13",
+  "ibm-redbooks - zOS WebSphere Business Process Management V6.1.2 Production Topologies#4"
+ ],
+ "block-storage": [
+  "Cloud Security System Handbook#23",
+  "ibm-redbooks - Implementing High Availability and Disaster Recovery in IBM PureApplication Systems V2#36"
+ ],
+ "object-storage": [
+  "ibm-redbooks - Cloud Object Storage as a Service IBM Cloud Object Storage from Theory to Practice - For developers, IT architects and IT specialists#12",
+  "ibm-redbooks - IBM TS7700 R6.0 Cloud Storage Tier Guide#16",
+  "ibm-redbooks - How to Use IBM Cloud Object Storage When Building and Operating Cloud Native Applications#8"
+ ],
+ "distributed-storage-systems": [
+  "Paul G. Allen School_Allen School Colloquium_ Aishwarya Ganesan (VMware Research)#2",
+  "Durability and Availability of Erasure-Coded Storage Systems with Concurrent Maintenance#23",
+  "cacm - Smash Flexible, Fast, and Resource-Efficient Placement and Lookup of Distributed Storage#1"
+ ],
+ "raid": [
+  "Computer Architecture A Quantitative Approach 6th Edition#42",
+  "The Practice of System and Network Administration 2nd Edition#144"
+ ],
+ "ssd-nvme-internals": [
+  "Understanding and Profiling NVMe-over-TCP Using ntprof#4",
+  "SmartSAGE Training Large-scale Graph Neural Networks using In-Storage Processing Architectures#1",
+  "TCP ≈ RDMA CPU-efficient Remote Storage Access with i10#2"
+ ],
+ "compression-deduplication": [
+  "ibm-redbooks - IBM System Storage N series Data Compression and Deduplication Data ONTAP 8.1 Operating in 7-Mode#1",
+  "ibm-redbooks - Introducing and Implementing IBM FlashSystem V9000#35"
+ ],
+ "profiling": [
+  "Ruby Programming - Dynamic, Object-Oriented Language for Simplicity and Productivity (Mastering Programming Languages Series)#39",
+  "Systems Performance Enterprise and the Cloud 2nd Edition#12"
+ ],
+ "benchmarking": [
+  "Systems Performance Enterprise and the Cloud 2nd Edition#34",
+  "infoq-case-studies - Zero to Performance Hero How to Benchmark and Profile Your eBPF Code in Rust#10"
+ ],
+ "latency-optimization": [
+  "USENIX_USENIX ATC '23_USENIX ATC '23 - LPNS Scalable and Latency-Predictable Local Storage Virtualization for#1"
+ ],
+ "throughput-scalability": [
+  "FlexTOE Flexible TCP Offload with Fine-Grained Parallelism#2",
+  "Exalt Empowering Researchers to Evaluate Large-Scale Storage Systems#1"
+ ],
+ "concurrency-tuning": [
+  "infoq-case-studies - Tuning Java Servers#1",
+  "ScyllaDB_P99 CONF 2025 _ Taming the Tail by Amit Anand, Rajesh Kumar Pandey and Jubin Abhishek Soni#4"
+ ],
+ "memory-optimization": [
+  "An Evaluation of Memory Optimization Methods for Training Neural Networks#1",
+  "Hermes Memory-Efficient Pipeline Inference for Large Models on Edge Devices#1"
+ ],
+ "simd-vectorization": [
+  "When polyhedral transformations meet SIMD code generation#3",
+  "Automatic SIMD vectorization for Haskell#1",
+  "Rethinking SIMD Vectorization for In-Memory Databases#1"
+ ],
+ "gpu-compute-optimization": [
+  "Computer Vision Accelerators for Mobile Systems based on OpenCL GPGPU Co-Processing#1",
+  "FusionStitching Boosting Memory Intensive Computations for Deep Learning Workloads#1",
+  "AI Systems Performance Engineering#8"
+ ],
+ "lock-free-programming": [
+  "CppCon_CppCon 2025_Beyond Sequential Consistency Unlocking Hidden Performance Gains - Christopher Fretz - CppCon 2025#3",
+  "CppCon_CppCon 2014_ Herb Sutter _Lock-Free Programming (or, Juggling Razor Blades), Part I_#2"
+ ],
+ "clean-hexagonal-onion-architecture": [
+  "Devoxx_Onion, Hexagonal, Clean or Fractal Architecture_ All of them, and more! - Urs Enzler#1"
+ ],
+ "microservices-architecture": [
+  "Microservices for the Enterprise#9",
+  "Cloud Application Architecture Patterns#20",
+  "ibm-redbooks - Evolve the Monolith to Microservices with Java and Node#15",
+  "Microservices Security in Action#1"
+ ],
+ "soa": [
+  "ibm-redbooks - Exploiting IBM System z in a Service-Oriented Architecture#15",
+  "Problems and Solutions of Service Architecture in Small and Medium Enterprise Communities#1",
+  "ibm-redbooks - Patterns SOA Foundation - Business Process Management Scenario#10",
+  "ibm-redbooks - Patterns SOA Foundation Service Connectivity Scenario#14"
+ ],
+ "modular-monoliths": [
+  "Domain-Driven Design Europe_DDD Europe 2025_Modular Monoliths The Architecture That Scales w Your Domain - Omphile Matheolane - DDD Europe 2025#17",
+  "Milan Jovanović_Modular Monolith Architecture_Getting Started with Modular Monoliths in .NET#1"
+ ],
+ "event-driven-architecture": [
+  "Uncovering the Hidden Potential of Event-Driven Architecture A Research Agenda#1",
+  "Event - Driven Architecture Building Responsive and Scalable Systems#2",
+  "NDC Conferences_NDC Oslo 2024_Design more decoupled services with one weird trick - Udi Dahan - NDC Oslo 2024#1"
+ ],
+ "architecture-decision-records": [
+  "Software Architecture Monday_Lesson 157 - Incorporating ADRs Into Existing Systems#1"
+ ],
+ "architecture-evaluation-tradeoff-analysis": [
+  "Software Architecture in Practice 3rd Edition#47"
+ ],
+ "quality-attributes": [
+  "Software Architecture in Practice#153",
+  "Software Architecture in Practice#37"
+ ],
+ "architecture-governance": [
+  "TOGAF™ 9 Foundation - Study Guide - Preparation for the TOGAF 9 Part 1 Examination - 1st Edition#4"
+ ],
+ "architectural-drift-analysis": [
+  "Object-oriented technology ECOOP99 workshop reader ECOOP99 workshops panels and posters Lisbon Portugal June 14-18 1999#27",
+  "gitlab-engineering - Navigate application architecture drift and organizational alignment#1"
+ ],
+ "infrastructure-solution-design": [
+  "Simplilearn_Cloud Computing Playlist [2026 Updated] _ Cloud Computing Tutorial For Beginners _ Cloud Computing Course _ Simplilearn_Microsoft Azure Solutions Architect Full Course 2026 Microsoft Azure AZ-305 Training Simplilearn#21",
+  "ibm-redbooks - A Practical Approach to Cloud IaaS with IBM SoftLayer Presentations Guide#8"
+ ],
+ "design-patterns-behavioral": [
+  "Concurrent Object-Oriented Development with Behavioral Design Patterns#1"
+ ],
+ "design-patterns-creational": [
+  "Essential JavaScript Design Patterns#9"
+ ],
+ "design-patterns-structural": [
+  "Deep Learning and Machine Learning Advancing Big Data Analytics and Management with Design Patterns#8"
+ ],
+ "domain-driven-design": [
+  "Patterns, Principles, and Practices of Domain-Driven Design#23",
+  "NDC Conferences_NDC Oslo 2022_Learning to Love DDD - a Tale of Two Products - Chris Simon - NDC Oslo 2022#1",
+  "Domain-Driven Design Europe_DDD Europe 2016_Eric Evans — Tackling Complexity in the Heart of Software#2"
+ ],
+ "refactoring": [
+  "Refactoring Databases - Evolutionary Database Design#193",
+  "Behind the Intent of Extract Method Refactoring A Systematic Literature Review#12",
+  "Fighting_Software_Erosion_with_Automated_Refactoring#28",
+  "Why We Refactor Confessions of GitHub Contributors#1"
+ ],
+ "software-quality": [
+  "Is LLM-Generated Code More Maintainable & Reliable than Human-Written Code#1",
+  "Is LLM-Generated Code More Maintainable Reliable than Human-Written Code#1",
+  "Is LLM-Generated Code More Maintainable \\& Reliable than Human-Written Code#1"
+ ],
+ "engineering-practices": [
+  "Exploration of technical debt in start-ups#1",
+  "A Case Study on AI Engineering Practices Developing an Autonomous Stock Trading System#1",
+  "Fundamentals of Software Architecture - An Engineering Approach#1"
+ ],
+ "requirements-engineering": [
+  "Requirements Engineering For Sociotechnical Systems#10",
+  "The Use of NLP-Based Text Representation Techniques to Support Requirement Engineering Tasks A Systematic Mapping Review#8",
+  "Classification of Natural Language Processing Techniques for Requirements Engineering#2"
+ ],
+ "technical-debt-economics": [
+  "Establishing Technical Debt Management -- A Five-Step Workshop Approach and an Action Research Study#3",
+  "Managing Technical Debt - Reducing Friction in Software Development#9",
+  "Technical debt and agile software development practices and processes An industry practitioner survey#5",
+  "Aligning Technical Debt Prioritization with Business Objectives A Multiple-Case Study#1"
+ ],
+ "software-maintenance-evolution": [
+  "An Analysis of Technical Debt Management Through Resources Allocation Policies in Software Maintenance Process#1",
+  "The Impact of Traceability on Software Maintenance and Evolution A Mapping Study#1"
+ ],
+ "program-comprehension": [
+  "Synthesizing Research on Programmers' Mental Models of Programs, Tasks and Concepts -- a Systematic Literature Review#9",
+  "Comprehending Test Code An Empirical Study#1",
+  "COSPEX A Program Comprehension Tool for Novice Programmers#1",
+  "Feature Location in Source Code A Taxonomy and Survey - Journal of Software Maintenance and Evolution#9"
+ ],
+ "software-product-lines": [
+  "A Dynamic Tracing Model for Agile Software Product Lines Domain Engineering from Features to Structural Elements An Approach Based on Dynamic Routing#1",
+  "Does Link Prediction Help Detect Feature Interactions in Software Product Lines (SPLs)#2",
+  "Tackling Erosion in Variant-Rich Software Systems Challenges and Approaches#1",
+  "DTIC ADA482309 Proceedings of the First Workshop on Service-Oriented Architectures and Software Product Lines#2"
+ ],
+ "software-metrics": [
+  "Revisiting the Impact of Dependency Network Metrics on Software Defect Prediction#1",
+  "Moderately Mighty To What Extent Can Internal Software Metrics Predict App Popularity at Launch#1"
+ ],
+ "empirical-software-engineering": [
+  "An Empirically Evaluated Checklist for Surveys in Software Engineering#7",
+  "Assessing the Early Bird Heuristic (for Predicting Project Quality)#12",
+  "The Evolution of Empirical Methods in Software Engineering#3"
+ ],
+ "software-reliability-engineering": [
+  "Weighted Statistical Testing based on Active Learning and Formal Verification Techniques for Software Reliability Assess#48",
+  "A Systematic Mapping Study Addressing the Reliability of Mobile Applications The Need to Move Beyond Testing Reliability#3"
+ ],
+ "ai-code-auditing": [
+  "SmartLLM Smart Contract Auditing using Custom Generative AI#1"
+ ],
+ "unit-testing": [
+  "Unit Testing Principles Practices and Patterns#7",
+  "Beyond Accuracy An Empirical Study on Unit Testing in Open-source Deep Learning Projects#1",
+  "Unit Testing Principles Practices and Patterns#4"
+ ],
+ "integration-testing": [
+  "Generating Class-Level Integration Tests Using Call Site Information#1",
+  "PatrIoT IoT Automated Interoperability and Integration Testing Framework#1"
+ ],
+ "e2e-testing": [
+  "WEFix Intelligent Automatic Generation of Explicit Waits for Efficient Web End-to-End Flaky Tests#3",
+  "Feature-Driven End-To-End Test Generation#1"
+ ],
+ "property-based-testing": [
+  "NDC Conferences_NDC Porto 2023_Property-Based Testing Unveiling the Truth on Test Reduction - Ewald Verhoeven - NDC Porto 2023#1",
+  "Code Sync_Detecting Noninterference Violations with Property-Based Testing - Fernanda Andrade _ Lambda Days 24#1"
+ ],
+ "mutation-testing": [
+  "An Analysis and Survey of the Development of Mutation Testing#5",
+  "Mutation Testing framework for Machine Learning#1",
+  "Property-Based Mutation Testing#1",
+  "Is the Stack Distance Between Test Case and Method Correlated With Test Effectiveness#1"
+ ],
+ "fuzzing": [
+  "PROMPTFUZZ Harnessing Fuzzing Techniques for Robust Testing of Prompt Injection in LLMs#1",
+  "Machine_Learning_in_Security_Vulnerability_Research#11",
+  "REDQUEEN Fuzzing with Input-to-State Correspondence#1",
+  "FuzzerGym A Competitive Framework for Fuzzing and Learning#1"
+ ],
+ "load-performance-testing": [
+  "ibm-redbooks - WebSphere Application Server V6 Scalability and Performance Handbook#140"
+ ],
+ "chaos-engineering": [
+  "Security Chaos Engineering - Gaining Confidence in Resilience and Safety at Speed and Scale#1",
+  "Learning Chaos Engineering - Discovering and Overcoming System Weaknesses Before Your Customers Do#67",
+  "Learning Chaos Engineering - Discovering and Overcoming System Weaknesses through Experimentation#62",
+  "Chaos Engineering - System Resiliency in Practice#1"
+ ],
+ "test-automation-frameworks": [
+  "xUnit Test Patterns#18",
+  "PyCon US_Tutorial_ Andrew Knight - Hands-On Web App Test Automation#5",
+  "Morphy A Datamorphic Software Test Automation Tool#3"
+ ],
+ "qa-process": [
+  "Test Case Minimization with Quantum Annealers#1"
+ ],
+ "accessibility-testing": [
+  "N. Palani - The Web Accessibility Project. Development and Testing Best Practices (2023)[EN]#74",
+  "Advanced Selenium Web Accessibility Testing#6",
+  "Automated Code Fix Suggestions for Accessibility Issues in Mobile Apps#1"
+ ],
+ "static-dynamic-analysis": [
+  "$ω$Test WebView-Oriented Testing for Android Applications#1"
+ ],
+ "contract-testing": [
+  "API Testing and Development with Postman - 2nd Edition#68",
+  "Contract Testing in Action - With Pact, PactFlow, and GitHub Actions#3",
+  "Contract Testing in Action - With Pact, PactFlow, and GitHub Actions#56"
+ ],
+ "concurrency-testing": [
+  "Fray An Efficient General-Purpose Concurrency Testing Platform for the JVM (Extended Version)#3",
+  "Test-Driven Development in Go - A practical guide to writing idiomatic and efficient Go tests through real-world examples#46",
+  "Black-Box Bug-Amplification for Multithreaded Software#1"
+ ],
+ "security-testing": [
+  "Java Code Geeks Cheatsheets - Starting With DevSecOps#2",
+  "On the combination of static analysis for software security assessment -- a case study of an open-source e-government project#1",
+  "An Empirical Analysis of Practitioners Perspectives on Security Tool Integration into DevOps#2"
+ ],
+ "api-testing": [
+  "REST API Testing in DevOps A Study on an Evolving Healthcare IoT Application#18",
+  "APIRL Deep Reinforcement Learning for REST API Fuzzing#1",
+  "DeepREST Automated Test Case Generation for REST APIs Exploiting Deep Reinforcement Learning#1"
+ ],
+ "regression-testing": [
+  "IIT Madras - B.S. Degree Programme_Software Testing_W12_L1 Regression testing test selection and quality metrics#1",
+  "make test-zesti A symbolic execution solution for improving regression testing#1"
+ ],
+ "golden-testing": [
+  "Ziverge_Zymposium - How to Build an OSS Library that Provides Golden Testing (April 12, 2024)#1"
+ ],
+ "data-pipelines": [
+  "Data Pipelines Pocket Reference#53",
+  "Serverless Data Pipelines for Scalable Financial ML Systems on AWS#1",
+  "Operationalizing ML Models for Fraud Risk in ETL Pipelines with Azure Data Factory#1"
+ ],
+ "batch-processing": [
+  "ibm-redbooks - Batch Modernization on zOS#24",
+  "The Definitive Guide to Spring Batch - Modern Finite Batch Processing in the Cloud - 2nd Edition#12"
+ ],
+ "stream-processing": [
+  "A Survey on the Evolution of Stream Processing Systems#1",
+  "Building Event-Driven Microservices#8",
+  "Kafka The Definitive Guide 2nd Edition#114"
+ ],
+ "data-lakes": [
+  "Building Scalable Data Lakes For Internet Of Things (IoT) Data Management#1",
+  "Toward data lakes as central building blocks for data management and analysis#1",
+  "Toward_data_lakes_as_central_building_blocks_for_data_management_and_analysis#1"
+ ],
+ "data-warehousing": [
+  "Deep Learning, Machine Learning, Advancing Big Data Analytics and Management#2",
+  "cacm - A Comparison of Data Warehousing Methodologies [935a2973]#1",
+  "Data-Mining-Concepts-and-Techniques-3rd-Edition#34",
+  "Data Mining and Data Warehousing - Principles and Practical Techniques#85"
+ ],
+ "data-quality-governance": [
+  "Data_Governance_Quality_and_Metadata_Management#2",
+  "Data Quality Dimensions Measurement Strategy Management and Governance#48"
+ ],
+ "databases-relational": [
+  "Practical Guide to - Oracle SQL, T-SQL and MySQL#1"
+ ],
+ "databases-nosql": [
+  "infoq-case-studies - Graph Databases, NOSQL and Neo4j#1",
+  "Access Control on NoSQL Databases#7"
+ ],
+ "databases-columnar": [
+  "Columnar Database Techniques for Creating AI Features#1",
+  "Cloud Application Architecture Patterns#38"
+ ],
+ "databases-graph": [
+  "NoSQL Distilled#11",
+  "Demystifying Graph Data Science#43"
+ ],
+ "databases-vector": [
+  "A Comprehensive Survey on Vector Database Storage and Retrieval Technique, Challenge#4",
+  "NDC Conferences_NDC London 2024_What comes after ChatGPT Vector Databases - the Simple and powerful future of ML - Erik Bamberg#1"
+ ],
+ "databases-time-series": [
+  "Hello Interview_How do Time Series Databases Work#1"
+ ],
+ "databases-spatial": [
+  "DTIC ADA473104 Spatial Databases#15",
+  "DTIC ADA473104 Spatial Databases#6"
+ ],
+ "databases-newsql": [
+  "Rust for Database#15"
+ ],
+ "caching": [
+  "Confreaks_Caching strategies on https___dev.to by Ridhwana Khan#1",
+  "ibm-redbooks - WebSphere Application Server V6 Scalability and Performance Handbook#93",
+  "ibm-redbooks - WebSphere Application Server V6 Planning and Design WebSphere Handbook Series#127"
+ ],
+ "query-optimization": [
+  "cacm - Multi Objective Parametric Query Optimization#1",
+  "Principles of Distributed Database Systems 3rd Edition#29",
+  "Principles of Distributed Database Systems 3rd Edition#26",
+  "DTIC ADA108735 Query Optimization by Semantic Reasoning#1"
+ ],
+ "indexing": [
+  "Fundamentals of Database Systems#33"
+ ],
+ "transaction-processing-oltp-olap": [
+  "ibm-redbooks - Database Performance Tuning on AIX#21",
+  "Pro SQL Server Internals - Understand what happens under the hood and how it affects you - 2nd Edition#25"
+ ],
+ "sharding-partitioning": [
+  "cacm - 10 Rules For Scalable Performance in Simple Operation’ Datastores#2",
+  "Cloud Design Patterns#43"
+ ],
+ "storage-engines": [
+  "MongoDB in Action - 2nd Edition#71",
+  "Database Internals - A Deep-Dive into How Distributed Data Systems Work#1"
+ ],
+ "ci-cd": [
+  "Continuous Integration (CI) and Continuous Delivery (CD) - A Practical Guide to Designing and Developing Pipelines#5",
+  "Towards a Blockchain-Based CICD Framework to Enhance Security in Cloud Environments#1",
+  "Enhancing Software Supply Chain Security Through STRIDE-Based Threat Modelling of CICD Pipelines#2"
+ ],
+ "infrastructure-as-code": [
+  "Devoxx_Infrastructure as Code Programs_ How to Test, Finally by Daniel Sokolowski and Guido Salvaneschi#1",
+  "Terraform Made Easy - Provisioning, Managing and Automating Cloud Infrastructure with Terraform on Google Cloud#5",
+  "Infrastructure as Code 2nd Edition#8"
+ ],
+ "containers-kubernetes": [
+  "AWS for Solutions Architects#23",
+  "AWS for Solutions Architects - Build and migrate your workload to Amazon Web Services using the cloud-native approach - 2nd Edition#100",
+  "Evolving High-Performance Computing Data Centers with Kubernetes, Performance Analysis, and Dynamic Workload Placement Based on Machine Learning Scheduling#1"
+ ],
+ "gitops": [
+  "Declarative Operations GitOps in Large-Scale Production Systems#1",
+  "Implementing GitOps with Kubernetes#48",
+  "Implementing GitOps with Kubernetes#28",
+  "Systematic Review of Infrastructure as Code (IaC) and GitOps for Cloud Automation and Governance#1"
+ ],
+ "cloud-platforms": [
+  "Simplilearn_Cloud Computing Playlist [2026 Updated] _ Cloud Computing Tutorial For Beginners _ Cloud Computing Course _ Simplilearn_Google Cloud Platform Full Course 2026 GCP Full Course For Beginners Simplilearn#2",
+  "Building Serverless Applications with Google Cloud Run - A Real-World Guide to Building Production-Ready Services#76",
+  "Secure Continuous Delivery on Google Cloud - Implement an Automated and Secure Software Delivery Pipeline on Google Cloud Using Native Services#30"
+ ],
+ "service-mesh": [
+  "CraftHub Events_The Future of Service Mesh - Jim Barton, Solo.io _ Craft Conference, 2023#1",
+  "Mastering Service Mesh - Enhance, Secure, and Observe Cloud Native Applications with Istio, Linkerd, and Consul#10",
+  "Bootstrapping Service Mesh Implementations with Istio - Build Reliable, Scalable, and Secure Microservices on Kubernetes#83"
+ ],
+ "sre-reliability": [
+  "The Site Reliability Workbook#46",
+  "SLO Adoption and Usage in Site Reliability Engineering#1",
+  "Architecting Google Cloud Solutions - Learn to Design Robust and Future-proof Solutions with Google Cloud Technologies#21"
+ ],
+ "platform-engineering": [
+  "infoq-case-studies - Platform Engineering 101 What You Need to Know about This Hot New Trend#3",
+  "Platform Engineering for Distributed Systems How Cloud DevOps Enables Scalable, Policy-Driven Software Architectures#3",
+  "Platform Engineering_Thoughtworks at PlatformCon 2024_What’s hottest in platform engineering (and at PlatformCon) in 2024 PlatformCon 2024#1"
+ ],
+ "release-engineering": [
+  "The Architecture of Open Source Applications - Volume 2#10",
+  "Release Engineering - 1#2",
+  "google-sre - SRE Book - Release Engineering#1",
+  "Release Engineering#1"
+ ],
+ "feature-flags": [
+  "gitlab-engineering - Learn more about Feature Flags The next step in Progressive Delivery#1",
+  "Building Mobile Apps at Scale#41"
+ ],
+ "incident-management": [
+  "AWS Well-Architected Operational Excellence Pillar [Duplicate]#24"
+ ],
+ "serverless-edge-computing": [
+  "A Review of Deep Reinforcement Learning in Serverless Computing Function Scheduling and Resource Auto-Scaling#2",
+  "Cold Start Latency Optimization Strategies for Function as a Service Platforms#4"
+ ],
+ "observability-logging": [
+  "Observability in Microservices Advanced Monitoring and Troubleshooting Techniques#1"
+ ],
+ "observability-metrics": [
+  "Methodological foundations of AI observability for enterprise LLM applications#1",
+  "Toto: Time Series Optimized Transformer for Observability#1"
+ ],
+ "observability-telemetry-pipelines": [
+  "A Comparative Analysis of Monitoring and Observability Tools for Machine Learning and Data Science Pipelines - Journal of Interdisciplinary Studies, September#1",
+  "Observability Engineering#26",
+  "Positional Paper Schema-First Application Telemetry#1"
+ ],
+ "apm-synthetic-monitoring": [
+  "infoq-case-studies - Jonah Kowall on Application Performance Monitoring and Management#3"
+ ],
+ "alerting-dashboards": [
+  "Grafana_Booking.com's Observability Overhaul_ Unified Metrics, Logs, and User Insights _ Grafana & OTel#6"
+ ],
+ "observability-tracing": [
+  "Grafana_OpenTelemetry Deep Dive_ Standards, Tracing, and the Future of Observability _ Big Tent S3E6#3",
+  "Modern Distributed Tracing in .NET - A practical guide to observability and performance analysis for microservices#1"
+ ],
+ "deep-learning-foundations": [
+  "Continual Learning with Deep Learning Methods in an Application-Oriented Context#8"
+ ],
+ "deep-learning-architectures": [
+  "FBCNet A Multi-view Convolutional Neural Network for Brain-Computer Interface#1"
+ ],
+ "generative-models": [
+  "Creativity and Machine Learning A Survey#1",
+  "Leveraging Generative AI for Urban Digital Twins A Scoping Review on the Autonomous Generation of Urban Data, Scenarios, Designs, and 3D City Models for Smart City Advancement#3"
+ ],
+ "diffusion-models": [
+  "Applied Generative AI for Beginners#8",
+  "Fast Training of Diffusion Models with Masked Transformers#1",
+  "Diff-Tracker: Text-to-Image Diffusion Models are Unsupervised Trackers#1"
+ ],
+ "llm-architecture": [
+  "Instructional Segment Embedding Improving LLM Safety with Instruction Hierarchy#1"
+ ],
+ "llm-training": [
+  "Accelerating Design Space Exploration for LLM Training Systems with Multi-experiment Parallel Simulation#1",
+  "SimAI Unifying Architecture Design and Performance Tuning for Large-Scale Large Language Model Training with Scalability#1",
+  "Deep Optimizer States Towards Scalable Training of Transformer Models Using Interleaved Offloading#1"
+ ],
+ "llm-inference": [
+  "vTensor Flexible Virtual Tensor Management for Efficient LLM Serving#1",
+  "Optimizing LLM Inference for Database Systems Cost-Aware Scheduling for Concurrent Requests#1",
+  "AI Systems Performance Engineering#16",
+  "Cost-Efficient LLM Serving in the Cloud: VM Selection with KV Cache Offloading#1"
+ ],
+ "edge-local-inference": [
+  "Communication-Efficient Edge AI Algorithms and Systems#1",
+  "ECLM Efficient Edge-Cloud Collaborative Learning with Continuous Environment Adaptation#1",
+  "Energy Optimization of Multi-task DNN Inference in MEC-assisted XR Devices A Lyapunov-Guided Reinforcement Learning Approach#1",
+  "Edge Intelligence for Smart Grid A Survey on Application Potentials#1"
+ ],
+ "llm-prompting": [
+  "Can LLM Prompting Serve as a Proxy for Static Analysis in Vulnerability Detection#1",
+  "Prompting and Fine-Tuning Open-Sourced Large Language Models for Stance Classification#2"
+ ],
+ "llm-rag": [
+  "Seven Failure Points When Engineering a Retrieval Augmented Generation System#1",
+  "M-RAG Reinforcing Large Language Model Performance through Retrieval-Augmented Generation with Multiple Partitions#1"
+ ],
+ "llm-agents": [
+  "ScaleMCP - Dynamic and Auto-Synchronizing Model Context Protocol Tools for LLM Agents#1",
+  "AgentArmor Enforcing Program Analysis on Agent Runtime Trace to Defend Against Prompt Injection#1"
+ ],
+ "multi-agent-orchestration": [
+  "A Survey of LLM-Driven AI Agent Communication - Protocols, Security, and Defense#3",
+  "SOCIA An End-to-End Agentic Framework for Automated Cyber-Physical-Social Simulator Generation#1"
+ ],
+ "agentic-workflows": [
+  "Beyond Black-Box Benchmarking Observability, Analytics, and Optimization of Agentic Systems#1",
+  "Sherlock Reliable and Efficient Agentic Workflow Execution#1"
+ ],
+ "autonomous-development-cycles": [
+  "Beyond Vibe Coding#10"
+ ],
+ "llm-multimodal": [
+  "Qwen2-VL Enhancing Vision-Language Models Perception of the World at Any Resolution#1"
+ ],
+ "llm-alignment-safety": [
+  "Jailbreaking and Mitigation of Vulnerabilities in Large Language Models#1",
+  "One Trigger Token Is Enough A Defense Strategy for Balancing Safety and Usability in Large Language Models#1",
+  "Benign Samples Matter! Fine-Tuning on Outlier Benign Samples Severely Breaks Safety#1",
+  "The Better Angels of Machine Personality - How Personality Relates to LLM Safety#1"
+ ],
+ "llm-evaluation": [
+  "Overestimation in LLM Evaluation A Controlled Large-Scale Study on Data Contamination's Impact on Machine Translation#1",
+  "DOMAINEVAL An Auto-Constructed Benchmark for Multi-Domain Code Generation#1"
+ ],
+ "model-compression-quantization-pruning-distillation": [
+  "On the Compression of Language Models for Code An Empirical Study on CodeBERT#1",
+  "A Survey on Deep Neural Network Compression Challenges, Overview, and Solutions#1",
+  "Compacting Deep Neural Networks for Internet of Things Methods and Applications#1"
+ ],
+ "peft-lora": [
+  "huggingface-blog - Parameter#4",
+  "huggingface-blog - Parameter#2"
+ ],
+ "rlhf-dpo": [
+  "All Roads Lead to Likelihood The Value of Reinforcement Learning in Fine-Tuning#1",
+  "Reinforcement Learning from Human Feedback with Active Queries#1"
+ ],
+ "synthetic-data": [
+  "Embedding-Driven Diversity Sampling to Improve Few-Shot Synthetic Data Generation#1",
+  "Permissioned Blockchain-based Framework for Ranking Synthetic Data Generators#1",
+  "TUTOR Training Neural Networks Using Decision Rules as Model Priors#1",
+  "Synthetic Artifact Auditing Tracing LLM-Generated Synthetic Data Usage in Downstream Applications#1"
+ ],
+ "embedding-models": [
+  "Training Sparse Mixture Of Experts Text Embedding Models#1",
+  "On the Role of Pre-trained Embeddings in Binary Code Analysis#1"
+ ],
+ "knowledge-graphs": [
+  "Knowledge Graphs Opportunities and Challenges#2",
+  "cacm - Industry-Scale Knowledge Graphs#1",
+  "Large Language Models Meet Knowledge Graphs for Question Answering Synthesis and Opportunities#2",
+  "Knowledge Graphs Opportunities and Challenges#1"
+ ],
+ "reasoning-models": [
+  "Towards Reasoning in Large Language Models A Survey#2",
+  "Reinforced MLLM A Survey on RL-Based Reasoning in Multimodal Large Language Models#10",
+  "Natural Language Reasoning, A Survey#3"
+ ],
+ "computer-vision": [
+  "Beyond Few-shot Object Detection A Detailed Survey#8",
+  "Image Segmentation Using Deep Learning A Survey#5",
+  "Crowdsourcing in Computer Vision#17",
+  "Unsupervised Domain Adaptation of Object Detectors A Survey#7"
+ ],
+ "image-classification": [
+  "Transformers Meet Hyperspectral Imaging: A Comprehensive Study of Models, Challenges and Open Problems#7",
+  "Categorical Knowledge Fused Recognition Fusing Hierarchical Knowledge with Image Classification through Aligning and Dee#1",
+  "Adversarial Attacks on Image Classification Models Analysis and Defense#1"
+ ],
+ "image-generation": [
+  "Towards a Neural Graphics Pipeline for Controllable Image Generation#1",
+  "Draft-and-Revise Effective Image Generation with Contextual RQ-Transformer#1",
+  "Can We Generate Images with CoT Let's Verify and Reinforce Image Generation Step by Step#1"
+ ],
+ "nlp-algorithms": [
+  "Impact of NLP Algorithms on Sentiment Analysis Efficiency and Accuracy#3"
+ ],
+ "nlp-applications": [
+  "Real-World Natural Language Processing#20",
+  "Real World Natural Language Processing#5",
+  "Intergenerational Test Generation for Natural Language Processing Applications#1",
+  "Intergenerational Test Generation for Natural Language Processing Applications#3"
+ ],
+ "text-classification": [
+  "Text Classification in the LLM Era - Where do we stand#1",
+  "Are We Really Making Much Progress in Text Classification A Comparative Review#2",
+  "Text classification optimization algorithm based on graph neural network#1",
+  "A Survey on Text Classification From Shallow to Deep Learning#10"
+ ],
+ "text-generation": [
+  "Deep Learning for Unmanned Systems - Deep Learning for Unmanned Systems - Vol. 984#123",
+  "PLANET Dynamic Content Planning in Autoregressive Transformers for Long-form Text Generation#1",
+  "A Survey of Controllable Text Generation using Transformer-based Pre-trained Language Models#5"
+ ],
+ "speech-audio": [
+  "Speech Communications Human and Machine - 2nd Edition#26",
+  "QS-TTS Towards Semi-Supervised Text-to-Speech Synthesis via Vector-Quantized Self-Supervised Speech Representation Learning#1"
+ ],
+ "reinforcement-learning-theory": [
+  "Structure in Deep Reinforcement Learning A Survey and Open Problems#7",
+  "A Theory of Abstraction in Reinforcement Learning#74",
+  "Constrained Policy Optimization with Explicit Behavior Density for Offline Reinforcement Learning#3"
+ ],
+ "reinforcement-learning-applications": [
+  "Reinforcement Learning for Selective Key Applications in Power Systems Recent Advances and Future Challenges#5",
+  "Structure in Deep Reinforcement Learning A Survey and Open Problems#7",
+  "Model-based Reinforcement Learning - A Survey#6"
+ ],
+ "ml-pipelines": [
+  "Machine Learning Production Systems#19",
+  "Instrumentation and Analysis of Native ML Pipelines via Logical Query Plans#1"
+ ],
+ "ml-serving": [
+  "Modern C for Machine Learning#76",
+  "Modern C for Machine Learning#75"
+ ],
+ "ml-platform": [
+  "MLOps with Ray - Best Practices and Strategies for Adopting Machine Learning Operations#6",
+  "cacm - Declarative Machine Learning Systems#1"
+ ],
+ "experiment-tracking": [
+  "Streamlining machine learning workflows A comprehensive analysis of ML Flow for ML Ops Implementation#1",
+  "Accelerated Cloud for Artificial Intelligence (ACAI)#4"
+ ],
+ "mlops": [
+  "Building MLOps Pipelines in Fintech Keeping Up with Continuous Machine Learning#1",
+  "The Definitive Guide to ML Operations in AWS#7",
+  "Engineering AI Agents for Clinical Workflows - A Case Study in Architecture, MLOps, and Governance#1",
+  "End-to-End MLOps in Financial Services Resilient Machine Learning with Kubernetes#1"
+ ],
+ "robotics-embodied-ai": [
+  "Agentic AI Theories and Practices#56",
+  "Autonomous Embodied Agents When Robotics Meets Deep Learning Reasoning#8"
+ ],
+ "recommender-systems": [
+  "Applied Recommender Systems with Python - Build Recommender Systems with Deep Learning, NLP and Graph-Based Technique#5",
+  "PORE Provably Robust Recommender Systems against Data Poisoning Attacks#1",
+  "Manipulating Recommender Systems A Survey of Poisoning Attacks and Countermeasures#4",
+  "Session-Based Recommender Systems Using Deep Learning#1"
+ ],
+ "inverted-indexes": [
+  "LNCS 3180 - Database and Expert Systems Applications#5",
+  "Genoogle an indexed and parallelized search engine for similar DNA sequences#1"
+ ],
+ "ranking-relevance": [
+  "Overview of the TREC 2022 Fair Ranking Track#1",
+  "Vertical Allocation-based Fair Exposure Amortizing in Ranking#1",
+  "FARA Future-aware Ranking Algorithm for Fairness Optimization#1"
+ ],
+ "lucene-elasticsearch-solr": [
+  "Mastering Elasticsearch#1",
+  "Monitoring Elasticsearch#4",
+  "A comparison of Apache Solr and Elasticsearch technologies in support of large-scale data analysis#2",
+  "A Comprehensive Study of Elasticsearch#1"
+ ],
+ "vector-search": [
+  "Essential GraphRAG - Knowledge Graph-Enhanced RAG#17",
+  "MongoDB in Action - Building on the Atlas Data Platform#55"
+ ],
+ "ann-algorithms": [
+  "Binary Embedding-based Retrieval at Tencent#3",
+  "RISC-V RVV efficiency for ANN algorithms#1"
+ ],
+ "hybrid-retrieval": [
+  "A Hybrid RAG System Integrating Knowledge Graph and Vector Retrieval Based on Solution Technical Documents - Journal of Intelligence and Information#1",
+  "A Hybrid RAG System Integrating Knowledge Graph and Vector Retrieval Based on Solution Technical Documents#1"
+ ],
+ "query-expansion": [
+  "Modern Information Retrieval#17",
+  "An Introduction to Information Retrieval [Draft - April 2009]#63",
+  "Pretrained Transformers for Text Ranking BERT and Beyond#17",
+  "Query expansion techniques for information retrieval A survey#7"
+ ],
+ "ir-theory": [
+  "On the Metric Properties of IR Evaluation Measures Based on Ranking Axioms#2"
+ ],
+ "search-engines": [
+  "A functionality taxonomy for document search engines#1",
+  "Understanding Search Engines#29",
+  "Understanding Search Engines#48",
+  "A Comparison of Source Distribution and Result Overlap in Web Search Engines#1"
+ ],
+ "application-security": [
+  "OWASP Foundation_Enterprise Application Risk Profiling - Alex Mor#1",
+  "ibm-redbooks - Improving Your Web Application Software Development Life Cycle's Security Posture with IBM Rational AppScan#7"
+ ],
+ "cloud-security": [
+  "Security, privacy and digital forensics in the cloud#25",
+  "Secure Continuous Delivery on Google Cloud - Implement an Automated and Secure Software Delivery Pipeline on Google Cloud Using Native Services#30"
+ ],
+ "network-security": [
+  "Enhancing Network Slicing Architectures with Machine Learning, Security, Sustainability and Experimental Networks Integration#3",
+  "Artificial Intelligence and Machine Learning in 5G Network Security Opportunities, advantages, and future research trends#1",
+  "OMPREHENSIVE URVEY OSSIBLE ECURITY SSUES ETWORKS - International Journal of Network Security & Its Applications - Vol. 7#1"
+ ],
+ "web-security": [
+  "Pen Testing from Contract to Report#103",
+  "Pen Testing from Contract to Report#119"
+ ],
+ "cryptography-foundations": [
+  "Secure Programming Cookbook for C and C++#7",
+  "Blockchain Security from the Bottom Up Securing and Preventing Attacks on Cryptocurrencies Decentralized Applications#13"
+ ],
+ "cryptography-applied": [
+  "URVEY AND AXONOMY OF ANAGEMENT ROTOCOLS IRED AND IRELESS ETWORKS - International Journal of Network Security & Its Applications - Vol. 4#1"
+ ],
+ "identity-authentication": [
+  "Design of uniform campus identity authentication system based on LDAP#16",
+  "Design of uniform campus identity authentication system based on LDAP#19"
+ ],
+ "incident-response": [
+  "Blog Posts - 10 Steps to Develop an Incident Response Plan You’ll ACTUALLY Use#1",
+  "AWS Well-Architected Framework#57"
+ ],
+ "vulnerability-research": [
+  "Vulnerability-Affected Versions Identification How Far Are We#1",
+  "SPI Automated Identification of Security Patches via Commits#1"
+ ],
+ "supply-chain-security": [
+  "Software Supply Chain Security - Securing the End-to-End Supply Chain for Software, Firmware, and Hardware#1",
+  "Software Supply Chain Security [Duplicate]#34",
+  "Enhancing Software Supply Chain Security Through STRIDE-Based Threat Modelling of CICD Pipelines#2"
+ ],
+ "privacy-compliance": [
+  "Starting a compliance program#1",
+  "USENIX_USENIX Security '24_USENIX Security '24 - Navigating the Privacy Compliance Maze Understanding Risks with#1",
+  "An Exploratory Mixed-Methods Study on General Data Protection Regulation (GDPR) Compliance in Open-Source Software#1",
+  "Deploying Privacy Guardrails for LLMs A Comparative Analysis of Real-World Applications#1"
+ ],
+ "zero-trust": [
+  "Zero Trust Networks - Building Secure Systems in Untrusted Networks - 2nd Edition#94",
+  "Zero Trust Network Segmentation#1",
+  "Achieving Zero Trust API Security Leveraging Advanced OAuth Frameworks#2",
+  "Zero Trust Networks - Building Secure Systems in Untrusted Networks - 2nd Edition#135"
+ ],
+ "ai-ml-security": [
+  "Cti4ai - Threat Intelligence Generation and Sharing After Red Teaming AI Models#1",
+  "huggingface-blog - 4M Models Scanned Protect AI + Hugging Face 6 Months In#4",
+  "SoK - Understanding Vulnerabilities in the Large Language Model Supply Chain#1"
+ ],
+ "reverse-engineering": [
+  "Hardware Trust and Assurance through Reverse Engineering A Survey and Outlook from Image Analysis and Machine Learning Perspectives#14",
+  "DTIC ADA557042 Understanding How Reverse Engineers Make Sense of Programs from Assembly Language Representations#24",
+  "Reversing - Secrets of Reverse Engineering#1"
+ ],
+ "malware-analysis": [
+  "Malware Classification using Deep Learning based Feature Extraction and Wrapper based Feature Selection Technique#1",
+  "Practical Malware Analysis - The Hands-On Guide to Dissecting Malicious Software#1"
+ ],
+ "penetration-testing": [
+  "AutoPT How Far Are We from the End2End Automated Web Penetration Testing#2",
+  "Red Teams - Pentesters, APTs, or Neither#1",
+  "AUTOMATION IN MANUAL PENETRATION TESTING USING BASH SHELL SCRIPT - Journal of Modernization in Engineering, Technology and Science#1"
+ ],
+ "secure-coding": [
+  "Is Secure Coding Education in the Industry Needed An Investigation Through a Large Scale Survey#1",
+  "SEI CERT C Coding Standard 2016 Edition#2",
+  "Secure Coding in C and C++ - 2nd Edition#14"
+ ],
+ "threat-modeling": [
+  "Threat Modeling - Designing for Security#128",
+  "Threat Modeling#4",
+  "A Large Language Model-Supported Threat Modeling Framework for Transportation Cyber-Physical Systems#1",
+  "Threat Modeling - A Practical Guide for Development Teams#1"
+ ],
+ "exploit-development": [
+  "USENIX_CSET '20_CSET '20 - Historical Analysis of Exploit Availability Timelines#2",
+  "Gray Hat Hacking - The Ethical Hacker's Handbook - 6th Edition#46"
+ ],
+ "secure-sdlc": [
+  "OWASP SAMM v2.0 - Core Model Document#5",
+  "OWASP Foundation_Software Security Metrics - Caroline Wong - AppSec California 2016#16",
+  "OWASP Foundation_John Pavone - Ah mom, why do I need to eat my vegetables_ - AppSecUSA 2015#25"
+ ],
+ "digital-forensics": [
+  "cacm - Next Generation Digital Forensics#1",
+  "Digital Forensics in the Age of Large Language Models#1",
+  "Security, privacy and digital forensics in the cloud#35",
+  "Artificial Intelligence and Blockchain in Digital Forensics#39"
+ ],
+ "hardware-security": [
+  "Hardware Trust and Assurance through Reverse Engineering A Survey and Outlook from Image Analysis and Machine Learning Perspectives#14",
+  "BugWhisperer Fine-Tuning LLMs for SoC Hardware Vulnerability Detection#1",
+  "AttackGNN Red-Teaming GNNs in Hardware Security Using Reinforcement Learning#3"
+ ],
+ "side-channel-attacks": [
+  "JIT Leaks Inducing Timing Side Channels through Just-In-Time Compilation#4",
+  "CaSym Cache Aware Symbolic Execution for Side Channel Detection and Mitigation#1",
+  "USENIX_USENIX Security '23_USENIX Security '23 - Hot Pixels Frequency, Power, and Temperature Attacks on GPUs and Arm SoCs#1",
+  "Prime+Probe 1, JavaScript 0 Overcoming Browser-based Side-Channel Defenses (Extended Version) Anatoly Shusterman Ben-Gurion Univ. of the Negev#1"
+ ],
+ "trusted-execution-environments": [
+  "TEESlice Protecting Sensitive Neural Network Models in Trusted Execution Environments When Attackers have Pre-Trained Models#9",
+  "Machine Learning with Confidential Computing A Systematization of Knowledge#4",
+  "WebAssembly as an Abstraction for Secure and Efficient Computing in Trusted Execution Environments WebAssembly une abstr#15"
+ ],
+ "html-css": [
+  "edureka!_Front End Web Development Tutorial Videos_Web Development Full Course - 12 Hours Learn Web Development Web Development Tutorial Edureka#1",
+  "Basic Computer Coding - Responsive Design - 2nd Edition#38"
+ ],
+ "frontend-frameworks": [
+  "Build a Frontend Web Framework from Scratch#97",
+  "Build a Frontend Web Framework from Scratch#37",
+  "Creating MVC Web Applications with Java and Modern Frontend Technologies, Leveraging Cloud Services#1"
+ ],
+ "frontend-performance": [
+  "High Performance Web Sites - 1#1",
+  "High Performance Web Sites#1",
+  "High Performance Web Sites - Essential Knowledge for Frontend Engineers#1"
+ ],
+ "browsers": [
+  "Why Silent Updates Boost Security (2009)#1",
+  "JavaScript - The Definitive Guide  - 1#50",
+  "Hector Using Untrusted Browsers to Provision Web Applications#1"
+ ],
+ "http-protocols": [
+  "Mean Response Time Approximation for HTTP Transactions over Transport Protocols#1"
+ ],
+ "mobile-responsive-design": [
+  "Traversy Media_Material UI React Tutorial#10",
+  "Introduction to Web Interaction Design With HTML and CSS#81"
+ ],
+ "i18n-l10n": [
+  "Scalable Web Sites#41",
+  "Scalable Web Sites#42",
+  "Strategies for Effective Internationalization and Localization in Software Development#2"
+ ],
+ "progressive-web-apps": [
+  "Building Progressive Web Apps - Bringing the Power of Native to the Browser#3",
+  "Building Progressive Web Apps - Bringing the Power of Native to the Browser#10",
+  "infoq-case-studies - Learning Progressive Web Apps#2",
+  "Devoxx_The Web is on 🔥 F I R E  🔥 !!!  by Noël Macé#3"
+ ],
+ "ios-swift": [
+  "A First Look at On-device Models in iOS Apps#3"
+ ],
+ "android-kotlin": [
+  "DEVELOPMENT OF A MOBILE APPLICATION FOR TIME MANAGEMENT IN THE KOTLIN LANGUAGE#1",
+  "Desarrollo de aplicaciones mviles usando el lenguaje Kotlin#1"
+ ],
+ "cross-platform-react-native-flutter": [
+  "Fireship_Flutter_Flutter for the JS Developer#4",
+  "React Native in Action#15",
+  "Examining the Usage of Flutter to Design a Yatch in 3D - International Journal of Research Studies in Computer Science and Engineering - Vol. 8#1"
+ ],
+ "mobile-performance": [
+  "acm-queue - Rules for Mobile Performance Optimization#10",
+  "cacm - Making the Mobile Web Faster#1",
+  "Building Mobile Apps at Scale#42"
+ ],
+ "app-store-release": [
+  "iOS 15 Programming Fundamentals with Swift - Swift, Xcode, and Cocoa Basics#108",
+  "Fullstack React Native#82"
+ ],
+ "game-engines": [
+  "Are Game Engines Software Frameworks A Three-perspective Study#6",
+  "Game Engine Architecture#2",
+  "NDC Conferences_NDC London 2025_Build Your Own Game Engine in the Browser - David Whitney - NDC London 2025#1"
+ ],
+ "graphics-programming": [
+  "Commodore 128 programmers reference guide#56",
+  "Creel_Direct2D Tutorial 3_ Direct 2D#1"
+ ],
+ "shaders-gpu-programming": [
+  "Devoxx_What you can do with WebGPU_  By Corentin Wallez, François Beaufort#1",
+  "gpu-compute-specs - Vulkan® 1.4.362#44"
+ ],
+ "game-ai": [
+  "Explainable AI XAI for Engineering Applications Deep Learning in Gaming and Animations Principles and Applications 1 9781032126098 1032126094 b l 3207392#37",
+  "Game Programming Gems 4#31"
+ ],
+ "physics-engines": [
+  "Runtime Failure Hunting for Physics Engine Based Software Systems How Far Can We Go#2",
+  "The Coding Train_Live Stream Archive_Coding Train Live 82 Physics Engines and Matter.js#2"
+ ],
+ "rendering-pipelines": [
+  "3D Gaussian Ray Tracing: Fast Tracing of Particle Scenes#2",
+  "Neural Ray-Tracing Learning Surfaces and Reflectance for Relighting and View Synthesis#1"
+ ],
+ "procedural-generation": [
+  "The Quest for Content A Survey of Search-Based Procedural Content Generation for Video Games#6",
+  "Procedural Content Generation for C++ Game Development [Duplicate]#21"
+ ],
+ "firmware": [
+  "System Firmware An Essential Guide to Open Source and Embedded Solutions#3",
+  "PCI Firmware Specification#26"
+ ],
+ "microcontrollers": [
+  "Widening Access to Applied Machine Learning with TinyML#1",
+  "Introduction to Embedded Systems#1",
+  "Quantization and Deployment of Deep Neural Networks on Microcontrollers#1",
+  "MCUNet Tiny Deep Learning on IoT Devices#1"
+ ],
+ "rtos": [
+  "Embedded RTOS Design [Duplicate]#17",
+  "Embedded and Real-Time Operating Systems#87",
+  "Embedded and Real-Time#32"
+ ],
+ "embedded-c": [
+  "Design Patterns for Embedded Systems in C an Embedded Software Engineering Toolkit#1"
+ ],
+ "hardware-software-codesign": [
+  "Hardware Description Languages and their Applications electronic resource Specification modelling verification and synth#21",
+  "The Codesign of Embedded Systems A Unified HardwareSoftware Representation 1#7",
+  "Customizable Embedded Processors Design Technologies and Applications#114"
+ ],
+ "sensor-networks-iot-protocols": [
+  "CDBB West Cambridge Digital Twin Lessons Learned#12"
+ ],
+ "numerical-methods": [
+  "Probabilistic Numerics - Computation as Machine Learning#93",
+  "Numerical Methods That Work#6",
+  "Numerical Methods for Engineers 8#465"
+ ],
+ "high-performance-computing": [
+  "High-Performance Computing Series 1 Operating Systems For Supercomputers And High Performance Computing 1st ed 2019 98#70",
+  "The Scalability-EfficiencyMaintainability-Portability Trade-off in Simulation Software Engineering Examples and a Prelim#3",
+  "High-performance Heterogeneous Computing#53"
+ ],
+ "scientific-computing-tools": [
+  "Towards Richer Challenge Problems for Scientific Computing Correctness#1",
+  "Is Research Software Science a Metascience#1"
+ ],
+ "simulation-modeling": [
+  "DTIC ADA1010637 A Generalized Computer Simulation Language for Naval Systems Modeling#1",
+  "DTIC ADA1010639 A Generalized Computer Simulation Language for Naval Systems Modeling#1",
+  "DTIC ADA1010634 A Generalized Computer Simulation Language for Naval Systems Modeling#1",
+  "DTIC ADA1010636 A Generalized Computer Simulation Language for Naval Systems Modeling#1"
+ ],
+ "computational-science": [
+  "Lecture Notes in Computer Science №9590 Transactions on Computational Science XXVIII Special Issue on Cyberworlds and Cybersecurity#6"
+ ],
+ "ides-editors": [
+  "The Specification Language Server Protocol A Proposal for Standardised LSP Extensions#1"
+ ],
+ "debuggers": [
+  "Remote Concolic Multiverse Debugging - Extended Version with Additional Appendices#1",
+  "Debugging Tools for Windows (WinDbg, KD, CDB, NTSD)#210",
+  "DTIC ADA272512 Maygen A Symbolic Debugger Generation System#13"
+ ],
+ "linters-formatters": [
+  "Adopting Elixir#21"
+ ],
+ "build-systems": [
+  "AI builds, We Analyze An Empirical Study of AI-Generated Build Code Quality#1",
+  "The Cost of Downgrading Build Systems A Case Study of Kubernetes#1"
+ ],
+ "package-managers": [
+  "NDC Conferences_C, C++_Package management in C++ - Mikhail Svetkin - NDC TechTown 2022#1",
+  "Packaging, containerization, and virtualization of computational omics methods Advances, challenges, and opportunities#3",
+  "Packaging, containerization, and virtualization of computational omics methods Advances, challenges, and opportunities#4"
+ ],
+ "monorepo-polyrepo": [
+  "Building Micro-Frontends#112",
+  "uber-engineering - Faster Together Uber Engineering’s iOS Monorepo#2",
+  "Building Microservices - Designing Fine-Grained Systems - 2nd Edition#60"
+ ],
+ "devex": [
+  "cacm - DevEx in Action#1",
+  "acm-queue - DevEx in Action#4",
+  "acm-queue - DevEx in Action#2",
+  "acm-queue - DevEx in Action#3"
+ ],
+ "ast-knowledge-graphs": [
+  "Deep Learning for Code Intelligence Survey, Benchmark and Toolkit#5",
+  "A Survey of Deep Learning Models for Structural Code Understanding#3",
+  "Reliable Graph-RAG for Codebases AST-Derived Graphs vs LLM-Extracted Knowledge Graphs#1"
+ ],
+ "semantic-code-search": [
+  "Semantic Code Search for Smart Contracts#1",
+  "Code Search A Survey of Techniques for Finding Code#2",
+  "Fault Localization from the Semantic Code Search Perspective#5"
+ ],
+ "graph-grounded-retrieval": [
+  "Graph Retrieval-Augmented Generation - A Survey#4",
+  "GNN-encoder Learning a Dual-encoder Architecture via Graph Neural Networks for Dense Passage Retrieval#1"
+ ],
+ "blockchain-consensus-mechanisms": [
+  "Survey on Strategic Mining in Blockchain A Reinforcement Learning Approach#1",
+  "Robust Blockchained Federated Learning with Model Validation and Proof-of-Stake Inspired Consensus#1"
+ ],
+ "smart-contracts": [
+  "Modernizing Contracts Across Industries A Review of Smart Contract Applications and the Evolving Legal Landscape#1",
+  "THE CAMBRIDGE HANDBOOK OF SMART CONTRACTS, BLOCKCHAIN TECHNOLOGY AND DIGITAL PLATFORMS The product of a unique collaboration between academic#23"
+ ],
+ "solidity": [
+  "Solidity Programming Essentials A guide to building smart contracts and tokens using the widely used Solidity language#30",
+  "Solsmith Solidity Random Program Generator for Compiler Testing#1",
+  "Charting The Evolution of Solidity Error Handling#2"
+ ],
+ "vyper": [
+  "Mastering Ethereum Building Smart Contracts and DApps - PDFDrive.com#116"
+ ],
+ "move-language": [
+  "SuiGPT MAD Move AI Decompiler to Improve Transparency and Auditability on Non-Open-Source Blockchain Smart Contract#1"
+ ],
+ "defi-patterns": [
+  "Decentralized Finance DeFi Strengths Become Weaknesses a Literature Survey#1",
+  "Decentralized Finance DeFi Strengths Become Weaknesses a Literature Survey#2"
+ ],
+ "nft-standards": [
+  "Deep Learning for Dynamic NFT Valuation#1",
+  "Learning Profitable NFT Image Diffusions via Multiple Visual-Policy Guided Reinforcement Learning#1"
+ ],
+ "zero-knowledge-proofs": [
+  "Zero-Knowledge Proof-based Verifiable Decentralized Machine Learning in Communication Network A Comprehensive Survey#5",
+  "NDC Conferences_NDC Oslo 2022_Why you shouldn't trust me - Keerthana Ganesh & Shubham Patil - NDC Oslo 2022#2",
+  "FairZK: A Scalable System to Prove Machine Learning Fairness in Zero-Knowledge#3"
+ ],
+ "tokenomics": [
+  "Tokenomics the Crypto Shift of Blockchains ICOs and Tokens#21",
+  "A Control Theoretic Approach to Infrastructure-Centric Blockchain Tokenomics#1"
+ ],
+ "blockchain-security": [
+  "Security Challenges with Blockchain - Navigate Blockchain Security Challenges, Unveil Vulnerabilities, and Gain Practical Strategies for Secure Application Development#21",
+  "Security Challenges with Blockchain - Navigate Blockchain Security Challenges, Unveil Vulnerabilities, and Gain Practical Strategies for Secure Application Development#16",
+  "Blockchain Security from the Bottom Up Securing and Preventing Attacks on Cryptocurrencies Decentralized Applications#11"
+ ],
+ "cryptocurrency-protocols": [
+  "Proof of Stake#12",
+  "acm-queue - Research for Practice Cryptocurrencies, Blockchains, and Smart Contracts; Hardware for Deep Learning#3"
+ ],
+ "mainframe-zos": [
+  "ibm-redbooks - Introduction to the New Mainframe Large-Scale Commercial Computing#1",
+  "ibm-redbooks - The Reality of Rehosting Understanding the Value of Your Mainframe#1",
+  "ibm-redbooks - Introduction to the New Mainframe Networking#1"
+ ],
+ "jcl-batch-processing": [
+  "ibm-redbooks - New Ways of Running IBM zOS Batch Applications#3",
+  "ibm-redbooks - Introduction to the New Mainframe zOS Basics#14"
+ ],
+ "cics-transaction-processing": [
+  "ibm-redbooks - Architect's Guide to IBM CICS on System z#9",
+  "ibm-redbooks - The Complete Guide to CICS Transaction Gateway Volume 1 Configuration and Administration#66",
+  "ibm-redbooks - CICS Transaction Server Application Architecture#4"
+ ],
+ "as400-rpg-ecosystem": [
+  "ibm-redbooks - J.D. Edwards OneWorld Implementation for AS400#107",
+  "ibm-redbooks - External Procedures, Triggers, and User-Defined Functions on IBM DB2 for i#1",
+  "ibm-redbooks - J.D. Edwards OneWorld Implementation for AS400#26"
+ ],
+ "legacy-modernization-migration": [
+  "Architecture Modernization MEAP V09 Socio-technical alignment of software strategy and structure All 17 chapters 978#4",
+  "Nick Tune Jean-Georges Perrin#71",
+  "cockroachdb-engineering - Mainframe to Distributed SQL, Part 4 Planning Your Data Modernization Strategy#2"
+ ],
+ "agile-scrum-kanban": [
+  "Agile Methodologies In-Depth Delivering Proven Agile SCRUM and Kanban Practices for High-Quality Business Demands#10",
+  "Agile Methodologies In-Depth Delivering Proven Agile SCRUM and Kanban Practices for High-Quality Business Demands 9389#43",
+  "Agile Methodologies In-Depth Delivering Proven Agile SCRUM and Kanban Practices for High-Quality Business Demands#33",
+  "Agile Methodologies In-Depth Delivering Proven Agile SCRUM and Kanban Practices for High-Quality Business Demands 9389#20"
+ ],
+ "estimation-sprint-planning": [
+  "Advanced approach for AgileScrum Process RetroAI++#1",
+  "A Systematic Literature Review on Reasons and Approaches for Accurate Effort Estimations in Agile#3"
+ ],
+ "technical-writing-docs-as-code": [
+  "Confreaks_Build Beautiful Documentation with platyPS and Material for MkDocs by Josh Hendricks#2",
+  "Learning Python Ed6#13"
+ ],
+ "code-review": [
+  "The Upper Bound of Information Diffusion in Code Review#3",
+  "The Upper Bound of Information Diffusion in Code Review#4",
+  "Why Security Defects Go Unnoticed during Code Reviews A Case-Control Study of the Chromium OS Project#1",
+  "Measuring Information Diffusion in Code Review at Spotify#1"
+ ],
+ "licensing-oss-governance": [
+  "Do We Run How We Say We Run Formalization and Practice of Governance in OSS Communities#1",
+  "Software Ecosystems A Tertiary Study and a Thematic Model#6",
+  "Governance Matters Lessons from Restructuring the data.table OSS Project#1"
+ ],
+ "technical-leadership": [
+  "GOTO Conferences_GOTO Copenhagen 2025_Level Up Choosing The Technical Leadership Path • Patrick Kua • GOTO 2025#5",
+  "Technical leadership and the balance with agility#27",
+  "GOTO Conferences_GOTO Copenhagen 2025_Level Up Choosing The Technical Leadership Path • Patrick Kua • GOTO 2025#3"
+ ],
+ "organizational-design": [
+  "Organizational Theory Design and Change#8",
+  "Organizational Theory Design and Change 7#94",
+  "Organizational Theory Design and Change#93",
+  "Organizational Theory Design and Change 7#4"
+ ],
+ "sociotechnical-systems": [
+  "Transportation human factors aerospace aviation maritime rail and road series Driver distraction a sociotechnical syst#3",
+  "Safety Causation Analysis in Sociotechnical Systems Advanced Models and Techniques#30",
+  "Complexity and Dynamics#54"
+ ],
+ "conways-law": [
+  "martin-fowler - Conway's Law#2",
+  "EDA VISUALS - Small bite sized visuals about event-driven architectures#20"
+ ],
+ "platform-strategy": [
+  "Enterprise Architecture Playbook - A guide to enterprise architecture consulting#34"
+ ],
+ "developer-productivity": [
+  "THE EFFECT OF AI CODE GENERATION ON DEVELOPER PRODUCTIVITY i THE EFFECT OF ARTIFICIAL INTELLIGENCE CODE GENERATION ON SOFTWARE#26",
+  "acm-queue - The SPACE of Developer Productivity#2",
+  "cacm - The SPACE of Developer Productivity#1",
+  "Developer Productivity Engineering Handbook#1"
+ ],
+ "technical-strategy": [
+  "Exceeding the Goal#61",
+  "Exceeding the Goal#68"
+ ],
+ "roadmap-planning": [
+  "infoq-case-studies - Agile Initiative Planning with Roadmaps#14"
+ ],
+ "decision-making": [
+  "Towards Using Data to Inform Decisions in Agile Software Development Views of Available Data#1"
+ ],
+ "postmortems": [
+  "Site Reliability Engineering#78",
+  "google-sre - SRE Workbook - Postmortem Culture#1"
+ ],
+ "accessibility": [
+  "Lecture Notes in Computer Science 12768 Universal Access in Human-Computer Interaction Design Methods and User Experie#43",
+  "Web Accessibility - A Foundation For Research - 2nd Ed#44",
+  "Advancing Web Accessibility -- A guide to transitioning Design Systems from WCAG 2.0 to WCAG 2.1#1"
+ ],
+ "interaction-design": [
+  "Praise for Interaction Design Interaction Design Beyond Human Computer Interaction 6 111990109X (2)#1",
+  "Praise for Interaction Design Interaction Design Beyond Human Computer Interaction 6 111990109X#1",
+  "About Face - The Essentials of Interaction Design#16",
+  "The MIT Press The Materiality of Interaction Notes on the Materials of Interaction Design b#33"
+ ],
+ "information-architecture": [
+  "Footnotes_to_Re_The_Future_of_Information_Architecture#4",
+  "Handbook of Usability and User Experience - Methods and Techniques#47",
+  "Information Architecture for the Web and Beyond 4th Edition#207"
+ ],
+ "visual-graphic-design": [
+  "Learning Web Design - A Beginner’s Guide to HTML, CSS, JavaScript, and Web Graphics#23"
+ ],
+ "design-systems": [
+  "CraftHub Events_If You Don’t Build Your Design System with a Heart ... – Wendy Fox _ Compass Tech Summit 2023#1",
+  "Lean UX 3rd Edition#47"
+ ],
+ "data-visualization": [
+  "Inventorizing, situating, transforming#1",
+  "Rethinking Visualization A High-Level Taxonomy#1",
+  "A new framework for software visualization a multi-layer approach#3"
+ ],
+ "product-design": [
+  "An Approach to Improve the Product Design Process#1"
+ ],
+ "user-research": [
+  "Interviewing Users 2nd Edition#18",
+  "The User Experience Team of One#82"
+ ],
+ "web-standards": [
+  "Web Accessibility - A Foundation For Research - 2nd Ed#44",
+  "standards-protocols - W3C Web Standards Overview#1"
+ ],
+ "api-standards": [
+  "Cloud Identity Patterns and Strategies - Design Enterprise Cloud Identity Models with OAuth 2.0 and Azure Active Directory#36",
+  "Secure APIs#21"
+ ],
+ "compliance-standards": [
+  "Securing Fintech with DevSecOps Scaling DevOps with Compliance in Mind#1",
+  "Workday's Approach to Secure and Compliant Cloud ERP Systems#1"
+ ],
+ "advertising-technologies": [
+  "Three Ways to Use ASMR-Technologies in Modern Advertising and Marketing#2",
+  "Three Ways to Use ASMR-Technologies in Modern Advertising and Marketing#1"
+ ],
+ "ethics-in-tech": [
+  "Resources in Technical Communication#44",
+  "Orienting Public Policy#1",
+  "Responsible Software Engineering#7"
+ ],
+ "fintech-engineering": [
+  "Building MLOps Pipelines in Fintech Keeping Up with Continuous Machine Learning#1",
+  "Search Engine Optimization (SEO) and Search Engine Marketing (SEM)#42",
+  "A FinTech Clustering Framework Technology, Model, and Stakeholder Perspectives#1",
+  "cockroachdb-engineering - Fintech Infrastructure Resilience at Scale#2"
+ ],
+ "quantum-algorithms": [
+  "Quantum Computation and Quantum Information - 10th Anniversary Edition#106",
+  "Quantum Computing for Computer Scientists#94"
+ ],
+ "quantum-programming-languages": [
+  "DTIC ADA524652 A Survey of Quantum Programming Languages History Methods and Tools#2"
+ ],
+ "quantum-hardware-architectures": [
+  "Addressing the Current Challenges of Quantum Machine Learning through Multi-Chip Ensembles#2"
+ ]
+}

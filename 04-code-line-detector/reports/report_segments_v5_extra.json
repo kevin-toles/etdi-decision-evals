@@ -1,0 +1,187 @@
+{
+ "census_share": {
+  "codefree": 0.344,
+  "transcript": 0.2366666666666667,
+  "unmeasured: no_pdf_other": 0.02233333333333333,
+  "lowcode": 0.21766666666666667,
+  "unmeasured: scanned": 0.09766666666666667,
+  "short": 0.036,
+  "book": 0.007666666666666666,
+  "unmeasured: other_unlabellable": 0.014000000000000002,
+  "unmeasured: code_not_mono": 0.017666666666666667,
+  "tiny": 0.006333333333333333
+ },
+ "configs": {
+  "(e)+ng, validation-tuned t, no run filter": {
+   "t": 0.9,
+   "t_run": null,
+   "segments": {
+    "book": {
+     "docs": 141,
+     "precision": 0.845,
+     "recall": 0.847,
+     "f1": 0.846,
+     "fp_per_1k_lines": 30.14
+    },
+    "short": {
+     "docs": 116,
+     "precision": 0.815,
+     "recall": 0.696,
+     "f1": 0.751,
+     "fp_per_1k_lines": 16.96
+    },
+    "tiny": {
+     "docs": 66,
+     "precision": 0.811,
+     "recall": 0.887,
+     "f1": 0.847,
+     "fp_per_1k_lines": 19.93
+    },
+    "lowcode": {
+     "docs": 104,
+     "precision": 0.174,
+     "recall": 0.372,
+     "f1": 0.237,
+     "fp_per_1k_lines": 3.58
+    },
+    "codefree": {
+     "docs": 95,
+     "fp_per_1k_lines": 3.47,
+     "docs_with_false_block": 0.337
+    },
+    "transcript": {
+     "docs": 102,
+     "fp_per_1k_lines": 1.11,
+     "docs_with_false_block": 0.02
+    },
+    "40-book key": {
+     "docs": 18,
+     "precision": 0.9,
+     "recall": 0.946,
+     "f1": 0.923,
+     "fp_per_1k_lines": 26.81
+    }
+   },
+   "weighted": {
+    "precision": 0.6,
+    "recall": 0.705,
+    "f1": 0.648,
+    "corpus_share_measured": 0.848
+   }
+  },
+  "(e)+ng+run, F1-0.5*prose-only tuned (round 2-4 setting)": {
+   "t": 0.9,
+   "t_run": 0.95,
+   "segments": {
+    "book": {
+     "docs": 141,
+     "precision": 0.883,
+     "recall": 0.798,
+     "f1": 0.839,
+     "fp_per_1k_lines": 20.43
+    },
+    "short": {
+     "docs": 116,
+     "precision": 0.852,
+     "recall": 0.646,
+     "f1": 0.735,
+     "fp_per_1k_lines": 12.08
+    },
+    "tiny": {
+     "docs": 66,
+     "precision": 0.867,
+     "recall": 0.856,
+     "f1": 0.861,
+     "fp_per_1k_lines": 12.71
+    },
+    "lowcode": {
+     "docs": 104,
+     "precision": 0.263,
+     "recall": 0.305,
+     "f1": 0.282,
+     "fp_per_1k_lines": 1.72
+    },
+    "codefree": {
+     "docs": 95,
+     "fp_per_1k_lines": 1.92,
+     "docs_with_false_block": 0.168
+    },
+    "transcript": {
+     "docs": 102,
+     "fp_per_1k_lines": 0.0,
+     "docs_with_false_block": 0.0
+    },
+    "40-book key": {
+     "docs": 18,
+     "precision": 0.928,
+     "recall": 0.927,
+     "f1": 0.927,
+     "fp_per_1k_lines": 18.44
+    }
+   },
+   "weighted": {
+    "precision": 0.709,
+    "recall": 0.654,
+    "f1": 0.68,
+    "corpus_share_measured": 0.848
+   }
+  },
+  "(e)+ng+run, corpus-weighted tuned": {
+   "t": 0.8,
+   "t_run": 0.94,
+   "segments": {
+    "book": {
+     "docs": 141,
+     "precision": 0.871,
+     "recall": 0.797,
+     "f1": 0.832,
+     "fp_per_1k_lines": 22.91
+    },
+    "short": {
+     "docs": 116,
+     "precision": 0.843,
+     "recall": 0.644,
+     "f1": 0.73,
+     "fp_per_1k_lines": 12.96
+    },
+    "tiny": {
+     "docs": 66,
+     "precision": 0.847,
+     "recall": 0.87,
+     "f1": 0.858,
+     "fp_per_1k_lines": 15.17
+    },
+    "lowcode": {
+     "docs": 104,
+     "precision": 0.293,
+     "recall": 0.291,
+     "f1": 0.292,
+     "fp_per_1k_lines": 1.42
+    },
+    "codefree": {
+     "docs": 95,
+     "fp_per_1k_lines": 1.56,
+     "docs_with_false_block": 0.137
+    },
+    "transcript": {
+     "docs": 102,
+     "fp_per_1k_lines": 0.0,
+     "docs_with_false_block": 0.0
+    },
+    "40-book key": {
+     "docs": 18,
+     "precision": 0.912,
+     "recall": 0.927,
+     "f1": 0.92,
+     "fp_per_1k_lines": 22.73
+    }
+   },
+   "weighted": {
+    "precision": 0.725,
+    "recall": 0.651,
+    "f1": 0.686,
+    "corpus_share_measured": 0.848
+   }
+  }
+ }
+}

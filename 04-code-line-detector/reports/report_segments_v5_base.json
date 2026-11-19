@@ -1,0 +1,187 @@
+{
+ "census_share": {
+  "codefree": 0.344,
+  "transcript": 0.2366666666666667,
+  "unmeasured: no_pdf_other": 0.02233333333333333,
+  "lowcode": 0.21766666666666667,
+  "unmeasured: scanned": 0.09766666666666667,
+  "short": 0.036,
+  "book": 0.007666666666666666,
+  "unmeasured: other_unlabellable": 0.014000000000000002,
+  "unmeasured: code_not_mono": 0.017666666666666667,
+  "tiny": 0.006333333333333333
+ },
+ "configs": {
+  "(e)+ng, validation-tuned t, no run filter": {
+   "t": 0.86,
+   "t_run": null,
+   "segments": {
+    "book": {
+     "docs": 141,
+     "precision": 0.837,
+     "recall": 0.848,
+     "f1": 0.843,
+     "fp_per_1k_lines": 31.99
+    },
+    "short": {
+     "docs": 116,
+     "precision": 0.826,
+     "recall": 0.7,
+     "f1": 0.758,
+     "fp_per_1k_lines": 15.83
+    },
+    "tiny": {
+     "docs": 66,
+     "precision": 0.819,
+     "recall": 0.889,
+     "f1": 0.853,
+     "fp_per_1k_lines": 18.92
+    },
+    "lowcode": {
+     "docs": 104,
+     "precision": 0.139,
+     "recall": 0.411,
+     "f1": 0.208,
+     "fp_per_1k_lines": 5.12
+    },
+    "codefree": {
+     "docs": 95,
+     "fp_per_1k_lines": 5.05,
+     "docs_with_false_block": 0.442
+    },
+    "transcript": {
+     "docs": 102,
+     "fp_per_1k_lines": 1.67,
+     "docs_with_false_block": 0.029
+    },
+    "40-book key": {
+     "docs": 18,
+     "precision": 0.917,
+     "recall": 0.94,
+     "f1": 0.928,
+     "fp_per_1k_lines": 21.73
+    }
+   },
+   "weighted": {
+    "precision": 0.539,
+    "recall": 0.712,
+    "f1": 0.613,
+    "corpus_share_measured": 0.848
+   }
+  },
+  "(e)+ng+run, F1-0.5*prose-only tuned (round 2-4 setting)": {
+   "t": 0.86,
+   "t_run": 0.95,
+   "segments": {
+    "book": {
+     "docs": 141,
+     "precision": 0.913,
+     "recall": 0.726,
+     "f1": 0.809,
+     "fp_per_1k_lines": 13.49
+    },
+    "short": {
+     "docs": 116,
+     "precision": 0.896,
+     "recall": 0.583,
+     "f1": 0.707,
+     "fp_per_1k_lines": 7.28
+    },
+    "tiny": {
+     "docs": 66,
+     "precision": 0.922,
+     "recall": 0.827,
+     "f1": 0.872,
+     "fp_per_1k_lines": 6.77
+    },
+    "lowcode": {
+     "docs": 104,
+     "precision": 0.382,
+     "recall": 0.294,
+     "f1": 0.333,
+     "fp_per_1k_lines": 0.96
+    },
+    "codefree": {
+     "docs": 95,
+     "fp_per_1k_lines": 1.46,
+     "docs_with_false_block": 0.147
+    },
+    "transcript": {
+     "docs": 102,
+     "fp_per_1k_lines": 0.0,
+     "docs_with_false_block": 0.0
+    },
+    "40-book key": {
+     "docs": 18,
+     "precision": 0.955,
+     "recall": 0.896,
+     "f1": 0.925,
+     "fp_per_1k_lines": 10.72
+    }
+   },
+   "weighted": {
+    "precision": 0.774,
+    "recall": 0.595,
+    "f1": 0.673,
+    "corpus_share_measured": 0.848
+   }
+  },
+  "(e)+ng+run, corpus-weighted tuned": {
+   "t": 0.7,
+   "t_run": 0.93,
+   "segments": {
+    "book": {
+     "docs": 141,
+     "precision": 0.9,
+     "recall": 0.737,
+     "f1": 0.81,
+     "fp_per_1k_lines": 15.89
+    },
+    "short": {
+     "docs": 116,
+     "precision": 0.877,
+     "recall": 0.591,
+     "f1": 0.706,
+     "fp_per_1k_lines": 8.91
+    },
+    "tiny": {
+     "docs": 66,
+     "precision": 0.913,
+     "recall": 0.82,
+     "f1": 0.864,
+     "fp_per_1k_lines": 7.5
+    },
+    "lowcode": {
+     "docs": 104,
+     "precision": 0.31,
+     "recall": 0.248,
+     "f1": 0.276,
+     "fp_per_1k_lines": 1.12
+    },
+    "codefree": {
+     "docs": 95,
+     "fp_per_1k_lines": 1.56,
+     "docs_with_false_block": 0.137
+    },
+    "transcript": {
+     "docs": 102,
+     "fp_per_1k_lines": 1.11,
+     "docs_with_false_block": 0.02
+    },
+    "40-book key": {
+     "docs": 18,
+     "precision": 0.945,
+     "recall": 0.899,
+     "f1": 0.922,
+     "fp_per_1k_lines": 13.3
+    }
+   },
+   "weighted": {
+    "precision": 0.75,
+    "recall": 0.598,
+    "f1": 0.665,
+    "corpus_share_measured": 0.848
+   }
+  }
+ }
+}

@@ -1,0 +1,1180 @@
+{
+ "profile": "jina-v5-small",
+ "chapters": 144,
+ "partial": true,
+ "grid": [
+  {
+   "temperature": 0.01,
+   "ratio": 0.5,
+   "domain_accuracy": 0.8819444444444444,
+   "primary_top1": 0.8333333333333334,
+   "primary_or_secondary": 0.8958333333333334,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.0,
+   "secondaries_zero_share": 0.75
+  },
+  {
+   "temperature": 0.01,
+   "ratio": 0.6,
+   "domain_accuracy": 0.8819444444444444,
+   "primary_top1": 0.8333333333333334,
+   "primary_or_secondary": 0.8819444444444444,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.0,
+   "secondaries_zero_share": 0.8194444444444444
+  },
+  {
+   "temperature": 0.01,
+   "ratio": 0.7,
+   "domain_accuracy": 0.8819444444444444,
+   "primary_top1": 0.8333333333333334,
+   "primary_or_secondary": 0.8541666666666666,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.0,
+   "secondaries_zero_share": 0.8680555555555556
+  },
+  {
+   "temperature": 0.02,
+   "ratio": 0.5,
+   "domain_accuracy": 0.8888888888888888,
+   "primary_top1": 0.8402777777777778,
+   "primary_or_secondary": 0.8958333333333334,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.0,
+   "secondaries_zero_share": 0.7291666666666666
+  },
+  {
+   "temperature": 0.02,
+   "ratio": 0.6,
+   "domain_accuracy": 0.8888888888888888,
+   "primary_top1": 0.8402777777777778,
+   "primary_or_secondary": 0.8958333333333334,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.0,
+   "secondaries_zero_share": 0.7847222222222222
+  },
+  {
+   "temperature": 0.02,
+   "ratio": 0.7,
+   "domain_accuracy": 0.8888888888888888,
+   "primary_top1": 0.8402777777777778,
+   "primary_or_secondary": 0.875,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.0,
+   "secondaries_zero_share": 0.8194444444444444
+  },
+  {
+   "temperature": 0.03,
+   "ratio": 0.5,
+   "domain_accuracy": 0.8888888888888888,
+   "primary_top1": 0.8472222222222222,
+   "primary_or_secondary": 0.9027777777777778,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.0,
+   "secondaries_zero_share": 0.6875
+  },
+  {
+   "temperature": 0.03,
+   "ratio": 0.6,
+   "domain_accuracy": 0.8888888888888888,
+   "primary_top1": 0.8472222222222222,
+   "primary_or_secondary": 0.8958333333333334,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.0,
+   "secondaries_zero_share": 0.7430555555555556
+  },
+  {
+   "temperature": 0.03,
+   "ratio": 0.7,
+   "domain_accuracy": 0.8888888888888888,
+   "primary_top1": 0.8472222222222222,
+   "primary_or_secondary": 0.8958333333333334,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.0,
+   "secondaries_zero_share": 0.8125
+  },
+  {
+   "temperature": 0.05,
+   "ratio": 0.5,
+   "domain_accuracy": 0.8958333333333334,
+   "primary_top1": 0.8541666666666666,
+   "primary_or_secondary": 0.9166666666666666,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 2.0,
+   "secondaries_zero_share": 0.5486111111111112
+  },
+  {
+   "temperature": 0.05,
+   "ratio": 0.6,
+   "domain_accuracy": 0.8958333333333334,
+   "primary_top1": 0.8541666666666666,
+   "primary_or_secondary": 0.9097222222222222,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.0,
+   "secondaries_zero_share": 0.6666666666666666
+  },
+  {
+   "temperature": 0.05,
+   "ratio": 0.7,
+   "domain_accuracy": 0.8958333333333334,
+   "primary_top1": 0.8541666666666666,
+   "primary_or_secondary": 0.9027777777777778,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.0,
+   "secondaries_zero_share": 0.7569444444444444
+  },
+  {
+   "temperature": 0.08,
+   "ratio": 0.5,
+   "domain_accuracy": 0.9166666666666666,
+   "primary_top1": 0.875,
+   "primary_or_secondary": 0.9375,
+   "secondaries_median": 1.0,
+   "secondaries_p90": 3.0,
+   "secondaries_zero_share": 0.3333333333333333
+  },
+  {
+   "temperature": 0.08,
+   "ratio": 0.6,
+   "domain_accuracy": 0.9166666666666666,
+   "primary_top1": 0.875,
+   "primary_or_secondary": 0.9166666666666666,
+   "secondaries_median": 1.0,
+   "secondaries_p90": 2.0,
+   "secondaries_zero_share": 0.4722222222222222
+  },
+  {
+   "temperature": 0.08,
+   "ratio": 0.7,
+   "domain_accuracy": 0.9166666666666666,
+   "primary_top1": 0.875,
+   "primary_or_secondary": 0.9097222222222222,
+   "secondaries_median": 0.0,
+   "secondaries_p90": 1.700000000000017,
+   "secondaries_zero_share": 0.6527777777777778
+  }
+ ],
+ "peak_subdomain": {
+  "p1": 0.4661,
+  "p5": 0.5222,
+  "p10": 0.5336,
+  "p50": 0.6343
+ },
+ "peak_kf": {
+  "p1": 0.1491,
+  "p5": 0.1992,
+  "p10": 0.2104,
+  "p50": 0.2987
+ },
+ "pieces_median": 4.0,
+ "per_chapter": [
+  {
+   "ref": "High Performance Computing ISC High Performance 2022 International Workshops Hamburg Germany May 29 June 2 2022#21",
+   "pieces": 5,
+   "tokens": 9574,
+   "peak_subdomain": 0.5297,
+   "peak_kf": 0.2461
+  },
+  {
+   "ref": "hxtorch PyTorch for BrainScaleS-2 -- Perceptrons on Analog Neuromorphic Hardware#1",
+   "pieces": 3,
+   "tokens": 5629,
+   "peak_subdomain": 0.5836,
+   "peak_kf": 0.1794
+  },
+  {
+   "ref": "Lecture Notes in Computer Science 12768 Universal Access in Human-Computer Interaction Design Methods and User Experie#43",
+   "pieces": 7,
+   "tokens": 13500,
+   "peak_subdomain": 0.6227,
+   "peak_kf": 0.2848
+  },
+  {
+   "ref": "Web Accessibility - A Foundation For Research - 2nd Ed#44",
+   "pieces": 7,
+   "tokens": 13268,
+   "peak_subdomain": 0.7414,
+   "peak_kf": 0.2687
+  },
+  {
+   "ref": "Advancing Web Accessibility -- A guide to transitioning Design Systems from WCAG 2.0 to WCAG 2.1#1",
+   "pieces": 2,
+   "tokens": 2958,
+   "peak_subdomain": 0.6149,
+   "peak_kf": 0.2241
+  },
+  {
+   "ref": "N. Palani - The Web Accessibility Project. Development and Testing Best Practices (2023)[EN]#74",
+   "pieces": 2,
+   "tokens": 3050,
+   "peak_subdomain": 0.6775,
+   "peak_kf": 0.277
+  },
+  {
+   "ref": "Advanced Selenium Web Accessibility Testing#6",
+   "pieces": 3,
+   "tokens": 4146,
+   "peak_subdomain": 0.6459,
+   "peak_kf": 0.211
+  },
+  {
+   "ref": "Automated Code Fix Suggestions for Accessibility Issues in Mobile Apps#1",
+   "pieces": 6,
+   "tokens": 11120,
+   "peak_subdomain": 0.5316,
+   "peak_kf": 0.3012
+  },
+  {
+   "ref": "NDC Conferences_NDC London 2023_Celebrity Deathmatch Akka.NET vs Orleans - Hannes Lowette - NDC London 2023#1",
+   "pieces": 6,
+   "tokens": 10270,
+   "peak_subdomain": 0.6123,
+   "peak_kf": 0.3159
+  },
+  {
+   "ref": "DTIC ADA157917 Actors A Model of Concurrent Computation in Distributed Systems#26",
+   "pieces": 2,
+   "tokens": 2631,
+   "peak_subdomain": 0.6522,
+   "peak_kf": 0.2652
+  },
+  {
+   "ref": "SE-0336 Distributed Actor Isolation#3",
+   "pieces": 3,
+   "tokens": 4992,
+   "peak_subdomain": 0.5467,
+   "peak_kf": 0.1434
+  },
+  {
+   "ref": "Reliable software technologies - Ada-Europe 99 1999 Ada-Europe International Conference on Reliable Software Technologie#15",
+   "pieces": 5,
+   "tokens": 9818,
+   "peak_subdomain": 0.7157,
+   "peak_kf": 0.2798
+  },
+  {
+   "ref": "LNCS 1845 - Reliable Software Technologies Ada-Europe 2000#19",
+   "pieces": 5,
+   "tokens": 9458,
+   "peak_subdomain": 0.5956,
+   "peak_kf": 0.3615
+  },
+  {
+   "ref": "Industrial Use of Formal Methods [Duplicate]#55",
+   "pieces": 1,
+   "tokens": 1089,
+   "peak_subdomain": 0.6874,
+   "peak_kf": 0.2823
+  },
+  {
+   "ref": "Three Ways to Use ASMR-Technologies in Modern Advertising and Marketing#2",
+   "pieces": 2,
+   "tokens": 2706,
+   "peak_subdomain": 0.5533,
+   "peak_kf": 0.1361
+  },
+  {
+   "ref": "Three Ways to Use ASMR-Technologies in Modern Advertising and Marketing#1",
+   "pieces": 3,
+   "tokens": 4866,
+   "peak_subdomain": 0.6022,
+   "peak_kf": 0.1566
+  },
+  {
+   "ref": "Beyond Black-Box Benchmarking Observability, Analytics, and Optimization of Agentic Systems#1",
+   "pieces": 5,
+   "tokens": 10092,
+   "peak_subdomain": 0.6465,
+   "peak_kf": 0.2735
+  },
+  {
+   "ref": "Sherlock Reliable and Efficient Agentic Workflow Execution#1",
+   "pieces": 6,
+   "tokens": 12209,
+   "peak_subdomain": 0.6094,
+   "peak_kf": 0.3034
+  },
+  {
+   "ref": "Agile Methodologies In-Depth Delivering Proven Agile SCRUM and Kanban Practices for High-Quality Business Demands#10",
+   "pieces": 1,
+   "tokens": 1023,
+   "peak_subdomain": 0.6919,
+   "peak_kf": 0.2689
+  },
+  {
+   "ref": "Agile Methodologies In-Depth Delivering Proven Agile SCRUM and Kanban Practices for High-Quality Business Demands 9389#43",
+   "pieces": 1,
+   "tokens": 298,
+   "peak_subdomain": 0.6684,
+   "peak_kf": 0.2618
+  },
+  {
+   "ref": "Agile Methodologies In-Depth Delivering Proven Agile SCRUM and Kanban Practices for High-Quality Business Demands#33",
+   "pieces": 1,
+   "tokens": 1922,
+   "peak_subdomain": 0.6081,
+   "peak_kf": 0.2292
+  },
+  {
+   "ref": "Agile Methodologies In-Depth Delivering Proven Agile SCRUM and Kanban Practices for High-Quality Business Demands 9389#20",
+   "pieces": 1,
+   "tokens": 726,
+   "peak_subdomain": 0.6876,
+   "peak_kf": 0.3158
+  },
+  {
+   "ref": "SmartLLM Smart Contract Auditing using Custom Generative AI#1",
+   "pieces": 4,
+   "tokens": 7999,
+   "peak_subdomain": 0.7163,
+   "peak_kf": 0.3386
+  },
+  {
+   "ref": "Cti4ai - Threat Intelligence Generation and Sharing After Red Teaming AI Models#1",
+   "pieces": 2,
+   "tokens": 3753,
+   "peak_subdomain": 0.6285,
+   "peak_kf": 0.3887
+  },
+  {
+   "ref": "huggingface-blog - 4M Models Scanned Protect AI + Hugging Face 6 Months In#4",
+   "pieces": 1,
+   "tokens": 1946,
+   "peak_subdomain": 0.6068,
+   "peak_kf": 0.4108
+  },
+  {
+   "ref": "SoK - Understanding Vulnerabilities in the Large Language Model Supply Chain#1",
+   "pieces": 8,
+   "tokens": 15169,
+   "peak_subdomain": 0.6668,
+   "peak_kf": 0.5552
+  },
+  {
+   "ref": "Grafana_Booking.com's Observability Overhaul_ Unified Metrics, Logs, and User Insights _ Grafana & OTel#6",
+   "pieces": 1,
+   "tokens": 1090,
+   "peak_subdomain": 0.45,
+   "peak_kf": 0.2541
+  },
+  {
+   "ref": "DTIC ADA037637 Evaluation of ALGOL 68 Jovial J3B PASCAL SIMULA 67 and TACPOL Versus TINMAN Requirements for a Common Hig#19",
+   "pieces": 6,
+   "tokens": 11538,
+   "peak_subdomain": 0.518,
+   "peak_kf": 0.2423
+  },
+  {
+   "ref": "nbs publications NBS 266 Computer Literature Bibliography 1946 to 1963 Mar65#80",
+   "pieces": 2,
+   "tokens": 2640,
+   "peak_subdomain": 0.729,
+   "peak_kf": 0.2854
+  },
+  {
+   "ref": "DEVELOPMENT OF A MOBILE APPLICATION FOR TIME MANAGEMENT IN THE KOTLIN LANGUAGE#1",
+   "pieces": 2,
+   "tokens": 2590,
+   "peak_subdomain": 0.4089,
+   "peak_kf": 0.2849
+  },
+  {
+   "ref": "Desarrollo de aplicaciones mviles usando el lenguaje Kotlin#1",
+   "pieces": 2,
+   "tokens": 2269,
+   "peak_subdomain": 0.6447,
+   "peak_kf": 0.313
+  },
+  {
+   "ref": "Binary Embedding-based Retrieval at Tencent#3",
+   "pieces": 2,
+   "tokens": 3528,
+   "peak_subdomain": 0.5,
+   "peak_kf": 0.2558
+  },
+  {
+   "ref": "RISC-V RVV efficiency for ANN algorithms#1",
+   "pieces": 3,
+   "tokens": 6120,
+   "peak_subdomain": 0.6008,
+   "peak_kf": 0.2011
+  },
+  {
+   "ref": "The Sixth Answer Set Programming Competition#12",
+   "pieces": 6,
+   "tokens": 11786,
+   "peak_subdomain": 0.7591,
+   "peak_kf": 0.2653
+  },
+  {
+   "ref": "Shared aggregate sets in answer set programming#2",
+   "pieces": 7,
+   "tokens": 14005,
+   "peak_subdomain": 0.7542,
+   "peak_kf": 0.205
+  },
+  {
+   "ref": "Anytime answer set optimization via unsatisfiable core shrinking#5",
+   "pieces": 3,
+   "tokens": 4241,
+   "peak_subdomain": 0.7093,
+   "peak_kf": 0.2506
+  },
+  {
+   "ref": "Hands-On RESTful API Design Patterns and Best Practices - Design, Develop, and Deploy Highly Adaptable, Scalable, and Secure RESTful Web APIs#116",
+   "pieces": 1,
+   "tokens": 1245,
+   "peak_subdomain": 0.6547,
+   "peak_kf": 0.3153
+  },
+  {
+   "ref": "Cloud Identity Patterns and Strategies - Design Enterprise Cloud Identity Models with OAuth 2.0 and Azure Active Directory#36",
+   "pieces": 8,
+   "tokens": 15631,
+   "peak_subdomain": 0.725,
+   "peak_kf": 0.3961
+  },
+  {
+   "ref": "Secure APIs#21",
+   "pieces": 7,
+   "tokens": 13171,
+   "peak_subdomain": 0.6388,
+   "peak_kf": 0.2666
+  },
+  {
+   "ref": "REST API Testing in DevOps A Study on an Evolving Healthcare IoT Application#18",
+   "pieces": 5,
+   "tokens": 8633,
+   "peak_subdomain": 0.636,
+   "peak_kf": 0.4306
+  },
+  {
+   "ref": "APIRL Deep Reinforcement Learning for REST API Fuzzing#1",
+   "pieces": 7,
+   "tokens": 14234,
+   "peak_subdomain": 0.672,
+   "peak_kf": 0.4069
+  },
+  {
+   "ref": "DeepREST Automated Test Case Generation for REST APIs Exploiting Deep Reinforcement Learning#1",
+   "pieces": 8,
+   "tokens": 14753,
+   "peak_subdomain": 0.6335,
+   "peak_kf": 0.347
+  },
+  {
+   "ref": "ibm pc languages ZZ33-0523-0 APL PC Version 21 Nov86#21",
+   "pieces": 5,
+   "tokens": 10210,
+   "peak_subdomain": 0.5665,
+   "peak_kf": 0.2376
+  },
+  {
+   "ref": "DTIC ADA418941 LLAMA Lincoln Laboratory Advanced MARTHA Applications Software Manual#1",
+   "pieces": 18,
+   "tokens": 35913,
+   "peak_subdomain": 0.5727,
+   "peak_kf": 0.3291
+  },
+  {
+   "ref": "Encyclopedia Microcomputers 01#5",
+   "pieces": 43,
+   "tokens": 86052,
+   "peak_subdomain": 0.6465,
+   "peak_kf": 0.3528
+  },
+  {
+   "ref": "infoq-case-studies - Jonah Kowall on Application Performance Monitoring and Management#3",
+   "pieces": 1,
+   "tokens": 989,
+   "peak_subdomain": 0.5538,
+   "peak_kf": 0.2805
+  },
+  {
+   "ref": "iOS 15 Programming Fundamentals with Swift - Swift, Xcode, and Cocoa Basics#108",
+   "pieces": 4,
+   "tokens": 6579,
+   "peak_subdomain": 0.6133,
+   "peak_kf": 0.2275
+  },
+  {
+   "ref": "Fullstack React Native#82",
+   "pieces": 3,
+   "tokens": 4481,
+   "peak_subdomain": 0.6352,
+   "peak_kf": 0.3068
+  },
+  {
+   "ref": "OWASP Foundation_Enterprise Application Risk Profiling - Alex Mor#1",
+   "pieces": 5,
+   "tokens": 9247,
+   "peak_subdomain": 0.5933,
+   "peak_kf": 0.4033
+  },
+  {
+   "ref": "ibm-redbooks - Improving Your Web Application Software Development Life Cycle's Security Posture with IBM Rational AppScan#7",
+   "pieces": 4,
+   "tokens": 7330,
+   "peak_subdomain": 0.5925,
+   "peak_kf": 0.3787
+  },
+  {
+   "ref": "Introduction to Algorithms - 2nd Edition#79",
+   "pieces": 50,
+   "tokens": 100814,
+   "peak_subdomain": 0.6951,
+   "peak_kf": 0.3404
+  },
+  {
+   "ref": "Handbook of Approximation Algorithms and Metaheuristics, Second Edition#11",
+   "pieces": 12,
+   "tokens": 24330,
+   "peak_subdomain": 0.7292,
+   "peak_kf": 0.2871
+  },
+  {
+   "ref": "Handbook of Approximation Algorithms and Metaheuristics, Second Edition (2)#84",
+   "pieces": 7,
+   "tokens": 14256,
+   "peak_subdomain": 0.6936,
+   "peak_kf": 0.1915
+  },
+  {
+   "ref": "Object-oriented technology ECOOP99 workshop reader ECOOP99 workshops panels and posters Lisbon Portugal June 14-18 1999#27",
+   "pieces": 5,
+   "tokens": 8193,
+   "peak_subdomain": 0.58,
+   "peak_kf": 0.3817
+  },
+  {
+   "ref": "gitlab-engineering - Navigate application architecture drift and organizational alignment#1",
+   "pieces": 1,
+   "tokens": 1880,
+   "peak_subdomain": 0.5265,
+   "peak_kf": 0.2627
+  },
+  {
+   "ref": "Software Architecture Monday_Lesson 157 - Incorporating ADRs Into Existing Systems#1",
+   "pieces": 1,
+   "tokens": 1835,
+   "peak_subdomain": 0.7761,
+   "peak_kf": 0.2877
+  },
+  {
+   "ref": "Software Architecture in Practice 3rd Edition#47",
+   "pieces": 3,
+   "tokens": 5506,
+   "peak_subdomain": 0.7676,
+   "peak_kf": 0.3627
+  },
+  {
+   "ref": "TOGAF\u2122 9 Foundation - Study Guide - Preparation for the TOGAF 9 Part 1 Examination - 1st Edition#4",
+   "pieces": 19,
+   "tokens": 37864,
+   "peak_subdomain": 0.8486,
+   "peak_kf": 0.4616
+  },
+  {
+   "ref": "Lecture Notes in Computer Science High Performance Computing 38th International Conference ISC High Performance 2023#51",
+   "pieces": 4,
+   "tokens": 7753,
+   "peak_subdomain": 0.5241,
+   "peak_kf": 0.2005
+  },
+  {
+   "ref": "Embedded and Real-Time#34",
+   "pieces": 6,
+   "tokens": 11738,
+   "peak_subdomain": 0.6621,
+   "peak_kf": 0.2155
+  },
+  {
+   "ref": "Embedded and Real-Time Operating Systems#158",
+   "pieces": 1,
+   "tokens": 1707,
+   "peak_subdomain": 0.5938,
+   "peak_kf": 0.2593
+  },
+  {
+   "ref": "ibm-redbooks - J.D. Edwards OneWorld Implementation for AS400#107",
+   "pieces": 8,
+   "tokens": 14488,
+   "peak_subdomain": 0.4875,
+   "peak_kf": 0.1988
+  },
+  {
+   "ref": "ibm-redbooks - External Procedures, Triggers, and User-Defined Functions on IBM DB2 for i#1",
+   "pieces": 46,
+   "tokens": 92840,
+   "peak_subdomain": 0.6203,
+   "peak_kf": 0.367
+  },
+  {
+   "ref": "ibm-redbooks - J.D. Edwards OneWorld Implementation for AS400#26",
+   "pieces": 3,
+   "tokens": 5443,
+   "peak_subdomain": 0.5441,
+   "peak_kf": 0.2405
+  },
+  {
+   "ref": "Co-Exploration of Neural Architectures and Heterogeneous ASIC Accelerator Designs Targeting Multiple Tasks#1",
+   "pieces": 7,
+   "tokens": 12632,
+   "peak_subdomain": 0.6406,
+   "peak_kf": 0.2366
+  },
+  {
+   "ref": "Case Study First-Time Success ASIC Design Methodology Applied to a Multi-Processor System-on-Chip#1",
+   "pieces": 2,
+   "tokens": 3337,
+   "peak_subdomain": 0.6032,
+   "peak_kf": 0.2442
+  },
+  {
+   "ref": "Deep Learning for Code Intelligence Survey, Benchmark and Toolkit#5",
+   "pieces": 7,
+   "tokens": 13216,
+   "peak_subdomain": 0.69,
+   "peak_kf": 0.4961
+  },
+  {
+   "ref": "A Survey of Deep Learning Models for Structural Code Understanding#3",
+   "pieces": 7,
+   "tokens": 13068,
+   "peak_subdomain": 0.6949,
+   "peak_kf": 0.4354
+  },
+  {
+   "ref": "Reliable Graph-RAG for Codebases AST-Derived Graphs vs LLM-Extracted Knowledge Graphs#1",
+   "pieces": 1,
+   "tokens": 1252,
+   "peak_subdomain": 0.6192,
+   "peak_kf": 0.3182
+  },
+  {
+   "ref": "Progress in Computer Science and Applied Logic Bakhadyr Khoussainov and Anil Nerode#53",
+   "pieces": 7,
+   "tokens": 13566,
+   "peak_subdomain": 0.5992,
+   "peak_kf": 0.2464
+  },
+  {
+   "ref": "Automata Theory#1",
+   "pieces": 9,
+   "tokens": 17715,
+   "peak_subdomain": 0.7529,
+   "peak_kf": 0.3176
+  },
+  {
+   "ref": "Formal Languages and Automata Theory [Prof. E. Srinivasa Reddy]#13",
+   "pieces": 46,
+   "tokens": 93699,
+   "peak_subdomain": 0.762,
+   "peak_kf": 0.2534
+  },
+  {
+   "ref": "Introduction to Automata Theory, Languages, and Computations - 2001#1",
+   "pieces": 63,
+   "tokens": 127048,
+   "peak_subdomain": 0.7484,
+   "peak_kf": 0.3089
+  },
+  {
+   "ref": "Beyond Vibe Coding#10",
+   "pieces": 5,
+   "tokens": 9042,
+   "peak_subdomain": 0.6718,
+   "peak_kf": 0.4122
+  },
+  {
+   "ref": "Linux for Developers - Jumpstart Your Linux Programming Skills#22",
+   "pieces": 1,
+   "tokens": 1397,
+   "peak_subdomain": 0.5867,
+   "peak_kf": 0.2534
+  },
+  {
+   "ref": "complete The guide UNIX five all shells#22",
+   "pieces": 45,
+   "tokens": 90597,
+   "peak_subdomain": 0.6358,
+   "peak_kf": 0.27
+  },
+  {
+   "ref": "ibm-redbooks - Batch Modernization on zOS#24",
+   "pieces": 6,
+   "tokens": 11008,
+   "peak_subdomain": 0.5264,
+   "peak_kf": 0.3193
+  },
+  {
+   "ref": "The Definitive Guide to Spring Batch - Modern Finite Batch Processing in the Cloud - 2nd Edition#12",
+   "pieces": 5,
+   "tokens": 9524,
+   "peak_subdomain": 0.6953,
+   "peak_kf": 0.3079
+  },
+  {
+   "ref": "Systems Performance Enterprise and the Cloud 2nd Edition#34",
+   "pieces": 7,
+   "tokens": 13141,
+   "peak_subdomain": 0.6221,
+   "peak_kf": 0.3931
+  },
+  {
+   "ref": "infoq-case-studies - Zero to Performance Hero How to Benchmark and Profile Your eBPF Code in Rust#10",
+   "pieces": 2,
+   "tokens": 3284,
+   "peak_subdomain": 0.5805,
+   "peak_kf": 0.3438
+  },
+  {
+   "ref": "Interconnections - Bridges, Routers, Switches, and Internetworking Protocols#45",
+   "pieces": 4,
+   "tokens": 6911,
+   "peak_subdomain": 0.711,
+   "peak_kf": 0.3401
+  },
+  {
+   "ref": "Running BGP in Data Centers at Scale#1",
+   "pieces": 6,
+   "tokens": 10836,
+   "peak_subdomain": 0.6318,
+   "peak_kf": 0.3464
+  },
+  {
+   "ref": "Running BGP in Data Centers at Scale#2",
+   "pieces": 4,
+   "tokens": 6962,
+   "peak_subdomain": 0.6055,
+   "peak_kf": 0.3362
+  },
+  {
+   "ref": "Cloud Security System Handbook#23",
+   "pieces": 6,
+   "tokens": 10405,
+   "peak_subdomain": 0.6749,
+   "peak_kf": 0.2066
+  },
+  {
+   "ref": "ibm-redbooks - Implementing High Availability and Disaster Recovery in IBM PureApplication Systems V2#36",
+   "pieces": 4,
+   "tokens": 7239,
+   "peak_subdomain": 0.5602,
+   "peak_kf": 0.1573
+  },
+  {
+   "ref": "Survey on Strategic Mining in Blockchain A Reinforcement Learning Approach#1",
+   "pieces": 5,
+   "tokens": 8955,
+   "peak_subdomain": 0.6532,
+   "peak_kf": 0.2102
+  },
+  {
+   "ref": "Robust Blockchained Federated Learning with Model Validation and Proof-of-Stake Inspired Consensus#1",
+   "pieces": 6,
+   "tokens": 11537,
+   "peak_subdomain": 0.5347,
+   "peak_kf": 0.2423
+  },
+  {
+   "ref": "Security Challenges with Blockchain - Navigate Blockchain Security Challenges, Unveil Vulnerabilities, and Gain Practical Strategies for Secure Application Development#21",
+   "pieces": 4,
+   "tokens": 7704,
+   "peak_subdomain": 0.7161,
+   "peak_kf": 0.265
+  },
+  {
+   "ref": "Security Challenges with Blockchain - Navigate Blockchain Security Challenges, Unveil Vulnerabilities, and Gain Practical Strategies for Secure Application Development#16",
+   "pieces": 3,
+   "tokens": 4265,
+   "peak_subdomain": 0.756,
+   "peak_kf": 0.3117
+  },
+  {
+   "ref": "Blockchain Security from the Bottom Up Securing and Preventing Attacks on Cryptocurrencies Decentralized Applications#11",
+   "pieces": 2,
+   "tokens": 4038,
+   "peak_subdomain": 0.6693,
+   "peak_kf": 0.2989
+  },
+  {
+   "ref": "ibm-redbooks - Problem Solving and Troubleshooting in AIX 5L#26",
+   "pieces": 5,
+   "tokens": 9721,
+   "peak_subdomain": 0.592,
+   "peak_kf": 0.2315
+  },
+  {
+   "ref": "hp 9000 300 98561-90030 9000 310 320 Service Jan86#8",
+   "pieces": 9,
+   "tokens": 18077,
+   "peak_subdomain": 0.6694,
+   "peak_kf": 0.2631
+  },
+  {
+   "ref": "Computer Organization and Design The HardwareSoftware Interface. Third Edition#120",
+   "pieces": 3,
+   "tokens": 5587,
+   "peak_subdomain": 0.7316,
+   "peak_kf": 0.2686
+  },
+  {
+   "ref": "A Survey of Deep Learning Techniques for Dynamic Branch Prediction#1",
+   "pieces": 3,
+   "tokens": 5857,
+   "peak_subdomain": 0.6861,
+   "peak_kf": 0.1995
+  },
+  {
+   "ref": "Why Silent Updates Boost Security (2009)#1",
+   "pieces": 5,
+   "tokens": 10018,
+   "peak_subdomain": 0.5219,
+   "peak_kf": 0.2898
+  },
+  {
+   "ref": "JavaScript - The Definitive Guide  - 1#50",
+   "pieces": 2,
+   "tokens": 3728,
+   "peak_subdomain": 0.5205,
+   "peak_kf": 0.2897
+  },
+  {
+   "ref": "Hector Using Untrusted Browsers to Provision Web Applications#1",
+   "pieces": 7,
+   "tokens": 13790,
+   "peak_subdomain": 0.7053,
+   "peak_kf": 0.2408
+  },
+  {
+   "ref": "AI builds, We Analyze An Empirical Study of AI-Generated Build Code Quality#1",
+   "pieces": 3,
+   "tokens": 5686,
+   "peak_subdomain": 0.5332,
+   "peak_kf": 0.4015
+  },
+  {
+   "ref": "The Cost of Downgrading Build Systems A Case Study of Kubernetes#1",
+   "pieces": 7,
+   "tokens": 12648,
+   "peak_subdomain": 0.6142,
+   "peak_kf": 0.2964
+  },
+  {
+   "ref": "C in a Nutshell - The Definitive Reference - 2nd Edition#1",
+   "pieces": 5,
+   "tokens": 8424,
+   "peak_subdomain": 0.6703,
+   "peak_kf": 0.3554
+  },
+  {
+   "ref": "Programming in C - 3rd Edition#1",
+   "pieces": 91,
+   "tokens": 184733,
+   "peak_subdomain": 0.652,
+   "peak_kf": 0.4162
+  },
+  {
+   "ref": "Confreaks_Caching strategies on https___dev.to by Ridhwana Khan#1",
+   "pieces": 4,
+   "tokens": 8147,
+   "peak_subdomain": 0.6604,
+   "peak_kf": 0.2717
+  },
+  {
+   "ref": "ibm-redbooks - WebSphere Application Server V6 Scalability and Performance Handbook#93",
+   "pieces": 6,
+   "tokens": 11049,
+   "peak_subdomain": 0.6325,
+   "peak_kf": 0.2058
+  },
+  {
+   "ref": "ibm-redbooks - WebSphere Application Server V6 Planning and Design WebSphere Handbook Series#127",
+   "pieces": 2,
+   "tokens": 3779,
+   "peak_subdomain": 0.6065,
+   "peak_kf": 0.1992
+  },
+  {
+   "ref": "NoSQL Distilled#5",
+   "pieces": 4,
+   "tokens": 6831,
+   "peak_subdomain": 0.6217,
+   "peak_kf": 0.219
+  },
+  {
+   "ref": "infoq-case-studies - CAP Twelve Years Later How the Rules Have Changed#1",
+   "pieces": 2,
+   "tokens": 3738,
+   "peak_subdomain": 0.7012,
+   "peak_kf": 0.2485
+  },
+  {
+   "ref": "Using Enriched Category Theory to Construct the Nearest Neighbour Classification Algorithm#1",
+   "pieces": 5,
+   "tokens": 10161,
+   "peak_subdomain": 0.509,
+   "peak_kf": 0.2332
+  },
+  {
+   "ref": "Category Theory for Computing Science#153",
+   "pieces": 4,
+   "tokens": 7313,
+   "peak_subdomain": 0.6321,
+   "peak_kf": 0.3098
+  },
+  {
+   "ref": "A Formal Logic for Formal Category Theory#1",
+   "pieces": 5,
+   "tokens": 10027,
+   "peak_subdomain": 0.5883,
+   "peak_kf": 0.3271
+  },
+  {
+   "ref": "Security Chaos Engineering - Gaining Confidence in Resilience and Safety at Speed and Scale#1",
+   "pieces": 2,
+   "tokens": 4079,
+   "peak_subdomain": 0.5875,
+   "peak_kf": 0.4251
+  },
+  {
+   "ref": "Learning Chaos Engineering - Discovering and Overcoming System Weaknesses Before Your Customers Do#67",
+   "pieces": 2,
+   "tokens": 2306,
+   "peak_subdomain": 0.6854,
+   "peak_kf": 0.3038
+  },
+  {
+   "ref": "Learning Chaos Engineering - Discovering and Overcoming System Weaknesses through Experimentation#62",
+   "pieces": 4,
+   "tokens": 7888,
+   "peak_subdomain": 0.6826,
+   "peak_kf": 0.3142
+  },
+  {
+   "ref": "Chaos Engineering - System Resiliency in Practice#1",
+   "pieces": 7,
+   "tokens": 12565,
+   "peak_subdomain": 0.6143,
+   "peak_kf": 0.4205
+  },
+  {
+   "ref": "ChiseLLM Unleashing the Power of Reasoning LLMs for Chisel Agile Hardware Development#1",
+   "pieces": 4,
+   "tokens": 6235,
+   "peak_subdomain": 0.7067,
+   "peak_kf": 0.3276
+  },
+  {
+   "ref": "ReChisel: Effective Automatic Chisel Code Generation by LLM with Reflection#1",
+   "pieces": 4,
+   "tokens": 6209,
+   "peak_subdomain": 0.7398,
+   "peak_kf": 0.3388
+  },
+  {
+   "ref": "Continuous Integration (CI) and Continuous Delivery (CD) - A Practical Guide to Designing and Developing Pipelines#5",
+   "pieces": 53,
+   "tokens": 107093,
+   "peak_subdomain": 0.7484,
+   "peak_kf": 0.4302
+  },
+  {
+   "ref": "Towards a Blockchain-Based CICD Framework to Enhance Security in Cloud Environments#1",
+   "pieces": 2,
+   "tokens": 3826,
+   "peak_subdomain": 0.6592,
+   "peak_kf": 0.3469
+  },
+  {
+   "ref": "Enhancing Software Supply Chain Security Through STRIDE-Based Threat Modelling of CICD Pipelines#2",
+   "pieces": 5,
+   "tokens": 10144,
+   "peak_subdomain": 0.7283,
+   "peak_kf": 0.3932
+  },
+  {
+   "ref": "ibm-redbooks - Architect's Guide to IBM CICS on System z#9",
+   "pieces": 1,
+   "tokens": 1682,
+   "peak_subdomain": 0.5937,
+   "peak_kf": 0.3858
+  },
+  {
+   "ref": "ibm-redbooks - The Complete Guide to CICS Transaction Gateway Volume 1 Configuration and Administration#66",
+   "pieces": 1,
+   "tokens": 1116,
+   "peak_subdomain": 0.5902,
+   "peak_kf": 0.2144
+  },
+  {
+   "ref": "ibm-redbooks - CICS Transaction Server Application Architecture#4",
+   "pieces": 1,
+   "tokens": 298,
+   "peak_subdomain": 0.5648,
+   "peak_kf": 0.2471
+  },
+  {
+   "ref": "GW-BASIC made easy#25",
+   "pieces": 3,
+   "tokens": 5044,
+   "peak_subdomain": 0.6855,
+   "peak_kf": 0.3382
+  },
+  {
+   "ref": "GW-BASIC made easy#1",
+   "pieces": 37,
+   "tokens": 73876,
+   "peak_subdomain": 0.7052,
+   "peak_kf": 0.2985
+  },
+  {
+   "ref": "Code Nation Personal Computing And The Learn To Program Movement In America ACM Books#49",
+   "pieces": 4,
+   "tokens": 6324,
+   "peak_subdomain": 0.6205,
+   "peak_kf": 0.3209
+  },
+  {
+   "ref": "Turbo Pascal wersja 30#1",
+   "pieces": 43,
+   "tokens": 86930,
+   "peak_subdomain": 0.7096,
+   "peak_kf": 0.3252
+  },
+  {
+   "ref": "Devoxx_Onion, Hexagonal, Clean or Fractal Architecture_ All of them, and more! - Urs Enzler#1",
+   "pieces": 4,
+   "tokens": 6517,
+   "peak_subdomain": 0.7251,
+   "peak_kf": 0.3904
+  },
+  {
+   "ref": "Clojure in Action - 2nd Edition#46",
+   "pieces": 4,
+   "tokens": 6536,
+   "peak_subdomain": 0.5711,
+   "peak_kf": 0.2805
+  },
+  {
+   "ref": "Clojure for the Brave and True#4",
+   "pieces": 69,
+   "tokens": 139701,
+   "peak_subdomain": 0.6749,
+   "peak_kf": 0.4119
+  },
+  {
+   "ref": "Clojure in Action - 2nd Edition#53",
+   "pieces": 4,
+   "tokens": 6337,
+   "peak_subdomain": 0.5258,
+   "peak_kf": 0.3191
+  },
+  {
+   "ref": "Clojerl the expressive power of Clojure on the BEAM#1",
+   "pieces": 3,
+   "tokens": 4882,
+   "peak_subdomain": 0.5836,
+   "peak_kf": 0.2554
+  },
+  {
+   "ref": "Simplilearn_Cloud Computing Playlist [2026 Updated] _ Cloud Computing Tutorial For Beginners _ Cloud Computing Course _ Simplilearn_Google Cloud Platform Full Course 2026 GCP Full Course For Beginners Simplilearn#2",
+   "pieces": 8,
+   "tokens": 16082,
+   "peak_subdomain": 0.639,
+   "peak_kf": 0.2719
+  },
+  {
+   "ref": "Building Serverless Applications with Google Cloud Run - A Real-World Guide to Building Production-Ready Services#76",
+   "pieces": 7,
+   "tokens": 12374,
+   "peak_subdomain": 0.6093,
+   "peak_kf": 0.3085
+  },
+  {
+   "ref": "Secure Continuous Delivery on Google Cloud - Implement an Automated and Secure Software Delivery Pipeline on Google Cloud Using Native Services#30",
+   "pieces": 5,
+   "tokens": 9241,
+   "peak_subdomain": 0.6745,
+   "peak_kf": 0.3295
+  },
+  {
+   "ref": "Security, privacy and digital forensics in the cloud#25",
+   "pieces": 5,
+   "tokens": 10101,
+   "peak_subdomain": 0.6314,
+   "peak_kf": 0.4114
+  },
+  {
+   "ref": "Secure Continuous Delivery on Google Cloud - Implement an Automated and Secure Software Delivery Pipeline on Google Cloud Using Native Services#30",
+   "pieces": 5,
+   "tokens": 9241,
+   "peak_subdomain": 0.6745,
+   "peak_kf": 0.3295
+  },
+  {
+   "ref": "COBOL-Coder Domain-Adapted Large Language Models for COBOL Code Generation and Translation#3",
+   "pieces": 4,
+   "tokens": 6225,
+   "peak_subdomain": 0.5679,
+   "peak_kf": 0.3138
+  },
+  {
+   "ref": "DTIC ADA076917 Portability of Large COBOL Programs The COBOL Programmers Workbench#1",
+   "pieces": 10,
+   "tokens": 20432,
+   "peak_subdomain": 0.5833,
+   "peak_kf": 0.3594
+  },
+  {
+   "ref": "The Upper Bound of Information Diffusion in Code Review#3",
+   "pieces": 1,
+   "tokens": 1357,
+   "peak_subdomain": 0.5498,
+   "peak_kf": 0.3021
+  },
+  {
+   "ref": "The Upper Bound of Information Diffusion in Code Review#4",
+   "pieces": 3,
+   "tokens": 4821,
+   "peak_subdomain": 0.5667,
+   "peak_kf": 0.2863
+  },
+  {
+   "ref": "Why Security Defects Go Unnoticed during Code Reviews A Case-Control Study of the Chromium OS Project#1",
+   "pieces": 4,
+   "tokens": 6541,
+   "peak_subdomain": 0.6595,
+   "peak_kf": 0.4671
+  },
+  {
+   "ref": "Measuring Information Diffusion in Code Review at Spotify#1",
+   "pieces": 4,
+   "tokens": 7349,
+   "peak_subdomain": 0.5907,
+   "peak_kf": 0.3614
+  },
+  {
+   "ref": "Series on Coding Theory and Cryptology Codes for Error Detection Vol 2 2007en201s b#86",
+   "pieces": 9,
+   "tokens": 18040,
+   "peak_subdomain": 0.6982,
+   "peak_kf": 0.306
+  },
+  {
+   "ref": "Notes on Coding Theory#1",
+   "pieces": 23,
+   "tokens": 45354,
+   "peak_subdomain": 0.7359,
+   "peak_kf": 0.306
+  },
+  {
+   "ref": "User-extensible sequences in common Lisp#1",
+   "pieces": 6,
+   "tokens": 10991,
+   "peak_subdomain": 0.5839,
+   "peak_kf": 0.2219
+  }
+ ]
+}

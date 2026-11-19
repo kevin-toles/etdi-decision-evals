@@ -1,0 +1,10 @@
+same-subject groups 14 extra 17
+cross-subject groups 8
+['network-automation', 'network-programming'] Rust for Network Programming and Automation - 2nd Edition#1
+['rest', 'api-testing'] REST API Testing in DevOps A Study on an Evolving Healthcare IoT Appli
+['ci-cd', 'supply-chain-security'] Enhancing Software Supply Chain Security Through STRIDE-Based Threat M
+['cloud-platforms', 'cloud-security'] Secure Continuous Delivery on Google Cloud - Implement an Automated an
+['reinforcement-learning-theory', 'reinforcement-learning-applications'] Structure in Deep Reinforcement Learning A Survey and Open Problems#7
+['mlops', 'fintech-engineering'] Building MLOps Pipelines in Fintech Keeping Up with Continuous Machine
+['reverse-engineering', 'hardware-security'] Hardware Trust and Assurance through Reverse Engineering A Survey and 
+['accessibility', 'web-standards'] Web Accessibility - A Foundation For Research - 2nd Ed#44

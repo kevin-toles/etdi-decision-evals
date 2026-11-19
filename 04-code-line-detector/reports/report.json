@@ -1,0 +1,119 @@
+{
+ "books": 40,
+ "train_books": 16,
+ "test_books": 24,
+ "labelled_lines_test": 35464,
+ "code_lines_test": 7132,
+ "lr_training_blocks": {
+  "c": 719,
+  "a+c": 308
+ },
+ "held_out": {
+  "baseline (today)": {
+   "precision": 0.708,
+   "recall": 0.373,
+   "f1": 0.489,
+   "code_lines_found": 2661,
+   "prose_lines_kept": 1096,
+   "code_lines_missed": 4471,
+   "blocks": 1344,
+   "prose_only_blocks": 715,
+   "prose_only_share": 0.532,
+   "leadin_blocks": 204,
+   "leadin_share": 0.152
+  },
+  "(a) narrow colon fix": {
+   "precision": 0.887,
+   "recall": 0.312,
+   "f1": 0.461,
+   "code_lines_found": 2223,
+   "prose_lines_kept": 284,
+   "code_lines_missed": 4909,
+   "blocks": 661,
+   "prose_only_blocks": 193,
+   "prose_only_share": 0.292,
+   "leadin_blocks": 9,
+   "leadin_share": 0.014
+  },
+  "(b) design min_confidence 0.5": {
+   "precision": 0.945,
+   "recall": 0.073,
+   "f1": 0.135,
+   "code_lines_found": 520,
+   "prose_lines_kept": 30,
+   "code_lines_missed": 6612,
+   "blocks": 45,
+   "prose_only_blocks": 9,
+   "prose_only_share": 0.2,
+   "leadin_blocks": 15,
+   "leadin_share": 0.333
+  },
+  "(c) recalibrated (LR, t=0.35)": {
+   "precision": 0.871,
+   "recall": 0.364,
+   "f1": 0.513,
+   "code_lines_found": 2593,
+   "prose_lines_kept": 383,
+   "code_lines_missed": 4539,
+   "blocks": 650,
+   "prose_only_blocks": 85,
+   "prose_only_share": 0.131,
+   "leadin_blocks": 168,
+   "leadin_share": 0.258
+  },
+  "(a)+(c) (LR on narrow, t=0.2)": {
+   "precision": 0.942,
+   "recall": 0.311,
+   "f1": 0.467,
+   "code_lines_found": 2216,
+   "prose_lines_kept": 137,
+   "code_lines_missed": 4916,
+   "blocks": 514,
+   "prose_only_blocks": 52,
+   "prose_only_share": 0.101,
+   "leadin_blocks": 9,
+   "leadin_share": 0.018
+  }
+ },
+ "all_books_untrained_variants": {
+  "baseline (today)": {
+   "precision": 0.677,
+   "recall": 0.346,
+   "f1": 0.458,
+   "code_lines_found": 3696,
+   "prose_lines_kept": 1762,
+   "code_lines_missed": 6994,
+   "blocks": 2063,
+   "prose_only_blocks": 1148,
+   "prose_only_share": 0.556,
+   "leadin_blocks": 322,
+   "leadin_share": 0.156
+  },
+  "(a) narrow colon fix": {
+   "precision": 0.884,
+   "recall": 0.292,
+   "f1": 0.439,
+   "code_lines_found": 3117,
+   "prose_lines_kept": 409,
+   "code_lines_missed": 7573,
+   "blocks": 969,
+   "prose_only_blocks": 285,
+   "prose_only_share": 0.294,
+   "leadin_blocks": 14,
+   "leadin_share": 0.014
+  },
+  "(b) design min_confidence 0.5": {
+   "precision": 0.914,
+   "recall": 0.057,
+   "f1": 0.108,
+   "code_lines_found": 614,
+   "prose_lines_kept": 58,
+   "code_lines_missed": 10076,
+   "blocks": 69,
+   "prose_only_blocks": 16,
+   "prose_only_share": 0.232,
+   "leadin_blocks": 29,
+   "leadin_share": 0.42
+  }
+ }
+}
