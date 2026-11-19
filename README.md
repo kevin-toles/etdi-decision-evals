@@ -171,7 +171,7 @@ These hold the tools behind experiments whose outputs reproduce book or third-pa
 | 3 | Theory-library coverage | Whether the taxonomy has a home for theory subjects (#24, #54) | Open | Not yet |
 | 4 | Code-block detection | Prose stored as code (decided); notation and low-code handling | Partly decided | [04](04-code-line-detector/), [08](08-code-detection-evidence-audit/) |
 | 5 | Search golden set | Ground truth for search (#18) | Partly decided | [03](03-golden-set/); follow-up scripts (cited-source checks, pattern pairs) in [03/scripts](03-golden-set/scripts/) |
-| 6 | Worked examples per open question | Every open question's options, measured | Recorded per question | Pre-load gate and filing in [02](02-preload-gate-fault-injection/); every example's code in [10](10-worked-example-harness/) |hapter text |
+| 6 | Worked examples per open question | Every open question's options, measured | Recorded per question | Pre-load gate and filing in [02](02-preload-gate-fault-injection/); every example's code in [10](10-worked-example-harness/) |
 | 7 | SCIP symbols | Code-symbol format (#19) | Decided | Summary below |
 | 8 | Coding-problem search and pattern pairs | Golden-set expansion | Rerun queued | Code in [12](12-coding-problem-search/) |
 | 9 | Prerequisite-graph sample | Prerequisite chain depth (#6) | Stopped: used data the rebuild replaces | Code in [10](10-worked-example-harness/) (`c2_prereq.py`) |
